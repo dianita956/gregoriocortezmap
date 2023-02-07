@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "El Corrido Gregorio Cortez NER and Mapping book"
+  title: "El Corrido de Gregorio Cortez NER and Mapping book"
   author: "Diane Lopez"
   date: "2/6/2023"
   repo-url: https://github.com/dianita956/mapping-ner
