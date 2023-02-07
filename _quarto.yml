@@ -5,6 +5,8 @@ book:
   title: "El Corrido Gregorio Cortez NER and Mapping book"
   author: "Diane Lopez"
   date: "2/6/2023"
+  repo-url: https://github.com/dianita956/mapping-ner
+  repo-branch: main
   chapters:
     - index.qmd
     - 01webscrapBS.qmd
@@ -18,9 +20,8 @@ bibliography: references.bib
 format:
   html:
     theme: flatly
-  pdf:
-    documentclass: scrbook
-    
+
+
 
 
 
