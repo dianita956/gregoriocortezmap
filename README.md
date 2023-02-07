@@ -1,1 +1,2 @@
 # mapping-ner
+theme: flatly
