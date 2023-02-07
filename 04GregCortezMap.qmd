@@ -2,7 +2,7 @@
 code-fold: true
 ---
 
-# Mapping places from El Corrido de Gregorio Cortez
+# Mapping Gregorio Cortez's route 
 
 ```{python}
 import geopandas as gpd

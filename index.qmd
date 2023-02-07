@@ -1,5 +1,7 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.  
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Who was Gregorio Cortez
+
+
