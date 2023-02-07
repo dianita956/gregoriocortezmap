@@ -19,7 +19,8 @@ format:
   html:
     theme: flatly
   pdf:
-    documentclass: scrreprt
+    documentclass: scrbook
+    
 
 
 
