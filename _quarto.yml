@@ -18,8 +18,7 @@ book:
 bibliography: references.bib 
 
 format:
-  html:
-    theme: cosmo
+  html: default 
 
 
 
