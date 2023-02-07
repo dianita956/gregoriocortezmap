@@ -162,7 +162,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Introduction</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -182,7 +182,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04GregCortezMap.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mapping places from El Corrido de Gregorio Cortez</span></a>
+  <a href="./04GregCortezMap.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -218,6 +218,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </header>
 
 <div class="cell" data-execution_count="1">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> spacy</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy.lang.en <span class="im">import</span> English</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy.lang.es <span class="im">import</span> Spanish</span>
@@ -227,8 +229,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy.tokens <span class="im">import</span> Doc</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy.training <span class="im">import</span> Example</span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy.language <span class="im">import</span> Language</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 <div class="cell" data-execution_count="2">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_data(<span class="bu">file</span>):</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(<span class="bu">file</span>, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> f:</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(f)</span>
@@ -238,8 +243,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span> (<span class="bu">file</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> f:</span>
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>       data <span class="op">=</span> json.dump(data, f, indent<span class="op">=</span><span class="dv">4</span>)</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>       <span class="bu">print</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 <div class="cell" data-execution_count="3">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_training_data(<span class="bu">file</span>, <span class="bu">type</span>):</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(type)</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(file)</span></span>
@@ -309,12 +317,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(patterns)</span>
 <span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>patterns <span class="op">=</span> create_training_data(<span class="st">'data/TexasNER_GPE_master.json'</span>, <span class="st">'GPE'</span>)</span>
 <span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a><span class="co">#print(patterns)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;_io.TextIOWrapper name='data/TexasNER_GPE_master.json' mode='r' encoding='utf-8'&gt;
 List of Municipalities</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="4">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_rules(patterns):</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    nlp <span class="op">=</span> English()</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">#ruler = EntityRuler(nlp)</span></span>
@@ -366,6 +377,7 @@ List of Municipalities</code></pre>
 <span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a><span class="co">#print(TRAIN_DATA)</span></span>
 <span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>save_data(<span class="st">"data/TexasNER_GPE_master.json"</span>, TRAIN_DATA)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>['In the country of Karnes  Look what has happened  The Major Sheriff died Leaving Román badly wounded', {'entities': [(18, 24, 'GPE')]}]
 []
@@ -399,6 +411,8 @@ None</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="5">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> train_spacy(data, iterations): <span class="co">#passing training data/set and the number/generation of the training process. 30 is good. long time!!!!</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(data)</span></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    TRAIN_DATA <span class="op">=</span> data</span>
@@ -433,156 +447,162 @@ None</code></pre>
 <span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a><span class="co">#print(TRAIN_DATA)</span></span>
 <span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> train_spacy(TRAIN_DATA, <span class="dv">30</span>)</span>
 <span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>nlp.to_disk(<span class="st">"tx_ner_model"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>[(18, 24, 'GPE')]
 [(18, 26, 'GPE')]
 [(42, 48, 'GPE')]
-[(11, 18, 'GPE')]
-Starting iteration 0</code></pre>
+[(11, 18, 'GPE')]</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 61.026745200157166}
+<pre><code>Starting iteration 0</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>{'ner': 62.465146601200104}
 Starting iteration 1</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 40.50433999300003}
+<pre><code>{'ner': 41.05654142796993}
 Starting iteration 2</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 12.52762895077467}
+<pre><code>{'ner': 15.22186640324071}
 Starting iteration 3</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 6.895308165492565}
+<pre><code>{'ner': 5.923069153140204}
 Starting iteration 4</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 5.9119966167514635}
+<pre><code>{'ner': 6.263355722381519}
 Starting iteration 5</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 3.7554105329141056}
+<pre><code>{'ner': 4.930052181078093}
 Starting iteration 6</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.590444849089624}
+<pre><code>{'ner': 2.8983122405242017}
 Starting iteration 7</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.2423591584438074}
+<pre><code>{'ner': 2.2044339793973875}
 Starting iteration 8</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 0.241901983011013}
+<pre><code>{'ner': 0.9352632857080626}
 Starting iteration 9</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 0.0026477681380883433}
+<pre><code>{'ner': 0.13642784452424953}
 Starting iteration 10</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 0.00019037540245048042}
+<pre><code>{'ner': 0.011087330734826402}
 Starting iteration 11</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 7.679765115242101e-05}
+<pre><code>{'ner': 1.6757355363394638e-05}
 Starting iteration 12</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 3.683658375005894e-07}
+<pre><code>{'ner': 3.600829268666789e-05}
 Starting iteration 13</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.7824697982702384e-05}
+<pre><code>{'ner': 4.805636747593667e-07}
 Starting iteration 14</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 7.941358547298222e-09}
+<pre><code>{'ner': 1.0327913180684214e-05}
 Starting iteration 15</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.3187455070147234e-07}
+<pre><code>{'ner': 6.686445190682081e-08}
 Starting iteration 16</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.556004029176643e-07}
+<pre><code>{'ner': 6.195440238327458e-08}
 Starting iteration 17</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 6.23351190251607e-09}
+<pre><code>{'ner': 1.8262058373565617e-05}
 Starting iteration 18</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 8.125090473247026e-09}
+<pre><code>{'ner': 1.5718494876106134e-07}
 Starting iteration 19</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.2739437691639455e-09}
+<pre><code>{'ner': 4.249158935159122e-05}
 Starting iteration 20</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 3.7982887872085286e-10}
+<pre><code>{'ner': 9.365239655677077e-10}
 Starting iteration 21</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.063343050418113e-07}
+<pre><code>{'ner': 4.203656017415828e-09}
 Starting iteration 22</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 9.815875060227795e-10}
+<pre><code>{'ner': 2.967254196336638e-09}
 Starting iteration 23</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 3.3233218793030554e-08}
+<pre><code>{'ner': 7.1518067352683e-08}
 Starting iteration 24</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 3.1328545723629137e-09}
+<pre><code>{'ner': 7.070822442599973e-08}
 Starting iteration 25</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 7.240951948877526e-11}
+<pre><code>{'ner': 6.127734709611842e-09}
 Starting iteration 26</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 5.1736406983368404e-08}
+<pre><code>{'ner': 4.392249196810011e-05}
 Starting iteration 27</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.928405909799094e-10}
+<pre><code>{'ner': 2.53867283000713e-09}
 Starting iteration 28</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.881200138258107e-07}
+<pre><code>{'ner': 4.759263395440145e-07}
 Starting iteration 29</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 9.391323617755262e-08}</code></pre>
+<pre><code>{'ner': 2.1784468034273443e-08}</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>test<span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
-<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(test, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> c:</span>
-<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>    test <span class="op">=</span> c.read()</span>
-<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
-<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_text(text):</span>
-<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    cleaned<span class="op">=</span> re.sub(<span class="vs">r'[":;,.“”]'</span>, <span class="st">""</span>, text)</span>
-<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(cleaned)</span>
-<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> clean_text(test)</span>
-<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(test)</span>
-<span id="cb39-13"><a href="#cb39-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb39-14"><a href="#cb39-14" aria-hidden="true" tabindex="-1"></a>TxGPE<span class="op">=</span>[]</span>
-<span id="cb39-15"><a href="#cb39-15" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">"tx_ner_model"</span>)</span>
-<span id="cb39-16"><a href="#cb39-16" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span>nlp(test) </span>
-<span id="cb39-17"><a href="#cb39-17" aria-hidden="true" tabindex="-1"></a><span class="co">#print(doc)</span></span>
-<span id="cb39-18"><a href="#cb39-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ent <span class="kw">in</span> doc.ents:</span>
-<span id="cb39-19"><a href="#cb39-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(ent.text, ent.label_)</span></span>
-<span id="cb39-20"><a href="#cb39-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ent.label_ <span class="op">==</span> <span class="st">"GPE"</span>:</span>
-<span id="cb39-21"><a href="#cb39-21" aria-hidden="true" tabindex="-1"></a>        TxGPE.append(ent.text)</span>
-<span id="cb39-22"><a href="#cb39-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(TxGPE)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>test<span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(test, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> c:</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    test <span class="op">=</span> c.read()</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_text(text):</span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>    cleaned<span class="op">=</span> re.sub(<span class="vs">r'[":;,.“”]'</span>, <span class="st">""</span>, text)</span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(cleaned)</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> clean_text(test)</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(test)</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>TxGPE<span class="op">=</span>[]</span>
+<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">"tx_ner_model"</span>)</span>
+<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span>nlp(test) </span>
+<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a><span class="co">#print(doc)</span></span>
+<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ent <span class="kw">in</span> doc.ents:</span>
+<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(ent.text, ent.label_)</span></span>
+<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ent.label_ <span class="op">==</span> <span class="st">"GPE"</span>:</span>
+<span id="cb40-21"><a href="#cb40-21" aria-hidden="true" tabindex="-1"></a>        TxGPE.append(ent.text)</span>
+<span id="cb40-22"><a href="#cb40-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(TxGPE)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>In the country of Karnes 
 Look what has happened 
@@ -731,7 +751,7 @@ This is the end of the singing
 of the ballad of Cortez</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>['Karnes', 'Gonzales', 'Mexican', 'Laredo', 'Encinal']</code></pre>
+<pre><code>['Karnes', 'Gonzales', 'Laredo', 'Encinal']</code></pre>
 </div>
 </div>
 
@@ -879,7 +899,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./04GregCortezMap.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mapping places from El Corrido de Gregorio Cortez</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
