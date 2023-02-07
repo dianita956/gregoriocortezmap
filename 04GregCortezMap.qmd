@@ -1,3 +1,7 @@
+---
+code-fold: true
+---
+
 # Mapping places from El Corrido de Gregorio Cortez
 
 ```{python}
