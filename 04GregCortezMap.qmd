@@ -87,11 +87,11 @@ gdf
 
 ```{python}
 px.set_mapbox_access_token(open("mapboxtoken").read())
-fig = px.line_mapbox(gdf,
+fig = px.line_mapbox(gdf, text="address",
                         lat=gdf.geometry.y,
                         lon=gdf.geometry.x,
-                        hover_name="address",
-                       
+                        labels="address",
+                        animation_frame="address"
                         )
 
 fig.update_layout(mapbox_style="stamen-terrain", mapbox_zoom=6, mapbox_center_lat = 29,
