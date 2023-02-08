@@ -32,8 +32,8 @@ def save_data (file, data):
 ```{python}
 
 def create_training_data(file, type):
-    #print(type)
-    #print(file)
+    print(type)
+    print(file)
     data = load_data(file)
     #print(data)
     patterns=[]
@@ -58,23 +58,23 @@ def create_training_data(file, type):
                         }
                     patterns.append(pattern)           
 
-        if key == "List of Unincorparated Communities":
+        if key == "List of Unincorparated communities":
             for obj in value: #muni loop
                 #print(obj.get("Municipality"))
                 pattern = {
                     "label":type,
-                    "pattern": obj.get("Community Name")
+                    "pattern": obj.get("Community")
                     }
                 patterns.append(pattern) # end of community name loop
             for obj in value: #county loop 
-                if not any(d.get("Community Name") == obj.get("County") for d in value):
+                if not any(d.get("Community") == obj.get("Primary County") for d in value):
                     pattern = {
                         "label":type,
-                        "pattern": obj.get("County")
+                        "pattern": obj.get("Primary County")
                         }
                     patterns.append(pattern)                 
 
-        if key == "List of Ghost Town":
+        if key == "List of Ghost town":
             for obj in value: #ghost town loop
                 #print(obj.get("Municipality"))
                 pattern = {
@@ -83,10 +83,10 @@ def create_training_data(file, type):
                     }
                 patterns.append(pattern) # end of muni loop
             for obj in value: #county loop 
-                if not any(d.get("Name") == obj.get("County") for d in value):
+                if not any(d.get("Name") == obj.get("Main County") for d in value):
                     pattern = {
                         "label":type,
-                        "pattern": obj.get("County")
+                        "pattern": obj.get("Main County")
                         }
                     patterns.append(pattern)
 
@@ -98,8 +98,8 @@ def create_training_data(file, type):
             #print(patterns)
 
     return(patterns)
-patterns = create_training_data('data/TexasNER_GPE_master.json', 'GPE')
-#print(patterns)
+patterns = create_training_data('data/TexasNER_GPE_master.json', 'GPE') 
+print(patterns)
 ```
 
 ```{python}
