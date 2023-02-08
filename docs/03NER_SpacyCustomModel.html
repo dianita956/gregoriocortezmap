@@ -320,7 +320,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;_io.TextIOWrapper name='data/TexasNER_GPE_master.json' mode='r' encoding='utf-8'&gt;
-List of Municipalities</code></pre>
+List of Ghost towns</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="4">
@@ -379,7 +379,7 @@ List of Municipalities</code></pre>
 <span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>save_data(<span class="st">"data/TexasNER_GPE_master.json"</span>, TRAIN_DATA)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>['In the country of Karnes  Look what has happened  The Major Sheriff died Leaving Román badly wounded', {'entities': [(18, 24, 'GPE')]}]
+<pre><code>[]
 []
 []
 []
@@ -388,14 +388,14 @@ List of Municipalities</code></pre>
 []
 []
 []
-['He struck out for Gonzales Without showing any fear Follow me cowardly rangers  I am Gregorio Cortez', {'entities': [(18, 26, 'GPE')]}]
 []
 []
 []
-['Gregorio Cortez went out  He went towards Laredo They decided not to follow  Because they were afraid of him', {'entities': [(42, 48, 'GPE')]}]
 []
 []
-['Over by El Encinal  According to what we hear  They made him a corral  And he killed them another sheriff', {'entities': [(11, 18, 'GPE')]}]
+[]
+[]
+[]
 []
 []
 []
@@ -409,199 +409,247 @@ List of Municipalities</code></pre>
 []
 None</code></pre>
 </div>
+<div class="cell-output cell-output-stderr">
+<pre><code>C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+
+C:\Users\dmlpz\anaconda3\lib\site-packages\spacy\pipeline\entityruler.py:393: UserWarning:
+
+[W036] The component 'entity_ruler' does not have any patterns defined.
+</code></pre>
+</div>
 </div>
 <div class="cell" data-execution_count="5">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> train_spacy(data, iterations): <span class="co">#passing training data/set and the number/generation of the training process. 30 is good. long time!!!!</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(data)</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    TRAIN_DATA <span class="op">=</span> data</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(TRAIN_DATA)</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    nlp <span class="op">=</span> spacy.blank(<span class="st">"en"</span>)</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(nlp)</span></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"ner"</span> <span class="kw">not</span> <span class="kw">in</span> nlp.pipe_names:</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>        ner <span class="op">=</span> nlp.create_pipe(<span class="st">"ner"</span>) <span class="co">#if there is no ner in the pipe, create a pipe</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>        nlp.add_pipe(<span class="st">"ner"</span>, last<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, annotations <span class="kw">in</span> TRAIN_DATA: <span class="co">#add labels</span></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(annotations.get(<span class="st">"entities"</span>))</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> ent <span class="kw">in</span> annotations.get(<span class="st">"entities"</span>):</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>            ner.add_label(ent[<span class="dv">2</span>]) <span class="co"># i'm only working with one label 'GPE' if more increase i believe double check</span></span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    other_pipes <span class="op">=</span> [pipe <span class="cf">for</span> pipe <span class="kw">in</span> nlp.pipe_names <span class="cf">if</span> pipe <span class="op">!=</span> <span class="st">"ner"</span>]  </span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> nlp.disable_pipes(<span class="op">*</span>other_pipes): <span class="co">#won't mess up other pipes</span></span>
-<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>        optimizer <span class="op">=</span> nlp.begin_training()</span>
-<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> itn <span class="kw">in</span> <span class="bu">range</span>(iterations): <span class="co"># adjust the funtion not the items inside. arg of interations 30 is good</span></span>
-<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Starting iteration "</span><span class="op">+</span> <span class="bu">str</span>(itn)) <span class="co">#where I am at in the interations process</span></span>
-<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>            random.shuffle(TRAIN_DATA) <span class="co">#shuffle helps the program to learn not memorize order. </span></span>
-<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>            losses <span class="op">=</span> {}</span>
-<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> text, annotations <span class="kw">in</span> TRAIN_DATA:</span>
-<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>                doc <span class="op">=</span> nlp.make_doc(text)</span>
-<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>                example <span class="op">=</span> Example.from_dict(doc, annotations) <span class="co">#fix found here for ValueError: [E973] Unexpected type for NER data https://github.com/explosion/spaCy/issues/7038</span></span>
-<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>                nlp.update([example], drop <span class="op">=</span> <span class="fl">0.2</span>, sgd<span class="op">=</span> optimizer, losses<span class="op">=</span>losses)            </span>
-<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(losses)  </span>
-<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(nlp) <span class="co">#model return</span></span>
-<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a><span class="co">#TRAIN_DATA = load_data("../Corridos/data/TxMunicipality_training_data.json")</span></span>
-<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a><span class="co">#print(TRAIN_DATA)</span></span>
-<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> train_spacy(TRAIN_DATA, <span class="dv">30</span>)</span>
-<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>nlp.to_disk(<span class="st">"tx_ner_model"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> train_spacy(data, iterations): <span class="co">#passing training data/set and the number/generation of the training process. 30 is good. long time!!!!</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(data)</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    TRAIN_DATA <span class="op">=</span> data</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(TRAIN_DATA)</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    nlp <span class="op">=</span> spacy.blank(<span class="st">"en"</span>)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(nlp)</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">"ner"</span> <span class="kw">not</span> <span class="kw">in</span> nlp.pipe_names:</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        ner <span class="op">=</span> nlp.create_pipe(<span class="st">"ner"</span>) <span class="co">#if there is no ner in the pipe, create a pipe</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        nlp.add_pipe(<span class="st">"ner"</span>, last<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _, annotations <span class="kw">in</span> TRAIN_DATA: <span class="co">#add labels</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(annotations.get(<span class="st">"entities"</span>))</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> ent <span class="kw">in</span> annotations.get(<span class="st">"entities"</span>):</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>            ner.add_label(ent[<span class="dv">2</span>]) <span class="co"># i'm only working with one label 'GPE' if more increase i believe double check</span></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    other_pipes <span class="op">=</span> [pipe <span class="cf">for</span> pipe <span class="kw">in</span> nlp.pipe_names <span class="cf">if</span> pipe <span class="op">!=</span> <span class="st">"ner"</span>]  </span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> nlp.disable_pipes(<span class="op">*</span>other_pipes): <span class="co">#won't mess up other pipes</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>        optimizer <span class="op">=</span> nlp.begin_training()</span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> itn <span class="kw">in</span> <span class="bu">range</span>(iterations): <span class="co"># adjust the funtion not the items inside. arg of interations 30 is good</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">"Starting iteration "</span><span class="op">+</span> <span class="bu">str</span>(itn)) <span class="co">#where I am at in the interations process</span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>            random.shuffle(TRAIN_DATA) <span class="co">#shuffle helps the program to learn not memorize order. </span></span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>            losses <span class="op">=</span> {}</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> text, annotations <span class="kw">in</span> TRAIN_DATA:</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>                doc <span class="op">=</span> nlp.make_doc(text)</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>                example <span class="op">=</span> Example.from_dict(doc, annotations) <span class="co">#fix found here for ValueError: [E973] Unexpected type for NER data https://github.com/explosion/spaCy/issues/7038</span></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a>                nlp.update([example], drop <span class="op">=</span> <span class="fl">0.2</span>, sgd<span class="op">=</span> optimizer, losses<span class="op">=</span>losses)            </span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(losses)  </span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(nlp) <span class="co">#model return</span></span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a><span class="co">#TRAIN_DATA = load_data("../Corridos/data/TxMunicipality_training_data.json")</span></span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a><span class="co">#print(TRAIN_DATA)</span></span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> train_spacy(TRAIN_DATA, <span class="dv">30</span>)</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>nlp.to_disk(<span class="st">"tx_ner_model"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>[(18, 24, 'GPE')]
-[(18, 26, 'GPE')]
-[(42, 48, 'GPE')]
-[(11, 18, 'GPE')]</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Starting iteration 0</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 62.465146601200104}
-Starting iteration 1</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 41.05654142796993}
-Starting iteration 2</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 15.22186640324071}
-Starting iteration 3</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 5.923069153140204}
-Starting iteration 4</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 6.263355722381519}
-Starting iteration 5</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 4.930052181078093}
-Starting iteration 6</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.8983122405242017}
-Starting iteration 7</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.2044339793973875}
-Starting iteration 8</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 0.9352632857080626}
-Starting iteration 9</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 0.13642784452424953}
-Starting iteration 10</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 0.011087330734826402}
-Starting iteration 11</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.6757355363394638e-05}
-Starting iteration 12</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 3.600829268666789e-05}
-Starting iteration 13</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 4.805636747593667e-07}
-Starting iteration 14</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.0327913180684214e-05}
-Starting iteration 15</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 6.686445190682081e-08}
-Starting iteration 16</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 6.195440238327458e-08}
-Starting iteration 17</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.8262058373565617e-05}
-Starting iteration 18</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 1.5718494876106134e-07}
-Starting iteration 19</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 4.249158935159122e-05}
-Starting iteration 20</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 9.365239655677077e-10}
-Starting iteration 21</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 4.203656017415828e-09}
-Starting iteration 22</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.967254196336638e-09}
-Starting iteration 23</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 7.1518067352683e-08}
-Starting iteration 24</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 7.070822442599973e-08}
-Starting iteration 25</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 6.127734709611842e-09}
-Starting iteration 26</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 4.392249196810011e-05}
-Starting iteration 27</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.53867283000713e-09}
-Starting iteration 28</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 4.759263395440145e-07}
-Starting iteration 29</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>{'ner': 2.1784468034273443e-08}</code></pre>
+<pre><code>Starting iteration 0
+{}
+Starting iteration 1
+{}
+Starting iteration 2
+{}
+Starting iteration 3
+{}
+Starting iteration 4
+{}
+Starting iteration 5
+{}
+Starting iteration 6
+{}
+Starting iteration 7
+{}
+Starting iteration 8
+{}
+Starting iteration 9
+{}
+Starting iteration 10
+{}
+Starting iteration 11
+{}
+Starting iteration 12
+{}
+Starting iteration 13
+{}
+Starting iteration 14
+{}
+Starting iteration 15
+{}
+Starting iteration 16
+{}
+Starting iteration 17
+{}
+Starting iteration 18
+{}
+Starting iteration 19
+{}
+Starting iteration 20
+{}
+Starting iteration 21
+{}
+Starting iteration 22
+{}
+Starting iteration 23
+{}
+Starting iteration 24
+{}
+Starting iteration 25
+{}
+Starting iteration 26
+{}
+Starting iteration 27
+{}
+Starting iteration 28
+{}
+Starting iteration 29
+{}</code></pre>
 </div>
 </div>
 <div class="cell" data-execution_count="6">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>test<span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
-<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(test, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> c:</span>
-<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    test <span class="op">=</span> c.read()</span>
-<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
-<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_text(text):</span>
-<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>    cleaned<span class="op">=</span> re.sub(<span class="vs">r'[":;,.“”]'</span>, <span class="st">""</span>, text)</span>
-<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(cleaned)</span>
-<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> clean_text(test)</span>
-<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(test)</span>
-<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a>TxGPE<span class="op">=</span>[]</span>
-<span id="cb40-15"><a href="#cb40-15" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">"tx_ner_model"</span>)</span>
-<span id="cb40-16"><a href="#cb40-16" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span>nlp(test) </span>
-<span id="cb40-17"><a href="#cb40-17" aria-hidden="true" tabindex="-1"></a><span class="co">#print(doc)</span></span>
-<span id="cb40-18"><a href="#cb40-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ent <span class="kw">in</span> doc.ents:</span>
-<span id="cb40-19"><a href="#cb40-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(ent.text, ent.label_)</span></span>
-<span id="cb40-20"><a href="#cb40-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ent.label_ <span class="op">==</span> <span class="st">"GPE"</span>:</span>
-<span id="cb40-21"><a href="#cb40-21" aria-hidden="true" tabindex="-1"></a>        TxGPE.append(ent.text)</span>
-<span id="cb40-22"><a href="#cb40-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(TxGPE)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>test<span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(test, <span class="st">'r'</span>, encoding<span class="op">=</span><span class="st">'utf-8'</span>) <span class="im">as</span> c:</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    test <span class="op">=</span> c.read()</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> clean_text(text):</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    cleaned<span class="op">=</span> re.sub(<span class="vs">r'[":;,.“”]'</span>, <span class="st">""</span>, text)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span>(cleaned)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>test <span class="op">=</span> clean_text(test)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(test)</span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>TxGPE<span class="op">=</span>[]</span>
+<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">"tx_ner_model"</span>)</span>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span>nlp(test) </span>
+<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="co">#print(doc)</span></span>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ent <span class="kw">in</span> doc.ents:</span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(ent.text, ent.label_)</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> ent.label_ <span class="op">==</span> <span class="st">"GPE"</span>:</span>
+<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>        TxGPE.append(ent.text)</span>
+<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(TxGPE)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>In the country of Karnes 
@@ -751,7 +799,7 @@ This is the end of the singing
 of the ballad of Cortez</code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
-<pre><code>['Karnes', 'Gonzales', 'Laredo', 'Encinal']</code></pre>
+<pre><code>[]</code></pre>
 </div>
 </div>
 
