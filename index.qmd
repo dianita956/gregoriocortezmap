@@ -1,7 +1,9 @@
 ---
 format: 
     html: 
-        default-image-extension: pdf
+        default-image-extension: svg
+    pdf: 
+        default-image-extension: tex
 ---
 
 # Introduction {.unnumbered}
