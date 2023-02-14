@@ -17,10 +17,10 @@ from spacy.language import Language
 ```
 
 ```{python}
-
+import json
 def load_data(file):
     with open(file, 'r', encoding='utf-8') as f:
-        print(f)
+        #print(f)
         return(json.load(f))
     
 def save_data (file, data):
@@ -28,15 +28,15 @@ def save_data (file, data):
        data = json.dump(data, f, indent=4)
        print(data)
 ```
-
 ```{python}
-
 def create_training_data(file, type):
-    print(type)
-    print(file)
+    #print(type)
+    #print(file)
     data = load_data(file)
     #print(data)
+    
     patterns=[]
+    
     for key, value in data.items():
         print(key)
         if key == "List of Municipalities":
@@ -58,35 +58,35 @@ def create_training_data(file, type):
                         }
                     patterns.append(pattern)           
 
-        if key == "List of Unincorparated communities":
+        if key == "List of Unincorporated communities":
             for obj in value: #muni loop
                 #print(obj.get("Municipality"))
                 pattern = {
                     "label":type,
-                    "pattern": obj.get("Community")
+                    "pattern": obj.get("Unincorporated Community")
                     }
                 patterns.append(pattern) # end of community name loop
             for obj in value: #county loop 
-                if not any(d.get("Community") == obj.get("Primary County") for d in value):
+                if not any(d.get("Unincorporated Community") == obj.get("Primary County") for d in value):
                     pattern = {
                         "label":type,
                         "pattern": obj.get("Primary County")
                         }
                     patterns.append(pattern)                 
 
-        if key == "List of Ghost town":
+        if key == "List of Ghost towns":
             for obj in value: #ghost town loop
                 #print(obj.get("Municipality"))
                 pattern = {
                     "label":type,
-                    "pattern": obj.get("Name")
+                    "pattern": obj.get("Ghost town")
                     }
                 patterns.append(pattern) # end of muni loop
             for obj in value: #county loop 
-                if not any(d.get("Name") == obj.get("Main County") for d in value):
+                if not any(d.get("Ghost town") == obj.get("Primary County") for d in value):
                     pattern = {
                         "label":type,
-                        "pattern": obj.get("Main County")
+                        "pattern": obj.get("Primary County")
                         }
                     patterns.append(pattern)
 
@@ -100,13 +100,13 @@ def create_training_data(file, type):
     return(patterns)
 patterns = create_training_data('data/TexasNER_GPE_master.json', 'GPE') 
 print(patterns)
+
 ```
 
 ```{python}
-
 def generate_rules(patterns):
     nlp = English()
-    #ruler = EntityRuler(nlp)
+    ruler = EntityRuler(nlp)
     ruler = nlp.add_pipe('entity_ruler', config={"validate": True}) 
     ruler.add_patterns(patterns) 
     nlp.to_disk("tx_trained_ner")
@@ -122,9 +122,9 @@ def test_model(model, text):
         #print(results)
     return (results)
 
-#patterns = create_training_data('../Corridos/data/TexasNER_GPE_master.json', 'GPE')
+
 generate_rules(patterns)
-#print(patterns)
+print(patterns)
 
 #how spacy wants to see read the data#
 #TRAIN_DATA = [(text, {"entities": [(start, end, label)]})]#
@@ -153,10 +153,9 @@ with open ("elcorridodegregoriocortez.txt", "r", encoding='utf-8')as f:
             TRAIN_DATA.append(results)
         print(results)
 
-#print(TRAIN_DATA)
-save_data("data/TexasNER_GPE_master.json", TRAIN_DATA)
+print(TRAIN_DATA)
+save_data("data/TexasNER_GPE_trained.json", TRAIN_DATA)
 ```
-
 ```{python}
 def train_spacy(data, iterations): #passing training data/set and the number/generation of the training process. 30 is good. long time!!!!
     #print(data)
@@ -188,12 +187,11 @@ def train_spacy(data, iterations): #passing training data/set and the number/gen
     
     return(nlp) #model return
 
-#TRAIN_DATA = load_data("../Corridos/data/TxMunicipality_training_data.json")
+TRAIN_DATA = load_data("data/TexasNER_GPE_trained.json")
 #print(TRAIN_DATA)
 nlp = train_spacy(TRAIN_DATA, 30)
 nlp.to_disk("tx_ner_model")
 ```
-
 ```{python}
 test= "elcorridodegregoriocortez.txt"
 with open(test, 'r', encoding='utf-8') as c:

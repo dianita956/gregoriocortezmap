@@ -18,7 +18,7 @@
   },
   "labels":{
     "ner":[
-
+      "GPE"
     ]
   },
   "pipeline":[

@@ -17,8 +17,3 @@ This book is design to demonstrate how to extract Name Entity places and provide
 [Gregorio Cortez's Trail from Dallas Morning News](Gregorio_Cortezs_Trial__Dallas_Morning_News__October_5_1901__p9.pdf){width=300}
 
 ## Map
-
-
-
-
-

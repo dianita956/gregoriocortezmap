@@ -6,8 +6,11 @@ code-fold: true
 
 Web Scrap and extracting list of municipalities, ghost towns, and unincorporated places in Texas.
 
-## List of municipalities in Texas
+
+# List of Municipalities, Unincorporated communities, and Ghost towns in Texas
+
 ```{python}
+## List of Municipalites in Texas
 import json
 #file to convert
 file= f"list of texas places\List of municipalities in Texas.txt"
@@ -25,7 +28,7 @@ with open(file, encoding='utf-8') as f:
                 "Municipality": municipality,
                 #"Designation": designation,
                 "Primary County": county,
-                "Secondary County(ies)": county2
+                #"Secondary County(ies)": county2
             }
             municipalitylist.append(x)
             #print(municipalitylist)
@@ -38,14 +41,15 @@ dictionary["List of Municipalities"] = municipalitylist
 
 #print(len(dictionary))
 #create json output file
-out_file = open("data/TexasNER_GPE_master.json", "w")
+out_file = open("data/TexasMunicipalities.json", "w")
 json.dump(dictionary, out_file, indent=4) 
 out_file.close()
+```
 
+```{python}
 ## List of unincoporated communities 
-
-import json
 #file to convert
+
 file= f"list of texas places\List of unincorporated communities in Texas.txt"
 #create a list to store data
 dictionary= {}
@@ -58,7 +62,7 @@ with open(file, encoding='utf-8') as f:
             #read lines from file, creating vars based on position and indicator of info needed
             community, county, data = d.strip(" ").split("|", 2)
             x={
-                "Community": community,
+                "Unincorporated Community": community,
                 "Primary County": county
             }
             unincorporatedcommunitieslist.append(x)
@@ -72,17 +76,16 @@ dictionary["List of Unincorporated communities"] =  unincorporatedcommunitieslis
 
 #print(len(dictionary))
 #create json output file
-out_file = open("data/TexasNER_GPE_master.json", "a")
+out_file = open("data/TexasUnincorporated.json", "w")
 json.dump(dictionary, out_file, indent=4) 
 out_file.close()
-
+```
+```{python}
 ## List of Ghost towns
-
-import json
 #file to convert
 file= f"list of texas places\List of ghost towns in Texas.txt"
 #create a list to store data
-dictionary3= {}
+dictionary= {}
 ghosttownslist = []
 #read file
 with open(file, encoding='utf-8') as f:
@@ -92,8 +95,8 @@ with open(file, encoding='utf-8') as f:
             #read lines from file, creating vars based on position and indicator of info needed
             name, maincounty, data = d.strip(" ").split("|", 2)
             x={
-                "Name": name,
-                "Main County": maincounty,
+                "Ghost town": name,
+                "Primary County": maincounty,
             }
             ghosttownslist.append(x)
             #print(municipalitylist)
@@ -106,7 +109,80 @@ dictionary["List of Ghost towns"] = ghosttownslist
 
 #print(len(dictionary))
 #create json output file
-out_file = open("data/TexasNER_GPE_master.json", "a")
+out_file = open("data/TexasGhosttowns_.json", "w")
 json.dump(dictionary, out_file, indent=4) 
 out_file.close()
 ```
+
+```{python}
+#Texas NER GPE Master json file
+import json 
+#create a dictionary to store list of texas places: ghost town, unicorpated communities, and texas municaipalities
+dictionary= {}
+
+#Municipality
+file= ("list of texas places/List of municipalities in Texas.txt")
+
+municipalitylist = []
+#read file
+with open(file, encoding='utf-8') as f:
+    for d in f:
+        if "|" in d:
+            #print(d[])
+            #read lines from file, creating vars based on position and indicator of info needed
+            rank, municipality, designation, county, county2, data = d.strip(" ").split("|", 5)
+            x={
+                "Municipality": municipality,
+                #"Designation": designation,
+                "Primary County": county,
+                #"Secondary County(ies)": county2
+            }
+            municipalitylist.append(x)
+            #print(municipalitylist)
+dictionary["List of Municipalities"] = municipalitylist
+
+#unincorporated community list
+file="list of texas places/List of unincorporated communities in Texas.txt" 
+#create a list to store data
+#dictionary= {}
+unincorporatedcommunitieslist = []
+#read file
+with open(file) as f:
+    for d in f:
+        if "|" in d:
+            print(d)
+            #read lines from file, creating vars based on position and indicator of info needed
+            name, county, other = d.strip().split("|", 2)
+        
+            x={
+                "Unincorporated Community":name,
+                "Primary County": county
+            }
+            unincorporatedcommunitieslist.append(x)
+
+dictionary["List of Unincorporated Communities"] = unincorporatedcommunitieslist
+
+#ghost towns
+file="list of texas places/List of ghost towns in Texas.txt" 
+ghosttownslist = []
+#read file
+with open(file) as f:
+    for d in f:
+        #print(d)
+        #read lines from file, creating vars based on position and indicator of info needed
+        name , maincounty, data = d.strip(" ").split("|", 2)
+       
+        x={
+            "Ghost town": name,
+            "Primary County": maincounty
+        }
+        ghosttownslist.append(x)
+
+dictionary["List of Ghost Towns"] = ghosttownslist
+
+#create json output file
+out_file = open("data/TexasNER_GPE_master.json", "w", encoding='utf-8')
+json.dump(dictionary, out_file, indent=4) 
+out_file.close()
+```
+

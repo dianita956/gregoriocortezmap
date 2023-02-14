@@ -1,0 +1,5 @@
+{
+    "[quarto]": {
+        "diffEditor.codeLens": false
+    }
+}

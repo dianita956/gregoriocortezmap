@@ -1,0 +1,4896 @@
+{
+    "List of Municipalities": [
+        {
+            "Municipality": "Houston",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "San Antonio",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Dallas",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Austin",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Fort Worth",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "El Paso",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Arlington",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Corpus Christi",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "Plano",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Lubbock",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Laredo",
+            "Primary County": "Webb"
+        },
+        {
+            "Municipality": "Irving",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Garland",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Frisco",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "McKinney",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Amarillo",
+            "Primary County": "Potter"
+        },
+        {
+            "Municipality": "Grand Prairie",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Brownsville",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Killeen",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Pasadena",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Denton",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Mesquite",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "McAllen",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Waco",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Carrollton",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Midland",
+            "Primary County": "Midland"
+        },
+        {
+            "Municipality": "Pearland",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Abilene",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Round Rock",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "College Station",
+            "Primary County": "Brazos"
+        },
+        {
+            "Municipality": "Richardson",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "League City",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Lewisville",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Beaumont",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Odessa",
+            "Primary County": "Ector"
+        },
+        {
+            "Municipality": "Sugar Land",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Tyler",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Allen",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Wichita Falls",
+            "Primary County": "Wichita"
+        },
+        {
+            "Municipality": "Edinburg",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "San Angelo",
+            "Primary County": "Tom Green"
+        },
+        {
+            "Municipality": "New Braunfels",
+            "Primary County": "Comal"
+        },
+        {
+            "Municipality": "Conroe",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Bryan",
+            "Primary County": "Brazos"
+        },
+        {
+            "Municipality": "Mission",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Temple",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Baytown",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Longview",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Pharr",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Cedar Park",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Flower Mound",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Georgetown",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Missouri City",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Mansfield",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Harlingen",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "North Richland Hills",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "San Marcos",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Leander",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Pflugerville",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Victoria",
+            "Primary County": "Victoria"
+        },
+        {
+            "Municipality": "Rowlett",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Euless",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Wylie",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "DeSoto",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Port Arthur",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Texas City",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Galveston",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Kyle",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Burleson",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Little Elm",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Grapevine",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Rockwall",
+            "Primary County": "Rockwall"
+        },
+        {
+            "Municipality": "Bedford",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Cedar Hill",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Huntsville",
+            "Primary County": "Walker"
+        },
+        {
+            "Municipality": "Haltom City",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Keller",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "The Colony",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Sherman",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Waxahachie",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Schertz",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Coppell",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Weslaco",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Friendswood",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Lancaster",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Hurst",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Duncanville",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Rosenberg",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Midlothian",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Copperas Cove",
+            "Primary County": "Coryell"
+        },
+        {
+            "Municipality": "Farmers Branch",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Socorro",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Texarkana",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "La Porte",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "San Juan",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Del Rio",
+            "Primary County": "Val Verde"
+        },
+        {
+            "Municipality": "Prosper",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Lufkin",
+            "Primary County": "Angelina"
+        },
+        {
+            "Municipality": "Weatherford",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Deer Park",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Harker Heights",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Cibolo",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Nacogdoches",
+            "Primary County": "Nacogdoches"
+        },
+        {
+            "Municipality": "Cleburne",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Southlake",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Seguin",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Hutto",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Greenville",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Sachse",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Converse",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Eagle Pass",
+            "Primary County": "Maverick"
+        },
+        {
+            "Municipality": "Lake Jackson",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Alvin",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Forney",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Balch Springs",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Colleyville",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Big Spring",
+            "Primary County": "Howard"
+        },
+        {
+            "Municipality": "Corsicana",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Denison",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Fulshear",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Kingsville",
+            "Primary County": "Kleberg"
+        },
+        {
+            "Municipality": "University Park",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "San Benito",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Benbrook",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Kerrville",
+            "Primary County": "Kerr"
+        },
+        {
+            "Municipality": "Paris",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Saginaw",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Katy",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Belton",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Celina",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Watauga",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Horizon City",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Corinth",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Marshall",
+            "Primary County": "Harrison"
+        },
+        {
+            "Municipality": "Dickinson",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Murphy",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Ennis",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Stephenville",
+            "Primary County": "Erath"
+        },
+        {
+            "Municipality": "Fate",
+            "Primary County": "Rockwall"
+        },
+        {
+            "Municipality": "Portland",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Anna",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Princeton",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Alamo",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Universal City",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Plainview",
+            "Primary County": "Hale"
+        },
+        {
+            "Municipality": "Angleton",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Crowley",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Lakeway",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Orange",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Boerne",
+            "Primary County": "Kendall"
+        },
+        {
+            "Municipality": "Alton",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Seagoville",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Brownwood",
+            "Primary County": "Brown"
+        },
+        {
+            "Municipality": "Palestine",
+            "Primary County": "Anderson"
+        },
+        {
+            "Municipality": "La Marque",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Terrell",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Nederland",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Manor",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Brenham",
+            "Primary County": "Washington"
+        },
+        {
+            "Municipality": "White Settlement",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Bay City",
+            "Primary County": "Matagorda"
+        },
+        {
+            "Municipality": "Alice",
+            "Primary County": "Jim Wells"
+        },
+        {
+            "Municipality": "Gainesville",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Stafford",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Glenn Heights",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Addison",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Bellaire",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Melissa",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Groves",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Gatesville",
+            "Primary County": "Coryell"
+        },
+        {
+            "Municipality": "Donna",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Taylor",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Pampa",
+            "Primary County": "Gray"
+        },
+        {
+            "Municipality": "Humble",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Mercedes",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Hewitt",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Mount Pleasant",
+            "Primary County": "Titus"
+        },
+        {
+            "Municipality": "Sulphur Springs",
+            "Primary County": "Hopkins"
+        },
+        {
+            "Municipality": "Royse City",
+            "Primary County": "Rockwall"
+        },
+        {
+            "Municipality": "Highland Village",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Palmview",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "South Houston",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Live Oak",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Rio Grande City",
+            "Primary County": "Starr"
+        },
+        {
+            "Municipality": "Buda",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Red Oak",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Uvalde",
+            "Primary County": "Uvalde"
+        },
+        {
+            "Municipality": "Canyon",
+            "Primary County": "Randall"
+        },
+        {
+            "Municipality": "Mineral Wells",
+            "Primary County": "Palo Pinto"
+        },
+        {
+            "Municipality": "Lockhart",
+            "Primary County": "Caldwell"
+        },
+        {
+            "Municipality": "Hereford",
+            "Primary County": "Deaf Smith"
+        },
+        {
+            "Municipality": "West University Place",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Dumas",
+            "Primary County": "Moore"
+        },
+        {
+            "Municipality": "Hidalgo",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Jacksonville",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Forest Hill",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Lumberton",
+            "Primary County": "Hardin"
+        },
+        {
+            "Municipality": "Trophy Club",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Beeville",
+            "Primary County": "Bee"
+        },
+        {
+            "Municipality": "Seabrook",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Azle",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Henderson",
+            "Primary County": "Rusk"
+        },
+        {
+            "Municipality": "Port Neches",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Kilgore",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Andrews",
+            "Primary County": "Andrews"
+        },
+        {
+            "Municipality": "Athens",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Tomball",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Santa Fe",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Robinson",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Pecos",
+            "Primary County": "Reeves"
+        },
+        {
+            "Municipality": "Levelland",
+            "Primary County": "Hockley"
+        },
+        {
+            "Municipality": "Borger",
+            "Primary County": "Hutchinson"
+        },
+        {
+            "Municipality": "Manvel",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "El Campo",
+            "Primary County": "Wharton"
+        },
+        {
+            "Municipality": "Richmond",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Webster",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Selma",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Roma",
+            "Primary County": "Starr"
+        },
+        {
+            "Municipality": "Leon Valley",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Granbury",
+            "Primary County": "Hood"
+        },
+        {
+            "Municipality": "Snyder",
+            "Primary County": "Scurry"
+        },
+        {
+            "Municipality": "Port Lavaca",
+            "Primary County": "Calhoun"
+        },
+        {
+            "Municipality": "Fredericksburg",
+            "Primary County": "Gillespie"
+        },
+        {
+            "Municipality": "Burkburnett",
+            "Primary County": "Wichita"
+        },
+        {
+            "Municipality": "Iowa Colony",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Pleasanton",
+            "Primary County": "Atascosa"
+        },
+        {
+            "Municipality": "Fairview",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Freeport",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Clute",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Bellmead",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Bonham",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Elgin",
+            "Primary County": "Bastrop"
+        },
+        {
+            "Municipality": "Sweetwater",
+            "Primary County": "Nolan"
+        },
+        {
+            "Municipality": "Raymondville",
+            "Primary County": "Willacy"
+        },
+        {
+            "Municipality": "Fair Oaks Ranch",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Galena Park",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Rockport",
+            "Primary County": "Aransas"
+        },
+        {
+            "Municipality": "Bastrop",
+            "Primary County": "Bastrop"
+        },
+        {
+            "Municipality": "Heath",
+            "Primary County": "Rockwall"
+        },
+        {
+            "Municipality": "Robstown",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "San Elizario[b]",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Vernon",
+            "Primary County": "Wilbarger"
+        },
+        {
+            "Municipality": "Ingleside",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Roanoke",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Vidor",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Bridge City",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Woodway",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Sanger",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Jacinto City",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Lago Vista",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Helotes",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Dayton",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Bee Cave",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Brownfield",
+            "Primary County": "Terry"
+        },
+        {
+            "Municipality": "Commerce",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Graham",
+            "Primary County": "Young"
+        },
+        {
+            "Municipality": "Lamesa",
+            "Primary County": "Dawson"
+        },
+        {
+            "Municipality": "Highland Park",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Whitehouse",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Wharton",
+            "Primary County": "Wharton"
+        },
+        {
+            "Municipality": "Liberty",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Richland Hills",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Kennedale",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Fort Stockton",
+            "Primary County": "Pecos"
+        },
+        {
+            "Municipality": "Hondo",
+            "Primary County": "Medina"
+        },
+        {
+            "Municipality": "Dalhart",
+            "Primary County": "Dallam"
+        },
+        {
+            "Municipality": "Mont Belvieu",
+            "Primary County": "Chambers"
+        },
+        {
+            "Municipality": "Hillsboro",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Perryton",
+            "Primary County": "Ochiltree"
+        },
+        {
+            "Municipality": "Cuero",
+            "Primary County": "DeWitt"
+        },
+        {
+            "Municipality": "Los Fresnos",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Kirby",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Joshua",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Navasota",
+            "Primary County": "Grimes"
+        },
+        {
+            "Municipality": "Sunnyvale",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Lucas",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Aransas Pass",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "Cleveland",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Providence Village[b]",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Jersey Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Lake Dallas",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Pearsall",
+            "Primary County": "Frio"
+        },
+        {
+            "Municipality": "Floresville",
+            "Primary County": "Wilson"
+        },
+        {
+            "Municipality": "River Oaks",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Lampasas",
+            "Primary County": "Lampasas"
+        },
+        {
+            "Municipality": "Monahans",
+            "Primary County": "Ward"
+        },
+        {
+            "Municipality": "Hitchcock",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Alamo Heights",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Kaufman",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Jasper",
+            "Primary County": "Jasper"
+        },
+        {
+            "Municipality": "Marble Falls",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Gonzales",
+            "Primary County": "Gonzales"
+        },
+        {
+            "Municipality": "Lacy-Lakeview",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Seminole",
+            "Primary County": "Gaines"
+        },
+        {
+            "Municipality": "Mexia",
+            "Primary County": "Limestone"
+        },
+        {
+            "Municipality": "Decatur",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Silsbee",
+            "Primary County": "Hardin"
+        },
+        {
+            "Municipality": "Prairie View",
+            "Primary County": "Waller"
+        },
+        {
+            "Municipality": "Northlake",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "La Feria",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Liberty Hill",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Sealy",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Willis",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Burnet",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Iowa Park",
+            "Primary County": "Wichita"
+        },
+        {
+            "Municipality": "Carthage",
+            "Primary County": "Panola"
+        },
+        {
+            "Municipality": "Aubrey",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Crockett",
+            "Primary County": "Houston"
+        },
+        {
+            "Municipality": "Pe\u00f1itas",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Gun Barrel City",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Keene",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Crystal City",
+            "Primary County": "Zavala"
+        },
+        {
+            "Municipality": "Lindale",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Nolanville",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "White Oak",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Gladewater",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Everman",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Hempstead",
+            "Primary County": "Waller"
+        },
+        {
+            "Municipality": "Kermit",
+            "Primary County": "Winkler"
+        },
+        {
+            "Municipality": "Wolfforth",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Bulverde",
+            "Primary County": "Comal"
+        },
+        {
+            "Municipality": "Bridgeport",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Edna",
+            "Primary County": "Jackson"
+        },
+        {
+            "Municipality": "Yoakum",
+            "Primary County": "Lavaca"
+        },
+        {
+            "Municipality": "Wake Village",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Littlefield",
+            "Primary County": "Lamb"
+        },
+        {
+            "Municipality": "Childress",
+            "Primary County": "Childress"
+        },
+        {
+            "Municipality": "Parker",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Livingston",
+            "Primary County": "Polk"
+        },
+        {
+            "Municipality": "Windcrest",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Krum",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Alpine",
+            "Primary County": "Brewster"
+        },
+        {
+            "Municipality": "Slaton",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Dripping Springs",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Venus",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Elsa",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Hutchins",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Sinton",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Oak Point",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Marlin",
+            "Primary County": "Falls"
+        },
+        {
+            "Municipality": "Rusk",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Bowie",
+            "Primary County": "Montague"
+        },
+        {
+            "Municipality": "McGregor",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Luling",
+            "Primary County": "Caldwell"
+        },
+        {
+            "Municipality": "Brookshire",
+            "Primary County": "Waller"
+        },
+        {
+            "Municipality": "Atlanta",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Rockdale",
+            "Primary County": "Milam"
+        },
+        {
+            "Municipality": "Sansom Park",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Aledo",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Cameron",
+            "Primary County": "Milam"
+        },
+        {
+            "Municipality": "Lavon",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Wilmer",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Primera",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Breckenridge",
+            "Primary County": "Stephens"
+        },
+        {
+            "Municipality": "Hickory Creek",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Granite Shoals",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Nassau Bay",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Willow Park",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Van Alstyne",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Center",
+            "Primary County": "Shelby"
+        },
+        {
+            "Municipality": "Sandy Oaks[b]",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Alvarado",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Port Isabel",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Muleshoe",
+            "Primary County": "Bailey"
+        },
+        {
+            "Municipality": "Giddings",
+            "Primary County": "Lee"
+        },
+        {
+            "Municipality": "Terrell Hills",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Brady",
+            "Primary County": "McCulloch"
+        },
+        {
+            "Municipality": "Justin",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Hudson",
+            "Primary County": "Angelina"
+        },
+        {
+            "Municipality": "Mineola",
+            "Primary County": "Wood"
+        },
+        {
+            "Municipality": "Progreso",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Gilmer",
+            "Primary County": "Upshur"
+        },
+        {
+            "Municipality": "Carrizo Springs",
+            "Primary County": "Dimmit"
+        },
+        {
+            "Municipality": "Post",
+            "Primary County": "Garza"
+        },
+        {
+            "Municipality": "Falfurrias",
+            "Primary County": "Brooks"
+        },
+        {
+            "Municipality": "Richwood",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Morgan's Point Resort",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Argyle",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Lake Worth",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Meadows Place",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Pilot Point",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "La Joya",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "New Boston",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Josephine",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Madisonville",
+            "Primary County": "Madison"
+        },
+        {
+            "Municipality": "Mabank",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Hearne",
+            "Primary County": "Robertson"
+        },
+        {
+            "Municipality": "Hallsville",
+            "Primary County": "Harrison"
+        },
+        {
+            "Municipality": "Horseshoe Bay",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Tulia",
+            "Primary County": "Swisher"
+        },
+        {
+            "Municipality": "Diboll",
+            "Primary County": "Angelina"
+        },
+        {
+            "Municipality": "La Grange",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "Palacios",
+            "Primary County": "Matagorda"
+        },
+        {
+            "Municipality": "Devine",
+            "Primary County": "Medina"
+        },
+        {
+            "Municipality": "Rio Bravo",
+            "Primary County": "Webb"
+        },
+        {
+            "Municipality": "Colorado City",
+            "Primary County": "Mitchell"
+        },
+        {
+            "Municipality": "Denver City",
+            "Primary County": "Yoakum"
+        },
+        {
+            "Municipality": "Pittsburg",
+            "Primary County": "Camp"
+        },
+        {
+            "Municipality": "Mathis",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Ovilla",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Garden Ridge",
+            "Primary County": "Comal"
+        },
+        {
+            "Municipality": "Hunters Creek Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Canton",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Crandall",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Comanche",
+            "Primary County": "Comanche"
+        },
+        {
+            "Municipality": "Spring Valley Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Whitesboro",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Jacksboro",
+            "Primary County": "Jack"
+        },
+        {
+            "Municipality": "McLendon-Chisholm",
+            "Primary County": "Rockwall"
+        },
+        {
+            "Municipality": "Dimmitt",
+            "Primary County": "Castro"
+        },
+        {
+            "Municipality": "Friona",
+            "Primary County": "Parmer"
+        },
+        {
+            "Municipality": "Jourdanton",
+            "Primary County": "Atascosa"
+        },
+        {
+            "Municipality": "Caldwell",
+            "Primary County": "Burleson"
+        },
+        {
+            "Municipality": "Bellville",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Weston Lakes",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Smithville",
+            "Primary County": "Bastrop"
+        },
+        {
+            "Municipality": "Castle Hills",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Clyde",
+            "Primary County": "Callahan"
+        },
+        {
+            "Municipality": "Coleman",
+            "Primary County": "Coleman"
+        },
+        {
+            "Municipality": "Sullivan City",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Cisco",
+            "Primary County": "Eastland"
+        },
+        {
+            "Municipality": "Wills Point",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Nash",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Farmersville",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Bunker Hill Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Edgecliff Village",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "San Diego",
+            "Primary County": "Duval"
+        },
+        {
+            "Municipality": "Cotulla",
+            "Primary County": "La Salle"
+        },
+        {
+            "Municipality": "Cockrell Hill",
+            "Primary County": "Dallas"
+        },
+        {
+            "Municipality": "Bullard",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Anthony",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Groesbeck",
+            "Primary County": "Limestone"
+        },
+        {
+            "Municipality": "Kenedy",
+            "Primary County": "Karnes"
+        },
+        {
+            "Municipality": "Eastland",
+            "Primary County": "Eastland"
+        },
+        {
+            "Municipality": "Taylor Lake Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Howe",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "West Columbia",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Laguna Vista",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Shenandoah",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Sweeny",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Columbus",
+            "Primary County": "Colorado"
+        },
+        {
+            "Municipality": "Ballinger",
+            "Primary County": "Runnels"
+        },
+        {
+            "Municipality": "Shavano Park",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Winnsboro",
+            "Primary County": "Wood"
+        },
+        {
+            "Municipality": "Clifton",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "Crane",
+            "Primary County": "Crane"
+        },
+        {
+            "Municipality": "Eagle Lake",
+            "Primary County": "Colorado"
+        },
+        {
+            "Municipality": "Reno",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Teague",
+            "Primary County": "Freestone"
+        },
+        {
+            "Municipality": "Dublin",
+            "Primary County": "Erath"
+        },
+        {
+            "Municipality": "West Orange",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Chandler",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Springtown",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Llano",
+            "Primary County": "Llano"
+        },
+        {
+            "Municipality": "West Lake Hills",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Dilley",
+            "Primary County": "Frio"
+        },
+        {
+            "Municipality": "Presidio",
+            "Primary County": "Presidio"
+        },
+        {
+            "Municipality": "Karnes City",
+            "Primary County": "Karnes"
+        },
+        {
+            "Municipality": "Hideaway",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Beach City",
+            "Primary County": "Chambers"
+        },
+        {
+            "Municipality": "Grand Saline",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Bishop",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "Annetta",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "San Saba",
+            "Primary County": "San Saba"
+        },
+        {
+            "Municipality": "Early",
+            "Primary County": "Brown"
+        },
+        {
+            "Municipality": "Onalaska",
+            "Primary County": "Polk"
+        },
+        {
+            "Municipality": "Hollywood Park",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Port Aransas",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "DeCordova",
+            "Primary County": "Hood"
+        },
+        {
+            "Municipality": "Henrietta",
+            "Primary County": "Clay"
+        },
+        {
+            "Municipality": "Reno",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Spearman",
+            "Primary County": "Hansford"
+        },
+        {
+            "Municipality": "Piney Point Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Needville",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Nocona",
+            "Primary County": "Montague"
+        },
+        {
+            "Municipality": "Double Oak",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Cactus",
+            "Primary County": "Moore"
+        },
+        {
+            "Municipality": "Haskell",
+            "Primary County": "Haskell"
+        },
+        {
+            "Municipality": "Combes",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Oak Ridge North",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Olney",
+            "Primary County": "Young"
+        },
+        {
+            "Municipality": "El Lago",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Castroville",
+            "Primary County": "Medina"
+        },
+        {
+            "Municipality": "Stamford",
+            "Primary County": "Haskell"
+        },
+        {
+            "Municipality": "Lytle",
+            "Primary County": "Atascosa"
+        },
+        {
+            "Municipality": "Hackberry",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Shallowater",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Fairfield",
+            "Primary County": "Freestone"
+        },
+        {
+            "Municipality": "Poteet",
+            "Primary County": "Atascosa"
+        },
+        {
+            "Municipality": "Wimberley",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Hamilton",
+            "Primary County": "Hamilton"
+        },
+        {
+            "Municipality": "Ferris",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Rancho Viejo",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Big Lake",
+            "Primary County": "Reagan"
+        },
+        {
+            "Municipality": "Shady Shores",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Glen Rose",
+            "Primary County": "Somervell"
+        },
+        {
+            "Municipality": "Brazoria",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Taft",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Abernathy",
+            "Primary County": "Hale"
+        },
+        {
+            "Municipality": "Waller",
+            "Primary County": "Waller"
+        },
+        {
+            "Municipality": "Clarksville",
+            "Primary County": "Red River"
+        },
+        {
+            "Municipality": "Refugio",
+            "Primary County": "Refugio"
+        },
+        {
+            "Municipality": "Vinton",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Van",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Hallettsville",
+            "Primary County": "Lavaca"
+        },
+        {
+            "Municipality": "Balcones Heights",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Edcouch",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "La Villa",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Talty",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Schulenburg",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "Floydada",
+            "Primary County": "Floyd"
+        },
+        {
+            "Municipality": "Stanton",
+            "Primary County": "Martin"
+        },
+        {
+            "Municipality": "Magnolia",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Pottsboro",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Palmhurst",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Westworth Village",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Seymour",
+            "Primary County": "Baylor"
+        },
+        {
+            "Municipality": "Escobares",
+            "Primary County": "Starr"
+        },
+        {
+            "Municipality": "West",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Panorama Village",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "The Hills",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Pantego",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Hooks",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Daingerfield",
+            "Primary County": "Morris"
+        },
+        {
+            "Municipality": "El Cenizo",
+            "Primary County": "Webb"
+        },
+        {
+            "Municipality": "Junction",
+            "Primary County": "Kimble"
+        },
+        {
+            "Municipality": "Hudson Oaks",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Mount Vernon",
+            "Primary County": "Franklin"
+        },
+        {
+            "Municipality": "Freer",
+            "Primary County": "Duval"
+        },
+        {
+            "Municipality": "Troy",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Sonora",
+            "Primary County": "Sutton"
+        },
+        {
+            "Municipality": "Palmer",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Merkel",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Jonestown",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Premont",
+            "Primary County": "Jim Wells"
+        },
+        {
+            "Municipality": "Woodville",
+            "Primary County": "Tyler"
+        },
+        {
+            "Municipality": "Ponder",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Santa Rosa",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Salado",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Tahoka",
+            "Primary County": "Lynn"
+        },
+        {
+            "Municipality": "Trinity",
+            "Primary County": "Trinity"
+        },
+        {
+            "Municipality": "Haslet",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Winters",
+            "Primary County": "Runnels"
+        },
+        {
+            "Municipality": "Blue Mound",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Combine",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Nixon",
+            "Primary County": "Gonzales"
+        },
+        {
+            "Municipality": "Anson",
+            "Primary County": "Jones"
+        },
+        {
+            "Municipality": "Panhandle",
+            "Primary County": "Carson"
+        },
+        {
+            "Municipality": "Hedwig Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Caddo Mills",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Montgomery",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "De Leon",
+            "Primary County": "Comanche"
+        },
+        {
+            "Municipality": "Electra",
+            "Primary County": "Wichita"
+        },
+        {
+            "Municipality": "Ranger",
+            "Primary County": "Eastland"
+        },
+        {
+            "Municipality": "Overton",
+            "Primary County": "Rusk"
+        },
+        {
+            "Municipality": "Dalworthington Gardens",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Quanah",
+            "Primary County": "Hardeman"
+        },
+        {
+            "Municipality": "Odem",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "St. Hedwig",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Gunter",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Canadian",
+            "Primary County": "Hemphill"
+        },
+        {
+            "Municipality": "East Bernard",
+            "Primary County": "Wharton"
+        },
+        {
+            "Municipality": "Pelican Bay",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Malakoff",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Pinehurst",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Tool",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Lyford",
+            "Primary County": "Willacy"
+        },
+        {
+            "Municipality": "George West",
+            "Primary County": "Live Oak"
+        },
+        {
+            "Municipality": "Seagraves",
+            "Primary County": "Gaines"
+        },
+        {
+            "Municipality": "Kountze",
+            "Primary County": "Hardin"
+        },
+        {
+            "Municipality": "Olmos Park",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Arcola",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Shiner",
+            "Primary County": "Lavaca"
+        },
+        {
+            "Municipality": "Idalou",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Briarcliff",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Mason",
+            "Primary County": "Mason"
+        },
+        {
+            "Municipality": "Jarrell",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Weimar",
+            "Primary County": "Colorado"
+        },
+        {
+            "Municipality": "South Padre Island",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Memphis",
+            "Primary County": "Hall"
+        },
+        {
+            "Municipality": "Shepherd",
+            "Primary County": "San Jacinto"
+        },
+        {
+            "Municipality": "Leonard",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Troup",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Whitney",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Elmendorf",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Huntington",
+            "Primary County": "Angelina"
+        },
+        {
+            "Municipality": "Rio Hondo",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Hale Center",
+            "Primary County": "Hale"
+        },
+        {
+            "Municipality": "Kirbyville",
+            "Primary County": "Jasper"
+        },
+        {
+            "Municipality": "Newton",
+            "Primary County": "Newton"
+        },
+        {
+            "Municipality": "Quitman",
+            "Primary County": "Wood"
+        },
+        {
+            "Municipality": "Little River-Academy",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Ganado",
+            "Primary County": "Jackson"
+        },
+        {
+            "Municipality": "Italy",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Olton",
+            "Primary County": "Lamb"
+        },
+        {
+            "Municipality": "Anahuac",
+            "Primary County": "Chambers"
+        },
+        {
+            "Municipality": "Jones Creek",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Stratford",
+            "Primary County": "Sherman"
+        },
+        {
+            "Municipality": "Cooper",
+            "Primary County": "Delta"
+        },
+        {
+            "Municipality": "Van Horn",
+            "Primary County": "Culberson"
+        },
+        {
+            "Municipality": "Waskom",
+            "Primary County": "Harrison"
+        },
+        {
+            "Municipality": "West Tawakoni",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Collinsville",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Albany",
+            "Primary County": "Shackelford"
+        },
+        {
+            "Municipality": "Meadowlakes",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Krugerville",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Grandview",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Hamlin",
+            "Primary County": "Jones"
+        },
+        {
+            "Municipality": "Beverly Hills",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Roman Forest",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Clarendon",
+            "Primary County": "Donley"
+        },
+        {
+            "Municipality": "Wellington",
+            "Primary County": "Collingsworth"
+        },
+        {
+            "Municipality": "Poth",
+            "Primary County": "Wilson"
+        },
+        {
+            "Municipality": "Godley",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "San Augustine",
+            "Primary County": "San Augustine"
+        },
+        {
+            "Municipality": "Fritch",
+            "Primary County": "Hutchinson"
+        },
+        {
+            "Municipality": "Cresson",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Jefferson",
+            "Primary County": "Marion"
+        },
+        {
+            "Municipality": "Southside Place",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "McCamey",
+            "Primary County": "Upton"
+        },
+        {
+            "Municipality": "Cross Roads",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Ingram",
+            "Primary County": "Kerr"
+        },
+        {
+            "Municipality": "Yorktown",
+            "Primary County": "DeWitt"
+        },
+        {
+            "Municipality": "Woodcreek",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Kemah",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Sour Lake",
+            "Primary County": "Hardin"
+        },
+        {
+            "Municipality": "Lorena",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Mart",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Buffalo",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Linden",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Blanco",
+            "Primary County": "Blanco"
+        },
+        {
+            "Municipality": "Splendora",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Shamrock",
+            "Primary County": "Wheeler"
+        },
+        {
+            "Municipality": "Bartonville",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Somerset",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Bertram",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Copper Canyon",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Bayou Vista",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Honey Grove",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Whitewright",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Marfa",
+            "Primary County": "Presidio"
+        },
+        {
+            "Municipality": "Gregory",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Rhome",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Patton Village",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Johnson City",
+            "Primary County": "Blanco"
+        },
+        {
+            "Municipality": "Goldthwaite",
+            "Primary County": "Mills"
+        },
+        {
+            "Municipality": "Bovina",
+            "Primary County": "Parmer"
+        },
+        {
+            "Municipality": "Sunray",
+            "Primary County": "Moore"
+        },
+        {
+            "Municipality": "Lowry Crossing",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Westlake",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Franklin",
+            "Primary County": "Robertson"
+        },
+        {
+            "Municipality": "Morton",
+            "Primary County": "Cochran"
+        },
+        {
+            "Municipality": "Uhland",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Runaway Bay",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Danbury",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Bartlett",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Ralls",
+            "Primary County": "Crosby"
+        },
+        {
+            "Municipality": "Stinnett",
+            "Primary County": "Hutchinson"
+        },
+        {
+            "Municipality": "Itasca",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Goliad",
+            "Primary County": "Goliad"
+        },
+        {
+            "Municipality": "Lakeside",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Oak Leaf",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Edgewood",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Eldorado",
+            "Primary County": "Schleicher"
+        },
+        {
+            "Municipality": "Archer City",
+            "Primary County": "Archer"
+        },
+        {
+            "Municipality": "Muenster",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Holliday",
+            "Primary County": "Archer"
+        },
+        {
+            "Municipality": "Three Rivers",
+            "Primary County": "Live Oak"
+        },
+        {
+            "Municipality": "Charlotte",
+            "Primary County": "Atascosa"
+        },
+        {
+            "Municipality": "Brookside Village",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Fulton",
+            "Primary County": "Aransas"
+        },
+        {
+            "Municipality": "Eden",
+            "Primary County": "Concho"
+        },
+        {
+            "Municipality": "Hughes Springs",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Bangs",
+            "Primary County": "Brown"
+        },
+        {
+            "Municipality": "Bells",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Shoreacres",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Cottonwood Shores",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "De Kalb",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Kerens",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Baird",
+            "Primary County": "Callahan"
+        },
+        {
+            "Municipality": "Grapeland",
+            "Primary County": "Houston"
+        },
+        {
+            "Municipality": "Crosbyton",
+            "Primary County": "Crosby"
+        },
+        {
+            "Municipality": "Boyd",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Lockney",
+            "Primary County": "Floyd"
+        },
+        {
+            "Municipality": "Corrigan",
+            "Primary County": "Polk"
+        },
+        {
+            "Municipality": "Wheeler",
+            "Primary County": "Wheeler"
+        },
+        {
+            "Municipality": "Quinlan",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Aurora",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Rollingwood",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "New Fairview",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Stockdale",
+            "Primary County": "Wilson"
+        },
+        {
+            "Municipality": "Alvord",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Bruceville-Eddy",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Woodbranch",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Moody",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Queen City",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Lone Star",
+            "Primary County": "Morris"
+        },
+        {
+            "Municipality": "Meridian",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "Wolfe City",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Hubbard",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Seven Points",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Blossom",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Sabinal",
+            "Primary County": "Uvalde"
+        },
+        {
+            "Municipality": "Brackettville",
+            "Primary County": "Kinney"
+        },
+        {
+            "Municipality": "Palm Valley",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Naples",
+            "Primary County": "Morris"
+        },
+        {
+            "Municipality": "Farwell",
+            "Primary County": "Parmer"
+        },
+        {
+            "Municipality": "Ivanhoe",
+            "Primary County": "Tyler"
+        },
+        {
+            "Municipality": "Booker",
+            "Primary County": "Lipscomb"
+        },
+        {
+            "Municipality": "Menard",
+            "Primary County": "Menard"
+        },
+        {
+            "Municipality": "Plains",
+            "Primary County": "Yoakum"
+        },
+        {
+            "Municipality": "Rotan",
+            "Primary County": "Fisher"
+        },
+        {
+            "Municipality": "Rosebud",
+            "Primary County": "Falls"
+        },
+        {
+            "Municipality": "Plum Grove",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Hico",
+            "Primary County": "Hamilton"
+        },
+        {
+            "Municipality": "Tatum",
+            "Primary County": "Rusk"
+        },
+        {
+            "Municipality": "Flatonia",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "Nevada",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Somerville",
+            "Primary County": "Burleson"
+        },
+        {
+            "Municipality": "Hawkins",
+            "Primary County": "Wood"
+        },
+        {
+            "Municipality": "Old River-Winfree",
+            "Primary County": "Chambers"
+        },
+        {
+            "Municipality": "Woodsboro",
+            "Primary County": "Refugio"
+        },
+        {
+            "Municipality": "Wallis",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Emory",
+            "Primary County": "Rains"
+        },
+        {
+            "Municipality": "Thorndale",
+            "Primary County": "Milam"
+        },
+        {
+            "Municipality": "Elkhart",
+            "Primary County": "Anderson"
+        },
+        {
+            "Municipality": "Natalia",
+            "Primary County": "Medina"
+        },
+        {
+            "Municipality": "Point Venture",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Sundown",
+            "Primary County": "Hockley"
+        },
+        {
+            "Municipality": "Big Sandy",
+            "Primary County": "Upshur"
+        },
+        {
+            "Municipality": "Clear Lake Shores",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Gholson",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Roscoe",
+            "Primary County": "Nolan"
+        },
+        {
+            "Municipality": "Valley Mills",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "China",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Munday",
+            "Primary County": "Knox"
+        },
+        {
+            "Municipality": "Rice",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Lexington",
+            "Primary County": "Lee"
+        },
+        {
+            "Municipality": "Brownsboro",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Martindale",
+            "Primary County": "Caldwell"
+        },
+        {
+            "Municipality": "La Grulla",
+            "Primary County": "Starr"
+        },
+        {
+            "Municipality": "Florence",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Benavides",
+            "Primary County": "Duval"
+        },
+        {
+            "Municipality": "Granger",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Tioga",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Tye",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Blue Ridge",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Oyster Creek",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Claude",
+            "Primary County": "Armstrong"
+        },
+        {
+            "Municipality": "Orange Grove",
+            "Primary County": "Jim Wells"
+        },
+        {
+            "Municipality": "Kempner",
+            "Primary County": "Lampasas"
+        },
+        {
+            "Municipality": "Kemp",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Von Ormy",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Ransom Canyon",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Pine Island",
+            "Primary County": "Waller"
+        },
+        {
+            "Municipality": "La Vernia",
+            "Primary County": "Wilson"
+        },
+        {
+            "Municipality": "Eustace",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Lakeside City",
+            "Primary County": "Archer"
+        },
+        {
+            "Municipality": "Newark",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Ore City",
+            "Primary County": "Upshur"
+        },
+        {
+            "Municipality": "Cut and Shoot",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "China Grove",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Sterling City",
+            "Primary County": "Sterling"
+        },
+        {
+            "Municipality": "Frankston",
+            "Primary County": "Anderson"
+        },
+        {
+            "Municipality": "Gruver",
+            "Primary County": "Hansford"
+        },
+        {
+            "Municipality": "LaCoste",
+            "Primary County": "Medina"
+        },
+        {
+            "Municipality": "Rogers",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Tiki Island",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Bogata",
+            "Primary County": "Red River"
+        },
+        {
+            "Municipality": "Holland",
+            "Primary County": "Bell"
+        },
+        {
+            "Municipality": "Rio Vista",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Jamaica Beach",
+            "Primary County": "Galveston"
+        },
+        {
+            "Municipality": "Riesel",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Lindsay",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Paducah",
+            "Primary County": "Cottle"
+        },
+        {
+            "Municipality": "Bevil Oaks",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Knox City",
+            "Primary County": "Knox"
+        },
+        {
+            "Municipality": "Marion",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Iraan",
+            "Primary County": "Pecos"
+        },
+        {
+            "Municipality": "Alto",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Pleak",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Holiday Lakes",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Robert Lee",
+            "Primary County": "Coke"
+        },
+        {
+            "Municipality": "Santa Anna",
+            "Primary County": "Coleman"
+        },
+        {
+            "Municipality": "Southmayd",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Los Indios",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Ames",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Hemphill",
+            "Primary County": "Sabine"
+        },
+        {
+            "Municipality": "Wortham",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Seadrift",
+            "Primary County": "Calhoun"
+        },
+        {
+            "Municipality": "Chico",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "St. Paul",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Daisetta",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Tenaha",
+            "Primary County": "Shelby"
+        },
+        {
+            "Municipality": "Timpson",
+            "Primary County": "Shelby"
+        },
+        {
+            "Municipality": "Gorman",
+            "Primary County": "Eastland"
+        },
+        {
+            "Municipality": "Tolar",
+            "Primary County": "Hood"
+        },
+        {
+            "Municipality": "Petersburg",
+            "Primary County": "Hale"
+        },
+        {
+            "Municipality": "Maud",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Lakeport",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Mustang Ridge",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "New Waverly",
+            "Primary County": "Walker"
+        },
+        {
+            "Municipality": "Lorenzo",
+            "Primary County": "Crosby"
+        },
+        {
+            "Municipality": "Runge",
+            "Primary County": "Karnes"
+        },
+        {
+            "Municipality": "Calvert",
+            "Primary County": "Robertson"
+        },
+        {
+            "Municipality": "New London",
+            "Primary County": "Rusk"
+        },
+        {
+            "Municipality": "Bronte",
+            "Primary County": "Coke"
+        },
+        {
+            "Municipality": "Maypearl",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Waelder",
+            "Primary County": "Gonzales"
+        },
+        {
+            "Municipality": "Hill Country Village",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Sudan",
+            "Primary County": "Lamb"
+        },
+        {
+            "Municipality": "Red Lick",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "Omaha",
+            "Primary County": "Morris"
+        },
+        {
+            "Municipality": "Tom Bean",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Clint",
+            "Primary County": "El Paso"
+        },
+        {
+            "Municipality": "Arp",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Cross Plains",
+            "Primary County": "Callahan"
+        },
+        {
+            "Municipality": "East Mountain",
+            "Primary County": "Upshur"
+        },
+        {
+            "Municipality": "Centerville",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Fairchilds",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Coahoma",
+            "Primary County": "Howard"
+        },
+        {
+            "Municipality": "Groveton",
+            "Primary County": "Trinity"
+        },
+        {
+            "Municipality": "Miles",
+            "Primary County": "Runnels"
+        },
+        {
+            "Municipality": "White Deer",
+            "Primary County": "Carson"
+        },
+        {
+            "Municipality": "Crawford",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Earth",
+            "Primary County": "Lamb"
+        },
+        {
+            "Municipality": "St. Jo",
+            "Primary County": "Montague"
+        },
+        {
+            "Municipality": "Pineland",
+            "Primary County": "Sabine"
+        },
+        {
+            "Municipality": "Oak Ridge",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Anton",
+            "Primary County": "Hockley"
+        },
+        {
+            "Municipality": "Hart",
+            "Primary County": "Castro"
+        },
+        {
+            "Municipality": "Wink",
+            "Primary County": "Winkler"
+        },
+        {
+            "Municipality": "Blooming Grove",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Rocksprings",
+            "Primary County": "Edwards"
+        },
+        {
+            "Municipality": "Vega",
+            "Primary County": "Oldham"
+        },
+        {
+            "Municipality": "Wells",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Moulton",
+            "Primary County": "Lavaca"
+        },
+        {
+            "Municipality": "Trinidad",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Thrall",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "New Summerfield",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Bremond",
+            "Primary County": "Robertson"
+        },
+        {
+            "Municipality": "Garrett",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Berryville",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Indian Lake",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Redwater",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "East Tawakoni",
+            "Primary County": "Rains"
+        },
+        {
+            "Municipality": "Tuscola",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Bandera",
+            "Primary County": "Bandera"
+        },
+        {
+            "Municipality": "Dawson",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Celeste",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Walnut Springs",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "Hardin",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Hilshire Village",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Hebron",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Jewett",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Garrison",
+            "Primary County": "Nacogdoches"
+        },
+        {
+            "Municipality": "Bailey's Prairie",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Clarksville City",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Road Runner[b]",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Coldspring",
+            "Primary County": "San Jacinto"
+        },
+        {
+            "Municipality": "Coolidge",
+            "Primary County": "Limestone"
+        },
+        {
+            "Municipality": "Knollwood",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Trenton",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Mertzon",
+            "Primary County": "Irion"
+        },
+        {
+            "Municipality": "Santa Clara",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Lometa",
+            "Primary County": "Lampasas"
+        },
+        {
+            "Municipality": "Rising Star",
+            "Primary County": "Eastland"
+        },
+        {
+            "Municipality": "Sunrise Beach Village",
+            "Primary County": "Llano"
+        },
+        {
+            "Municipality": "Point",
+            "Primary County": "Rains"
+        },
+        {
+            "Municipality": "Ector",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Post Oak Bend City",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Aspermont",
+            "Primary County": "Stonewall"
+        },
+        {
+            "Municipality": "Rankin",
+            "Primary County": "Upton"
+        },
+        {
+            "Municipality": "Valley View",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Payne Springs",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Crowell",
+            "Primary County": "Foard"
+        },
+        {
+            "Municipality": "Log Cabin",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Throckmorton",
+            "Primary County": "Throckmorton"
+        },
+        {
+            "Municipality": "Pecan Hill",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Spur",
+            "Primary County": "Dickens"
+        },
+        {
+            "Municipality": "Beckville",
+            "Primary County": "Panola"
+        },
+        {
+            "Municipality": "Como",
+            "Primary County": "Hopkins"
+        },
+        {
+            "Municipality": "Savoy",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Scurry",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Milford",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "New Deal",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Joaquin",
+            "Primary County": "Shelby"
+        },
+        {
+            "Municipality": "O'Donnell",
+            "Primary County": "Lynn"
+        },
+        {
+            "Municipality": "Lone Oak",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Asherton",
+            "Primary County": "Dimmit"
+        },
+        {
+            "Municipality": "Weir",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Detroit",
+            "Primary County": "Red River"
+        },
+        {
+            "Municipality": "Lake Tanglewood",
+            "Primary County": "Randall"
+        },
+        {
+            "Municipality": "Cumby",
+            "Primary County": "Hopkins"
+        },
+        {
+            "Municipality": "Hillcrest",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Burke",
+            "Primary County": "Angelina"
+        },
+        {
+            "Municipality": "Agua Dulce",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "San Felipe",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Graford",
+            "Primary County": "Palo Pinto"
+        },
+        {
+            "Municipality": "New Berlin",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Driscoll",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "Niederwald",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Oak Grove",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Kenefick",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Lott",
+            "Primary County": "Falls"
+        },
+        {
+            "Municipality": "Golinda",
+            "Primary County": "Falls"
+        },
+        {
+            "Municipality": "Amherst",
+            "Primary County": "Lamb"
+        },
+        {
+            "Municipality": "New Hope",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Point Blank",
+            "Primary County": "San Jacinto"
+        },
+        {
+            "Municipality": "Lakewood Village",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Mountain City",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Sunset Valley",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Surfside Beach",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "McLean",
+            "Primary County": "Gray"
+        },
+        {
+            "Municipality": "Winona",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Simonton",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Westover Hills",
+            "Primary County": "Tarrant"
+        },
+        {
+            "Municipality": "Annetta South",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Bardwell",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Frost",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "New Chapel Hill",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Noonday",
+            "Primary County": "Smith"
+        },
+        {
+            "Municipality": "Happy",
+            "Primary County": "Swisher"
+        },
+        {
+            "Municipality": "Silverton",
+            "Primary County": "Briscoe"
+        },
+        {
+            "Municipality": "Ladonia",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Ingleside on the Bay",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Kress",
+            "Primary County": "Swisher"
+        },
+        {
+            "Municipality": "Zavalla",
+            "Primary County": "Angelina"
+        },
+        {
+            "Municipality": "Beasley",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Pattison",
+            "Primary County": "Waller"
+        },
+        {
+            "Municipality": "Roby",
+            "Primary County": "Fisher"
+        },
+        {
+            "Municipality": "Meadow",
+            "Primary County": "Terry"
+        },
+        {
+            "Municipality": "Stagecoach",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Lovelady",
+            "Primary County": "Houston"
+        },
+        {
+            "Municipality": "Point Comfort",
+            "Primary County": "Calhoun"
+        },
+        {
+            "Municipality": "Annetta North",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Matador",
+            "Primary County": "Motley"
+        },
+        {
+            "Municipality": "Buffalo Gap",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Rule",
+            "Primary County": "Haskell"
+        },
+        {
+            "Municipality": "Hawley",
+            "Primary County": "Jones"
+        },
+        {
+            "Municipality": "Cove",
+            "Primary County": "Chambers"
+        },
+        {
+            "Municipality": "Cushing",
+            "Primary County": "Nacogdoches"
+        },
+        {
+            "Municipality": "Campbell",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Chillicothe",
+            "Primary County": "Hardeman"
+        },
+        {
+            "Municipality": "Riverside",
+            "Primary County": "Walker"
+        },
+        {
+            "Municipality": "Colmesneil",
+            "Primary County": "Tyler"
+        },
+        {
+            "Municipality": "Deport",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Loraine",
+            "Primary County": "Mitchell"
+        },
+        {
+            "Municipality": "Strawn",
+            "Primary County": "Palo Pinto"
+        },
+        {
+            "Municipality": "Appleby",
+            "Primary County": "Nacogdoches"
+        },
+        {
+            "Municipality": "Groom",
+            "Primary County": "Carson"
+        },
+        {
+            "Municipality": "Roxton",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Thorntonville",
+            "Primary County": "Ward"
+        },
+        {
+            "Municipality": "Falls City",
+            "Primary County": "Karnes"
+        },
+        {
+            "Municipality": "Volente",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Encinal",
+            "Primary County": "La Salle"
+        },
+        {
+            "Municipality": "Newcastle",
+            "Primary County": "Young"
+        },
+        {
+            "Municipality": "San Perlita",
+            "Primary County": "Willacy"
+        },
+        {
+            "Municipality": "Murchison",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Paradise",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Miami",
+            "Primary County": "Roberts"
+        },
+        {
+            "Municipality": "Lipan",
+            "Primary County": "Hood"
+        },
+        {
+            "Municipality": "Snook",
+            "Primary County": "Burleson"
+        },
+        {
+            "Municipality": "Petrolia",
+            "Primary County": "Clay"
+        },
+        {
+            "Municipality": "San Leanna",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Brazos Country",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Briaroaks",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Camp Wood",
+            "Primary County": "Real"
+        },
+        {
+            "Municipality": "Normangee",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Mount Enterprise",
+            "Primary County": "Rusk"
+        },
+        {
+            "Municipality": "Jayton",
+            "Primary County": "Kent"
+        },
+        {
+            "Municipality": "Pine Forest",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Bayview",
+            "Primary County": "Cameron"
+        },
+        {
+            "Municipality": "Star Harbor",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Easton",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Liverpool",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Dean",
+            "Primary County": "Clay"
+        },
+        {
+            "Municipality": "Fruitvale",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Grey Forest",
+            "Primary County": "Bexar"
+        },
+        {
+            "Municipality": "Talco",
+            "Primary County": "Titus"
+        },
+        {
+            "Municipality": "Big Wells",
+            "Primary County": "Dimmit"
+        },
+        {
+            "Municipality": "Alba",
+            "Primary County": "Wood"
+        },
+        {
+            "Municipality": "Smiley",
+            "Primary County": "Gonzales"
+        },
+        {
+            "Municipality": "Gordon",
+            "Primary County": "Palo Pinto"
+        },
+        {
+            "Municipality": "Plantersville[b]",
+            "Primary County": "Grimes"
+        },
+        {
+            "Municipality": "Hawk Cove",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Texline",
+            "Primary County": "Dallam"
+        },
+        {
+            "Municipality": "Buffalo Springs",
+            "Primary County": "Lubbock"
+        },
+        {
+            "Municipality": "Lake City",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Angus",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Morgan",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "Evant",
+            "Primary County": "Coryell"
+        },
+        {
+            "Municipality": "Kosse",
+            "Primary County": "Limestone"
+        },
+        {
+            "Municipality": "Byers",
+            "Primary County": "Clay"
+        },
+        {
+            "Municipality": "Nome",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Union Grove",
+            "Primary County": "Upshur"
+        },
+        {
+            "Municipality": "Creedmoor",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Bryson",
+            "Primary County": "Jack"
+        },
+        {
+            "Municipality": "Timbercreek Canyon",
+            "Primary County": "Randall"
+        },
+        {
+            "Municipality": "Wilson",
+            "Primary County": "Lynn"
+        },
+        {
+            "Municipality": "Leary",
+            "Primary County": "Bowie"
+        },
+        {
+            "Municipality": "DISH",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Oglesby",
+            "Primary County": "Coryell"
+        },
+        {
+            "Municipality": "Hallsburg",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Smyer",
+            "Primary County": "Hockley"
+        },
+        {
+            "Municipality": "Retreat",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Avery",
+            "Primary County": "Red River"
+        },
+        {
+            "Municipality": "Winfield",
+            "Primary County": "Titus"
+        },
+        {
+            "Municipality": "Scotland",
+            "Primary County": "Archer"
+        },
+        {
+            "Municipality": "Bear Creek",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Highland Haven",
+            "Primary County": "Burnet"
+        },
+        {
+            "Municipality": "Oak Valley",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Ropesville",
+            "Primary County": "Hockley"
+        },
+        {
+            "Municipality": "Webberville",
+            "Primary County": "Travis"
+        },
+        {
+            "Municipality": "Thornton",
+            "Primary County": "Limestone"
+        },
+        {
+            "Municipality": "Yantis",
+            "Primary County": "Wood"
+        },
+        {
+            "Municipality": "Mildred",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Lefors",
+            "Primary County": "Gray"
+        },
+        {
+            "Municipality": "Wickett",
+            "Primary County": "Ward"
+        },
+        {
+            "Municipality": "Kurten",
+            "Primary County": "Brazos"
+        },
+        {
+            "Municipality": "Dickens",
+            "Primary County": "Dickens"
+        },
+        {
+            "Municipality": "Gustine",
+            "Primary County": "Comanche"
+        },
+        {
+            "Municipality": "South Mountain",
+            "Primary County": "Coryell"
+        },
+        {
+            "Municipality": "Balmorhea",
+            "Primary County": "Reeves"
+        },
+        {
+            "Municipality": "Milano",
+            "Primary County": "Milam"
+        },
+        {
+            "Municipality": "Union Valley",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Stockton Bend",
+            "Primary County": "Hood"
+        },
+        {
+            "Municipality": "Cross Timber",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Oakwood",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Skellytown",
+            "Primary County": "Carson"
+        },
+        {
+            "Municipality": "San Patricio",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Alma",
+            "Primary County": "Ellis"
+        },
+        {
+            "Municipality": "Devers",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Blum",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Millsap",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Dodd City",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Avinger",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Buckholts",
+            "Primary County": "Milam"
+        },
+        {
+            "Municipality": "Howardwick",
+            "Primary County": "Donley"
+        },
+        {
+            "Municipality": "Whiteface",
+            "Primary County": "Cochran"
+        },
+        {
+            "Municipality": "Bedias",
+            "Primary County": "Grimes"
+        },
+        {
+            "Municipality": "Blanket",
+            "Primary County": "Brown"
+        },
+        {
+            "Municipality": "Chireno",
+            "Primary County": "Nacogdoches"
+        },
+        {
+            "Municipality": "Dell City",
+            "Primary County": "Hudspeth"
+        },
+        {
+            "Municipality": "Follett",
+            "Primary County": "Lipscomb"
+        },
+        {
+            "Municipality": "Huxley",
+            "Primary County": "Shelby"
+        },
+        {
+            "Municipality": "Abbott",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Pleasant Valley",
+            "Primary County": "Wichita"
+        },
+        {
+            "Municipality": "Enchanted Oaks",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Leroy",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Paint Rock",
+            "Primary County": "Concho"
+        },
+        {
+            "Municipality": "Coyote Flats[b]",
+            "Primary County": "Johnson"
+        },
+        {
+            "Municipality": "Edom",
+            "Primary County": "Van Zandt"
+        },
+        {
+            "Municipality": "Lake Bridgeport",
+            "Primary County": "Wise"
+        },
+        {
+            "Municipality": "Grays Prairie",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Lakeside",
+            "Primary County": "San Patricio"
+        },
+        {
+            "Municipality": "Sanctuary",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Higgins",
+            "Primary County": "Lipscomb"
+        },
+        {
+            "Municipality": "Christine",
+            "Primary County": "Atascosa"
+        },
+        {
+            "Municipality": "Windthorst",
+            "Primary County": "Archer"
+        },
+        {
+            "Municipality": "Kendleton",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Gary City",
+            "Primary County": "Panola"
+        },
+        {
+            "Municipality": "Scottsville",
+            "Primary County": "Harrison"
+        },
+        {
+            "Municipality": "Sadler",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "New Home",
+            "Primary County": "Lynn"
+        },
+        {
+            "Municipality": "Quitaque",
+            "Primary County": "Briscoe"
+        },
+        {
+            "Municipality": "Leakey",
+            "Primary County": "Real"
+        },
+        {
+            "Municipality": "Reklaw",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Grandfalls",
+            "Primary County": "Ward"
+        },
+        {
+            "Municipality": "Nordheim",
+            "Primary County": "DeWitt"
+        },
+        {
+            "Municipality": "Rose City",
+            "Primary County": "Orange"
+        },
+        {
+            "Municipality": "Rose Hill Acres",
+            "Primary County": "Hardin"
+        },
+        {
+            "Municipality": "Tira",
+            "Primary County": "Hopkins"
+        },
+        {
+            "Municipality": "Gallatin",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Turkey",
+            "Primary County": "Hall"
+        },
+        {
+            "Municipality": "Bloomburg",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Iola",
+            "Primary County": "Grimes"
+        },
+        {
+            "Municipality": "Rosser",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Eureka",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Warren City",
+            "Primary County": "Gregg"
+        },
+        {
+            "Municipality": "Callisburg",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Orchard",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Lawn",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Nazareth",
+            "Primary County": "Castro"
+        },
+        {
+            "Municipality": "Iredell",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "Darrouzett",
+            "Primary County": "Lipscomb"
+        },
+        {
+            "Municipality": "Weston",
+            "Primary County": "Collin"
+        },
+        {
+            "Municipality": "Trent",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Coupland[b]",
+            "Primary County": "Williamson"
+        },
+        {
+            "Municipality": "Mount Calm",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Bellevue",
+            "Primary County": "Clay"
+        },
+        {
+            "Municipality": "Cashion Community",
+            "Primary County": "Wichita"
+        },
+        {
+            "Municipality": "Poynor",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Granjeno",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Carbon",
+            "Primary County": "Eastland"
+        },
+        {
+            "Municipality": "Ellinger[a]",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "Burton",
+            "Primary County": "Washington"
+        },
+        {
+            "Municipality": "Cranfills Gap",
+            "Primary County": "Bosque"
+        },
+        {
+            "Municipality": "Kennard",
+            "Primary County": "Houston"
+        },
+        {
+            "Municipality": "Hedley",
+            "Primary County": "Donley"
+        },
+        {
+            "Municipality": "Taylor Landing",
+            "Primary County": "Jefferson"
+        },
+        {
+            "Municipality": "Chester",
+            "Primary County": "Tyler"
+        },
+        {
+            "Municipality": "Bayside",
+            "Primary County": "Refugio"
+        },
+        {
+            "Municipality": "Palisades",
+            "Primary County": "Randall"
+        },
+        {
+            "Municipality": "Industry",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Morgan's Point",
+            "Primary County": "Harris"
+        },
+        {
+            "Municipality": "Covington",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Channing",
+            "Primary County": "Hartley"
+        },
+        {
+            "Municipality": "Ackerly",
+            "Primary County": "Dawson"
+        },
+        {
+            "Municipality": "Richland",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Lueders",
+            "Primary County": "Jones"
+        },
+        {
+            "Municipality": "Progreso Lakes",
+            "Primary County": "Hidalgo"
+        },
+        {
+            "Municipality": "Texhoma",
+            "Primary County": "Sherman"
+        },
+        {
+            "Municipality": "Goodrich",
+            "Primary County": "Polk"
+        },
+        {
+            "Municipality": "Barstow",
+            "Primary County": "Ward"
+        },
+        {
+            "Municipality": "Streetman",
+            "Primary County": "Freestone"
+        },
+        {
+            "Municipality": "Blackwell",
+            "Primary County": "Nolan"
+        },
+        {
+            "Municipality": "Oak Ridge",
+            "Primary County": "Cooke"
+        },
+        {
+            "Municipality": "Ross",
+            "Primary County": "McLennan"
+        },
+        {
+            "Municipality": "Richland Springs",
+            "Primary County": "San Saba"
+        },
+        {
+            "Municipality": "Rochester",
+            "Primary County": "Haskell"
+        },
+        {
+            "Municipality": "Fayetteville",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "North Cleveland",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Carmine",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "Coffee City",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Latexo",
+            "Primary County": "Houston"
+        },
+        {
+            "Municipality": "Hays",
+            "Primary County": "Hays"
+        },
+        {
+            "Municipality": "Malone",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Moran",
+            "Primary County": "Shackelford"
+        },
+        {
+            "Municipality": "Navarro",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Wixon Valley",
+            "Primary County": "Brazos"
+        },
+        {
+            "Municipality": "Bailey",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Mingus",
+            "Primary County": "Palo Pinto"
+        },
+        {
+            "Municipality": "Woodson",
+            "Primary County": "Throckmorton"
+        },
+        {
+            "Municipality": "Goldsmith",
+            "Primary County": "Ector"
+        },
+        {
+            "Municipality": "Tehuacana",
+            "Primary County": "Limestone"
+        },
+        {
+            "Municipality": "Wellman",
+            "Primary County": "Terry"
+        },
+        {
+            "Municipality": "Westbrook",
+            "Primary County": "Mitchell"
+        },
+        {
+            "Municipality": "Barry",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Spring Branch[b]",
+            "Primary County": "Comal"
+        },
+        {
+            "Municipality": "Forsan",
+            "Primary County": "Howard"
+        },
+        {
+            "Municipality": "Opdyke West",
+            "Primary County": "Hockley"
+        },
+        {
+            "Municipality": "Cool",
+            "Primary County": "Parker"
+        },
+        {
+            "Municipality": "Roaring Springs",
+            "Primary County": "Motley"
+        },
+        {
+            "Municipality": "Douglassville",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Sandy Point[b]",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "South Frydek[b]",
+            "Primary County": "Austin"
+        },
+        {
+            "Municipality": "Carl's Corner",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Bishop Hills",
+            "Primary County": "Potter"
+        },
+        {
+            "Municipality": "Benjamin",
+            "Primary County": "Knox"
+        },
+        {
+            "Municipality": "Windom",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Anderson",
+            "Primary County": "Grimes"
+        },
+        {
+            "Municipality": "Cottonwood",
+            "Primary County": "Kaufman"
+        },
+        {
+            "Municipality": "Emhouse",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "La Ward",
+            "Primary County": "Jackson"
+        },
+        {
+            "Municipality": "Caney City",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Staples",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Broaddus",
+            "Primary County": "San Augustine"
+        },
+        {
+            "Municipality": "Midway",
+            "Primary County": "Madison"
+        },
+        {
+            "Municipality": "Woodloch",
+            "Primary County": "Montgomery"
+        },
+        {
+            "Municipality": "Annona",
+            "Primary County": "Red River"
+        },
+        {
+            "Municipality": "Bonney",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Ravenna",
+            "Primary County": "Fannin"
+        },
+        {
+            "Municipality": "Marquez",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Penelope",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Pecan Gap",
+            "Primary County": "Delta"
+        },
+        {
+            "Municipality": "Goodlow",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Megargel",
+            "Primary County": "Archer"
+        },
+        {
+            "Municipality": "Weinert",
+            "Primary County": "Haskell"
+        },
+        {
+            "Municipality": "Jolly",
+            "Primary County": "Clay"
+        },
+        {
+            "Municipality": "Bynum",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Thompsons",
+            "Primary County": "Fort Bend"
+        },
+        {
+            "Municipality": "Goree",
+            "Primary County": "Knox"
+        },
+        {
+            "Municipality": "Moore Station",
+            "Primary County": "Henderson"
+        },
+        {
+            "Municipality": "Browndell",
+            "Primary County": "Jasper"
+        },
+        {
+            "Municipality": "Leona",
+            "Primary County": "Leon"
+        },
+        {
+            "Municipality": "Mertens",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Mobile City",
+            "Primary County": "Rockwall"
+        },
+        {
+            "Municipality": "Springlake",
+            "Primary County": "Lamb"
+        },
+        {
+            "Municipality": "Kingsbury[b]",
+            "Primary County": "Guadalupe"
+        },
+        {
+            "Municipality": "Sanford",
+            "Primary County": "Hutchinson"
+        },
+        {
+            "Municipality": "Mullin",
+            "Primary County": "Mills"
+        },
+        {
+            "Municipality": "Adrian",
+            "Primary County": "Oldham"
+        },
+        {
+            "Municipality": "Estelline",
+            "Primary County": "Hall"
+        },
+        {
+            "Municipality": "Melvin",
+            "Primary County": "McCulloch"
+        },
+        {
+            "Municipality": "Todd Mission",
+            "Primary County": "Grimes"
+        },
+        {
+            "Municipality": "Novice",
+            "Primary County": "Coleman"
+        },
+        {
+            "Municipality": "Austwell",
+            "Primary County": "Refugio"
+        },
+        {
+            "Municipality": "Cuney",
+            "Primary County": "Cherokee"
+        },
+        {
+            "Municipality": "Marietta",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Valentine",
+            "Primary County": "Jeff Davis"
+        },
+        {
+            "Municipality": "Aquilla",
+            "Primary County": "Hill"
+        },
+        {
+            "Municipality": "Round Mountain",
+            "Primary County": "Blanco"
+        },
+        {
+            "Municipality": "Kirvin",
+            "Primary County": "Freestone"
+        },
+        {
+            "Municipality": "Powell",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "Round Top",
+            "Primary County": "Fayette"
+        },
+        {
+            "Municipality": "O'Brien",
+            "Primary County": "Haskell"
+        },
+        {
+            "Municipality": "Dodson",
+            "Primary County": "Collingsworth"
+        },
+        {
+            "Municipality": "Toco",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Uncertain",
+            "Primary County": "Harrison"
+        },
+        {
+            "Municipality": "Petronila",
+            "Primary County": "Nueces"
+        },
+        {
+            "Municipality": "Edmonson",
+            "Primary County": "Hale"
+        },
+        {
+            "Municipality": "Mobeetie",
+            "Primary County": "Wheeler"
+        },
+        {
+            "Municipality": "Rocky Mound",
+            "Primary County": "Camp"
+        },
+        {
+            "Municipality": "Domino",
+            "Primary County": "Cass"
+        },
+        {
+            "Municipality": "Miller's Cove",
+            "Primary County": "Titus"
+        },
+        {
+            "Municipality": "Pyote",
+            "Primary County": "Ward"
+        },
+        {
+            "Municipality": "Sun Valley",
+            "Primary County": "Lamar"
+        },
+        {
+            "Municipality": "Dorchester",
+            "Primary County": "Grayson"
+        },
+        {
+            "Municipality": "Seven Oaks",
+            "Primary County": "Polk"
+        },
+        {
+            "Municipality": "Neylandville",
+            "Primary County": "Hunt"
+        },
+        {
+            "Municipality": "Putnam",
+            "Primary County": "Callahan"
+        },
+        {
+            "Municipality": "Toyah",
+            "Primary County": "Reeves"
+        },
+        {
+            "Municipality": "Lakeview",
+            "Primary County": "Hall"
+        },
+        {
+            "Municipality": "Dayton Lakes",
+            "Primary County": "Liberty"
+        },
+        {
+            "Municipality": "Spofford",
+            "Primary County": "Kinney"
+        },
+        {
+            "Municipality": "Draper",
+            "Primary County": "Denton"
+        },
+        {
+            "Municipality": "Quintana",
+            "Primary County": "Brazoria"
+        },
+        {
+            "Municipality": "Los Ybanez",
+            "Primary County": "Dawson"
+        },
+        {
+            "Municipality": "Impact",
+            "Primary County": "Taylor"
+        },
+        {
+            "Municipality": "Mustang",
+            "Primary County": "Navarro"
+        },
+        {
+            "Municipality": "254 Counties",
+            "Primary County": "21,096,153"
+        },
+        {
+            "Municipality": "29,527,941",
+            "Primary County": "25,145,561"
+        }
+    ]
+}

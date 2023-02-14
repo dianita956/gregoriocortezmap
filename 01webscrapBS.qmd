@@ -7,6 +7,7 @@ code-fold: true
 Web Scrap and extracting list of municipalities, ghost towns, and unincorporated places in Texas.
 
 ## PreRequisite
+
 ```{python}
 import requests
 import pandas as pd

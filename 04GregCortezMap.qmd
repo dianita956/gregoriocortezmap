@@ -49,7 +49,7 @@ text = clean_text(text)
 
 
 TxGPE=[]
-nlp = spacy.load("tx_trained_ner")
+nlp = spacy.load("tx_ner_model")
 doc =nlp(text) 
 #print(doc)
 for ent in doc.ents:
