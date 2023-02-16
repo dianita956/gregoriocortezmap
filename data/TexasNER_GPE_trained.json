@@ -24,6 +24,18 @@
         }
     ],
     [
+        "From Belmont he went to the  ranch   They succeeded in surrounding  him  Quite a few more than three hundred  But there he jumped their corral",
+        {
+            "entities": [
+                [
+                    5,
+                    12,
+                    "GPE"
+                ]
+            ]
+        }
+    ],
+    [
         "Gregorio Cortez went out  He went towards Laredo They decided not to follow  Because they were afraid of him",
         {
             "entities": [

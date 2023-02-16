@@ -29,14 +29,15 @@ def save_data (file, data):
        print(data)
 ```
 ```{python}
+#dont mess with the codeblock box 
+# 1 NER Spacy create training data
+
 def create_training_data(file, type):
-    #print(type)
-    #print(file)
+    #print(type) #gpe
+    #print(file) # TexasNER_GPE_master
     data = load_data(file)
     #print(data)
-    
     patterns=[]
-    
     for key, value in data.items():
         print(key)
         if key == "List of Municipalities":
@@ -58,9 +59,9 @@ def create_training_data(file, type):
                         }
                     patterns.append(pattern)           
 
-        if key == "List of Unincorporated communities":
-            for obj in value: #muni loop
-                #print(obj.get("Municipality"))
+        if key == "List of Unincorporated Communities":
+            for obj in value: #unicorporated loop
+                #print(obj.get("Unincorporated Community"))
                 pattern = {
                     "label":type,
                     "pattern": obj.get("Unincorporated Community")
@@ -74,9 +75,9 @@ def create_training_data(file, type):
                         }
                     patterns.append(pattern)                 
 
-        if key == "List of Ghost towns":
+        if key == "List of Ghost Town":
             for obj in value: #ghost town loop
-                #print(obj.get("Municipality"))
+                #print(obj.get("Ghost town"))
                 pattern = {
                     "label":type,
                     "pattern": obj.get("Ghost town")
@@ -98,8 +99,8 @@ def create_training_data(file, type):
             #print(patterns)
 
     return(patterns)
-patterns = create_training_data('data/TexasNER_GPE_master.json', 'GPE') 
-print(patterns)
+patterns = create_training_data('../Corridos/data/TexasNER_GPE_master.json', 'GPE')
+#print(patterns)
 
 ```
 
@@ -124,7 +125,7 @@ def test_model(model, text):
 
 
 generate_rules(patterns)
-print(patterns)
+#print(patterns)
 
 #how spacy wants to see read the data#
 #TRAIN_DATA = [(text, {"entities": [(start, end, label)]})]#

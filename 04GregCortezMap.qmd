@@ -49,7 +49,7 @@ text = clean_text(text)
 
 
 TxGPE=[]
-nlp = spacy.load("tx_ner_model")
+nlp = spacy.load("tx_trained_ner")
 doc =nlp(text) 
 #print(doc)
 for ent in doc.ents:
@@ -82,6 +82,10 @@ df
 
 ```{python}
 gdf = gpd.tools.geocode(df.Location, provider='ArcGIS')
+gdf = gpd.GeoDataFrame(gdf, crs="EPSG:4326")
+gdf["lat"]=gdf['geometry'].y
+gdf ["lon"] = gdf['geometry'].x
+
 gdf
 ```
 
@@ -91,7 +95,6 @@ fig = px.line_mapbox(gdf, text="address",
                         lat=gdf.geometry.y,
                         lon=gdf.geometry.x,
                         labels="address",
-                        animation_frame="address"
                         )
 
 fig.update_layout(mapbox_style="stamen-terrain", mapbox_zoom=6, mapbox_center_lat = 29,
