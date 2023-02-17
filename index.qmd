@@ -2,8 +2,8 @@
 format: 
     html: 
         default-image-extension: svg
-    pdf: 
-        default-image-extension: tex
+    #pdf: 
+        #default-image-extension: tex
 ---
 
 # Introduction {.unnumbered}
@@ -19,6 +19,7 @@ Gregorio Cortez shot and killed Sheriff of Karnes County. This where the El corr
 ## Why is the El Corrido de Gregorio Cortez important to USA history
 
 
-### Newspapers
-[Gregorio Cortez's Trail from Dallas Morning News](images\Hot_on_His_Trail__Dallas_Morning_News__June_18_1901__p1.png){width=300}
+Newspaper Article clip from Chicago Daily Tribune that provide a timeline of [@noauthor_texas_1901]
+
+![Texas Man Hunt at End.: Leader of Mexican Outlaws Run to Earth.](images\Texas Man Hunt at End Chicago Daily Tribune.png){#noauthor_texas_1901}
 
