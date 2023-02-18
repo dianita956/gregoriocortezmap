@@ -23,3 +23,12 @@ Newspaper Article clip from Chicago Daily Tribune that provide a timeline of [@n
 
 ![Texas Man Hunt at End.: Leader of Mexican Outlaws Run to Earth.](images\Texas Man Hunt at End Chicago Daily Tribune.png){#noauthor_texas_1901}
 
+## Gregorio Cortez's route
+
+![Started in 1. Karnes County, 2. Gonzles County, 3. Belmont, Gonzales County, 4. Laredo, 5. El Encinal](images\gcroutemap.png)
+
+:::{#fig-corrido}
+
+<iframe src="https://login.libweb.lib.utsa.edu/login?url=https://search.alexanderstreet.com/embed/token/04lrsoj5e9q7ocpo6sr3gdg" frameborder="0" width="470" height="390" allowfullscreen allow ="encrypted-media *;"></iframe>
+El Corrido de Gregorio Cortez
+:::
