@@ -25,3 +25,4 @@ format:
     code-fold: true
     toc: true
     theme: cosmo
+    date-modified: now
