@@ -18,8 +18,6 @@ book:
     - 04GregCortezMap.qmd
     - 05references.qmd 
 
-bibliography: references.bib 
-
 format:
   html:
     code-fold: true
