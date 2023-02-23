@@ -24,5 +24,7 @@ format:
   html:
     code-fold: true
     toc: true
-    theme: cosmo
+    theme: 
+      light: flatly
+      dark: darkly
     date-modified: now
