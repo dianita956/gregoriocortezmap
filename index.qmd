@@ -11,12 +11,12 @@ format:
 This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.  
 
 ## Who was Gregorio Cortez
-
-According to Americo Paredes author of "With his pistol in his hand", Gregorio Cortez, is a Lower Rio Grande folk hero "who defened his rights with his pistol in his hand."[@paredes_his_1958, pp. xii] 
+According to Americo Paredes, author of _With his pistol in his hand_, Gregorio Cortez was a man who spoke to horses, a true vaquero, not boisterous, but knew how to shot a gun, and "who defened his rights with his pistol in his hand." [@paredes_1958]
 
 Gregorio Cortez shot and killed Sheriff of Karnes County. This where the El corrido de Gregorio Cortez beginnings after the death of his brother, Romaldo, who was shoot and killed by Sheriff Morris, the sheriff of Karnes County. 
 
-## Why is the El Corrido de Gregorio Cortez important to USA history
+## Why is the El Corrido de Gregorio Cortez important to USA and Texas history
+
 
 
 Newspaper Article clip from Chicago Daily Tribune that provide a timeline of [@noauthor_texas_1901]
@@ -27,14 +27,13 @@ Newspaper Article clip from Chicago Daily Tribune that provide a timeline of [@n
 
 ![Started in 1. Karnes County, 2. Gonzles County, 3. Belmont, Gonzales County, 4. Laredo, 5. El Encinal](images\gcroutemap.png)
 
-## El Corrido de Gregorio Cortez perform by Juan Tejeda (live)
+## El Corrido de Gregorio Cortez
+Performed by Juan Tejeda [@juantejeda_site] 
+
 <figure>
     <audio
         controls
         controlsList="nodownload"
         src="audio\Tejeda_Greg_Cortez.mp3">
-            <a href="audio\Tejeda_Greg_Cortez.mp3">
-                Download audio
-            </a>
     </audio>
 </figure>

@@ -18,7 +18,7 @@
     "href": "index.html#who-was-gregorio-cortez",
     "title": "El Corrido de Gregorio Cortez NER and Mapping book",
     "section": "Who was Gregorio Cortez",
-    "text": "Who was Gregorio Cortez\nAccording to Americo Paredes author of “With his pistol in his hand”, Gregorio Cortez, is a Lower Rio Grande folk hero “who defened his rights with his pistol in his hand.”[@paredes_his_1958, pp. xii]\nGregorio Cortez shot and killed Sheriff of Karnes County. This where the El corrido de Gregorio Cortez beginnings after the death of his brother, Romaldo, who was shoot and killed by Sheriff Morris, the sheriff of Karnes County."
+    "text": "Who was Gregorio Cortez\nAccording to Americo Paredes, author of With his pistol in his hand, Gregorio Cortez was a man who spoke to horses, a true vaquero, not boisterous, but knew how to shot a gun, and “who defened his rights with his pistol in his hand.” [@paredes_1958]\nGregorio Cortez shot and killed Sheriff of Karnes County. This where the El corrido de Gregorio Cortez beginnings after the death of his brother, Romaldo, who was shoot and killed by Sheriff Morris, the sheriff of Karnes County."
   },
   {
     "objectID": "index.html#why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-history",
@@ -74,7 +74,7 @@
     "href": "05references.html",
     "title": "5  References",
     "section": "",
-    "text": "Paredes, Américo. 1958. \"With His Pistol in His Hand\" a Border\nBallad and Its Hero. Latino Literature. Austin: University of Texas\nPress.\n\n\n“Texas Man Hunt at End.: Leader of Mexican Outlaws Run to\nEarth.” 1901. Chicago Daily Tribune (1872-1922), June,\n7. https://www.proquest.com/docview/173056573/abstract/6012E5964E554B68PQ/1."
+    "text": "“Juan Tejeda.” n.d. Juan Tejeda.\nAccessed February 24, 2023. https://juantejeda.net/.\n\n\nParedes, Américo. 1958. \"With His Pistol in His Hand\" a Border\nBallad and Its Hero. Latino Literature. Austin: University of Texas\nPress.\n\n\n“Texas Man Hunt at End.: Leader of Mexican Outlaws Run to\nEarth.” 1901. Chicago Daily Tribune (1872-1922), June,\n7. https://www.proquest.com/docview/173056573/abstract/6012E5964E554B68PQ/1."
   },
   {
     "objectID": "index.html#greogorio-cortez-route",
@@ -102,6 +102,27 @@
     "href": "index.html#el-corrido-de-gregorio-cortez-perform-by-juan-tejeda-live",
     "title": "El Corrido de Gregorio Cortez NER and Mapping book",
     "section": "El Corrido de Gregorio Cortez perform by Juan Tejeda (live)",
-    "text": "El Corrido de Gregorio Cortez perform by Juan Tejeda (live)\n\n\n Download audio"
+    "text": "El Corrido de Gregorio Cortez perform by Juan Tejeda (live)\n[@juantedeja_site]"
+  },
+  {
+    "objectID": "index.html#why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history",
+    "href": "index.html#why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history",
+    "title": "El Corrido de Gregorio Cortez NER and Mapping book",
+    "section": "Why is the El Corrido de Gregorio Cortez important to USA and Texas history",
+    "text": "Why is the El Corrido de Gregorio Cortez important to USA and Texas history\nNewspaper Article clip from Chicago Daily Tribune that provide a timeline of [@noauthor_texas_1901]\n\n\n\nTexas Man Hunt at End.: Leader of Mexican Outlaws Run to Earth."
+  },
+  {
+    "objectID": "index.html#el-corrido-de-gregorio-cortez-perform-by-juan-tejeda-live-juantedeja_site",
+    "href": "index.html#el-corrido-de-gregorio-cortez-perform-by-juan-tejeda-live-juantedeja_site",
+    "title": "El Corrido de Gregorio Cortez NER and Mapping book",
+    "section": "El Corrido de Gregorio Cortez perform by Juan Tejeda (live) [@juantedeja_site]",
+    "text": "El Corrido de Gregorio Cortez perform by Juan Tejeda (live) [@juantedeja_site]"
+  },
+  {
+    "objectID": "index.html#el-corrido-de-gregorio-cortez",
+    "href": "index.html#el-corrido-de-gregorio-cortez",
+    "title": "El Corrido de Gregorio Cortez NER and Mapping book",
+    "section": "El Corrido de Gregorio Cortez",
+    "text": "El Corrido de Gregorio Cortez\nPerformed by Juan Tejeda [@juantejeda_site]"
   }
 ]
