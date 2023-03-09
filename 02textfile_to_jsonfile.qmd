@@ -176,7 +176,6 @@ with open(file, encoding='utf-8') as f:
             name, othername, maincounty, data = d.strip(" ").split("|", 3)
             x={
                 "Ghost town": name,
-                "Other name": othername,
                 "Primary County": maincounty
             }
             ghosttownslist.append(x)
