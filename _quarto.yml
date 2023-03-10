@@ -15,6 +15,7 @@ book:
     - 03NER_SpacyCustomModel.qmd
     - 04GregCortezMap.qmd
     - 05references.qmd 
+    - acknowledgement.qmd
 
 format:
   html:
