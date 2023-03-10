@@ -7,7 +7,7 @@ code-fold: true
 Web Scrap and extracting list of municipalities, ghost towns, and unincorporated places in Texas.
 
 
-# Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas
+## Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas
 
 
 ```{python}
