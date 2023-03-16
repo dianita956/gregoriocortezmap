@@ -2,9 +2,9 @@
 code-fold: true
 ---
 
-# Mapping Gregorio Cortez's route 
+# Mapping Gregorio Cortez's route {.unnumbered}
 
-### packages required
+### packages required {.unnumbered}
 ```{python}
 import geopandas as gpd
 from pyproj import CRS
@@ -37,7 +37,7 @@ import locationtagger
 nlp = spacy.load("en_core_web_sm")
 ```
 
-### Extracting Name Enities (places) from text document
+### Extracting Name Enities (places) from text document {.unnumbered}
 ```{python}
 text = "elcorridodegregoriocortez.txt"
 with open(text, 'r', encoding='utf-8') as c:
@@ -66,12 +66,12 @@ print(entsname)
 
 ```
 
-### Visulization: Highlighting Name Entities from text
+### Visulization: Highlighting Name Entities from text {.unnumbered}
 ```{python}
 displacy.render(doc, style ='ent', jupyter=True, page=True)
 ```
 
-### Creating Dataframe 
+### Creating Dataframe {.unnumbered}
 ```{python}
 df = pd.DataFrame({'NER': entsname})
 geolocator = ArcGIS(user_agent='CorridosMap')
@@ -81,7 +81,7 @@ df['Coordinates'] = df['NER'].apply(geocode)
 df
 ```
 
-### Creating GeoDataframe
+### Creating GeoDataframe {.unnumbered}
 ```{python}
 gdf = gpd.tools.geocode(df.Coordinates, provider='ArcGIS')
 gdf = gpd.GeoDataFrame(gdf, crs="EPSG:4326")
@@ -91,7 +91,7 @@ gdf ["lon"] = gdf['geometry'].x
 gdf
 ```
 
-### Creating Mapping Visualization from El Corrido de Gregorio Cortez
+### Creating Mapping Visualization from El Corrido de Gregorio Cortez {.unnumbered}
 ```{python}
 px.set_mapbox_access_token(open("mapboxtoken").read())
 fig = px.line_mapbox(gdf, text="address",

@@ -2,7 +2,7 @@
 code-fold: true
 ---
 
-# NER_SpacyCustomModel
+# NER_SpacyCustomModel {.unnumbered}
 
 ```{python}
 import spacy

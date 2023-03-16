@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>El Corrido de Gregorio Cortez NER and Mapping book - 5&nbsp; Mapping Gregorio Cortez’s route</title>
+<title>El Corrido de Gregorio Cortez NER and Mapping book - 6&nbsp; Mapping Gregorio Cortez’s route</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -155,7 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -184,17 +184,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./start.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Getting started</span></a>
+  <a href="./start.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting started</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Text Analysis</a>
+            <a href="./coding.html" class="sidebar-item-text sidebar-link">Text Analysis</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -202,22 +202,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01webscrapBS.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Web Scraping Wiki tables with Beautiful Soup</span></a>
+  <a href="./01webscrapBS.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Web Scraping Wiki tables with Beautiful Soup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02textfile_to_jsonfile.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas</span></a>
+  <a href="./02textfile_to_jsonfile.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03NER_SpacyCustomModel.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">NER_SpacyCustomModel</span></a>
+  <a href="./03NER_SpacyCustomModel.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">NER_SpacyCustomModel</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04GregCortezMap.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></a>
+  <a href="./04GregCortezMap.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></a>
   </div>
 </li>
       </ul>
@@ -251,12 +251,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#packages-required" id="toc-packages-required" class="nav-link active" data-scroll-target="#packages-required"><span class="toc-section-number">5.0.1</span>  packages required</a></li>
-  <li><a href="#extracting-name-enities-places-from-text-document" id="toc-extracting-name-enities-places-from-text-document" class="nav-link" data-scroll-target="#extracting-name-enities-places-from-text-document"><span class="toc-section-number">5.0.2</span>  Extracting Name Enities (places) from text document</a></li>
-  <li><a href="#visulization-highlighting-name-entities-from-text" id="toc-visulization-highlighting-name-entities-from-text" class="nav-link" data-scroll-target="#visulization-highlighting-name-entities-from-text"><span class="toc-section-number">5.0.3</span>  Visulization: Highlighting Name Entities from text</a></li>
-  <li><a href="#creating-dataframe" id="toc-creating-dataframe" class="nav-link" data-scroll-target="#creating-dataframe"><span class="toc-section-number">5.0.4</span>  Creating Dataframe</a></li>
-  <li><a href="#creating-geodataframe" id="toc-creating-geodataframe" class="nav-link" data-scroll-target="#creating-geodataframe"><span class="toc-section-number">5.0.5</span>  Creating GeoDataframe</a></li>
-  <li><a href="#creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" id="toc-creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="nav-link" data-scroll-target="#creating-mapping-visualization-from-el-corrido-de-gregorio-cortez"><span class="toc-section-number">5.0.6</span>  Creating Mapping Visualization from El Corrido de Gregorio Cortez</a></li>
+  <li><a href="#packages-required" id="toc-packages-required" class="nav-link active" data-scroll-target="#packages-required"><span class="toc-section-number">6.0.1</span>  packages required</a></li>
+  <li><a href="#extracting-name-enities-places-from-text-document" id="toc-extracting-name-enities-places-from-text-document" class="nav-link" data-scroll-target="#extracting-name-enities-places-from-text-document"><span class="toc-section-number">6.0.2</span>  Extracting Name Enities (places) from text document</a></li>
+  <li><a href="#visulization-highlighting-name-entities-from-text" id="toc-visulization-highlighting-name-entities-from-text" class="nav-link" data-scroll-target="#visulization-highlighting-name-entities-from-text"><span class="toc-section-number">6.0.3</span>  Visulization: Highlighting Name Entities from text</a></li>
+  <li><a href="#creating-dataframe" id="toc-creating-dataframe" class="nav-link" data-scroll-target="#creating-dataframe"><span class="toc-section-number">6.0.4</span>  Creating Dataframe</a></li>
+  <li><a href="#creating-geodataframe" id="toc-creating-geodataframe" class="nav-link" data-scroll-target="#creating-geodataframe"><span class="toc-section-number">6.0.5</span>  Creating GeoDataframe</a></li>
+  <li><a href="#creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" id="toc-creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="nav-link" data-scroll-target="#creating-mapping-visualization-from-el-corrido-de-gregorio-cortez"><span class="toc-section-number">6.0.6</span>  Creating Mapping Visualization from El Corrido de Gregorio Cortez</a></li>
   </ul>
 </nav>
     </div>
@@ -265,7 +265,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Mapping Gregorio Cortez’s route</span></h1>
 </div>
 
 
@@ -286,8 +286,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="packages-required" class="level3" data-number="5.0.1">
-<h3 data-number="5.0.1" class="anchored" data-anchor-id="packages-required"><span class="header-section-number">5.0.1</span> packages required</h3>
+<section id="packages-required" class="level3" data-number="6.0.1">
+<h3 data-number="6.0.1" class="anchored" data-anchor-id="packages-required"><span class="header-section-number">6.0.1</span> packages required</h3>
 <div class="cell" data-execution_count="1">
 <details>
 <summary>Code</summary>
@@ -323,8 +323,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </details>
 </div>
 </section>
-<section id="extracting-name-enities-places-from-text-document" class="level3" data-number="5.0.2">
-<h3 data-number="5.0.2" class="anchored" data-anchor-id="extracting-name-enities-places-from-text-document"><span class="header-section-number">5.0.2</span> Extracting Name Enities (places) from text document</h3>
+<section id="extracting-name-enities-places-from-text-document" class="level3" data-number="6.0.2">
+<h3 data-number="6.0.2" class="anchored" data-anchor-id="extracting-name-enities-places-from-text-document"><span class="header-section-number">6.0.2</span> Extracting Name Enities (places) from text document</h3>
 <div class="cell" data-execution_count="2">
 <details>
 <summary>Code</summary>
@@ -358,8 +358,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="visulization-highlighting-name-entities-from-text" class="level3" data-number="5.0.3">
-<h3 data-number="5.0.3" class="anchored" data-anchor-id="visulization-highlighting-name-entities-from-text"><span class="header-section-number">5.0.3</span> Visulization: Highlighting Name Entities from text</h3>
+<section id="visulization-highlighting-name-entities-from-text" class="level3" data-number="6.0.3">
+<h3 data-number="6.0.3" class="anchored" data-anchor-id="visulization-highlighting-name-entities-from-text"><span class="header-section-number">6.0.3</span> Visulization: Highlighting Name Entities from text</h3>
 <div class="cell" data-execution_count="3">
 <details>
 <summary>Code</summary>
@@ -406,8 +406,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="creating-dataframe" class="level3" data-number="5.0.4">
-<h3 data-number="5.0.4" class="anchored" data-anchor-id="creating-dataframe"><span class="header-section-number">5.0.4</span> Creating Dataframe</h3>
+<section id="creating-dataframe" class="level3" data-number="6.0.4">
+<h3 data-number="6.0.4" class="anchored" data-anchor-id="creating-dataframe"><span class="header-section-number">6.0.4</span> Creating Dataframe</h3>
 <div class="cell" data-execution_count="4">
 <details>
 <summary>Code</summary>
@@ -462,8 +462,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="creating-geodataframe" class="level3" data-number="5.0.5">
-<h3 data-number="5.0.5" class="anchored" data-anchor-id="creating-geodataframe"><span class="header-section-number">5.0.5</span> Creating GeoDataframe</h3>
+<section id="creating-geodataframe" class="level3" data-number="6.0.5">
+<h3 data-number="6.0.5" class="anchored" data-anchor-id="creating-geodataframe"><span class="header-section-number">6.0.5</span> Creating GeoDataframe</h3>
 <div class="cell" data-execution_count="5">
 <details>
 <summary>Code</summary>
@@ -530,8 +530,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="level3" data-number="5.0.6">
-<h3 data-number="5.0.6" class="anchored" data-anchor-id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez"><span class="header-section-number">5.0.6</span> Creating Mapping Visualization from El Corrido de Gregorio Cortez</h3>
+<section id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="level3" data-number="6.0.6">
+<h3 data-number="6.0.6" class="anchored" data-anchor-id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez"><span class="header-section-number">6.0.6</span> Creating Mapping Visualization from El Corrido de Gregorio Cortez</h3>
 <div class="cell" data-execution_count="6">
 <details>
 <summary>Code</summary>
@@ -834,7 +834,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./03NER_SpacyCustomModel.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">NER_SpacyCustomModel</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">NER_SpacyCustomModel</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
