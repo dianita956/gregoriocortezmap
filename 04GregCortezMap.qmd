@@ -61,7 +61,9 @@ print(TxGPE)
 
 ```{python}
 ents = [(e.text, e.start_char, e.end_char, e.label_)for e in doc.ents]
-print(ents)
+entsname=[(e.text) for e in doc.ents]
+print(entsname)
+
 ```
 
 ```{python}
@@ -69,16 +71,16 @@ displacy.render(doc, style ='ent', jupyter=True, page=True)
 ```
 
 ```{python}
-df = pd.DataFrame(ents, columns=['NER'])
+df = pd.DataFrame({'NER': entsname})
 geolocator = ArcGIS(user_agent='CorridosMap')
 geocode = lambda query: geolocator.geocode("%s, Texas" % query)
-df['coordinates'] = df['NER'].apply(geocode)
-#df['geometry'] = df['NER_Places'].apply(geocode)
+#print(geocode(entsname))
+df['Coordinates'] = df['NER'].apply(geocode)
 df
 ```
 
 ```{python}
-gdf = gpd.tools.geocode(df.coordinates, provider='ArcGIS')
+gdf = gpd.tools.geocode(df.Coordinates, provider='ArcGIS')
 gdf = gpd.GeoDataFrame(gdf, crs="EPSG:4326")
 gdf["lat"]=gdf['geometry'].y
 gdf ["lon"] = gdf['geometry'].x
