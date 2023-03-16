@@ -1,21 +1,15 @@
 ---
-format: 
-    html: 
-        default-image-extension: svg
-    #pdf: 
-        #default-image-extension: text
+title: Preface 
 ---
-
-# Introduction {.unnumbered}
 
 This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.  
 
-## Who was Gregorio Cortez
+# Who was Gregorio Cortez {.unnumbered}
 According to Americo Paredes, author of _With his pistol in his hand_, Gregorio Cortez was a man who spoke to horses, a true vaquero, not boisterous, but knew how to shot a gun, and "who defened his rights with his pistol in his hand." [@paredes_1958]
 
 Gregorio Cortez shot and killed Sheriff of Karnes County. This where the El corrido de Gregorio Cortez beginnings after the death of his brother, Romaldo, who was shoot and killed by Sheriff Morris, the sheriff of Karnes County. 
 
-## Why is the El Corrido de Gregorio Cortez important to USA and Texas history
+## Why is the El Corrido de Gregorio Cortez important to USA and Texas history {.unnumbered}
 
 
 
@@ -23,11 +17,11 @@ Newspaper Article clip from Chicago Daily Tribune that provide a timeline of [@n
 
 ![Texas Man Hunt at End.: Leader of Mexican Outlaws Run to Earth.](images\Texas Man Hunt at End Chicago Daily Tribune.png){#noauthor_texas_1901}
 
-## Gregorio Cortez's route
+## Gregorio Cortez's route {.unnumbered}
 
 ![Started in 1. Karnes County, 2. Gonzles County, 3. Belmont, Gonzales County, 4. Laredo, 5. El Encinal](images\gcroutemap.png)
 
-## El Corrido de Gregorio Cortez
+## El Corrido de Gregorio Cortez {.unnumbered}
 Performed by Juan Tejeda [@juantejeda_site] 
 
 <figure>

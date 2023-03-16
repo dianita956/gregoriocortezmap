@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Diane Lopez">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>El Corrido de Gregorio Cortez NER and Mapping book</title>
+<title>El Corrido de Gregorio Cortez NER and Mapping book - Text Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./start.html" rel="next">
+<link href="./01webscrapBS.html" rel="next">
+<link href="./start.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">El Corrido de Gregorio Cortez NER and Mapping book</h1>
+      <h1 class="quarto-secondary-nav-title">Text Analysis</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -103,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -113,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./coding.html" class="sidebar-item-text sidebar-link">Text Analysis</a>
+            <a href="./coding.html" class="sidebar-item-text sidebar-link active">Text Analysis</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -166,44 +165,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#who-was-gregorio-cortez" id="toc-who-was-gregorio-cortez" class="nav-link active" data-scroll-target="#who-was-gregorio-cortez">Who was Gregorio Cortez</a>
-  <ul class="collapse">
-  <li><a href="#why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history" id="toc-why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history" class="nav-link" data-scroll-target="#why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history">Why is the El Corrido de Gregorio Cortez important to USA and Texas history</a></li>
-  <li><a href="#gregorio-cortezs-route" id="toc-gregorio-cortezs-route" class="nav-link" data-scroll-target="#gregorio-cortezs-route">Gregorio Cortez’s route</a></li>
-  <li><a href="#el-corrido-de-gregorio-cortez" id="toc-el-corrido-de-gregorio-cortez" class="nav-link" data-scroll-target="#el-corrido-de-gregorio-cortez">El Corrido de Gregorio Cortez</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">El Corrido de Gregorio Cortez NER and Mapping book</h1>
+<h1 class="title d-none d-lg-block">Text Analysis</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Diane Lopez </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
@@ -217,41 +193,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.</p>
-<section id="who-was-gregorio-cortez" class="level1 unnumbered">
-<h1 class="unnumbered">Who was Gregorio Cortez</h1>
-<p>According to Americo Paredes, author of <em>With his pistol in his hand</em>, Gregorio Cortez was a man who spoke to horses, a true vaquero, not boisterous, but knew how to shot a gun, and “who defened his rights with his pistol in his hand.” <span class="citation" data-cites="paredes_1958">[@paredes_1958]</span></p>
-<p>Gregorio Cortez shot and killed Sheriff of Karnes County. This where the El corrido de Gregorio Cortez beginnings after the death of his brother, Romaldo, who was shoot and killed by Sheriff Morris, the sheriff of Karnes County.</p>
-<section id="why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="why-is-the-el-corrido-de-gregorio-cortez-important-to-usa-and-texas-history">Why is the El Corrido de Gregorio Cortez important to USA and Texas history</h2>
-<p>Newspaper Article clip from Chicago Daily Tribune that provide a timeline of <span class="citation" data-cites="noauthor_texas_1901">[@noauthor_texas_1901]</span></p>
-<div id="noauthor_texas_1901" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="images\Texas Man Hunt at End Chicago Daily Tribune.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Texas Man Hunt at End.: Leader of Mexican Outlaws Run to Earth.</figcaption><p></p>
-</figure>
-</div>
-</section>
-<section id="gregorio-cortezs-route" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="gregorio-cortezs-route">Gregorio Cortez’s route</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images\gcroutemap.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Started in 1. Karnes County, 2. Gonzles County, 3. Belmont, Gonzales County, 4. Laredo, 5. El Encinal</figcaption><p></p>
-</figure>
-</div>
-</section>
-<section id="el-corrido-de-gregorio-cortez" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="el-corrido-de-gregorio-cortez">El Corrido de Gregorio Cortez</h2>
-<p>Performed by Juan Tejeda <span class="citation" data-cites="juantejeda_site">[@juantejeda_site]</span></p>
-<figure class="figure">
-<audio controls="" controlslist="nodownload" src="audio\Tejeda_Greg_Cortez.mp3">
-</audio>
-</figure>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -502,12 +445,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./start.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting started</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./start.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting started</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./01webscrapBS.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Web Scraping Wiki tables with Beautiful Soup</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
