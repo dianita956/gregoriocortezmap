@@ -69,16 +69,16 @@ displacy.render(doc, style ='ent', jupyter=True, page=True)
 ```
 
 ```{python}
-df = pd.DataFrame(ents, columns=["NER_Places"])
+df = pd.DataFrame(ents, columns=['NER'])
 geolocator = ArcGIS(user_agent='CorridosMap')
 geocode = lambda query: geolocator.geocode("%s, Texas" % query)
-df['Location'] = df['NER_Places'].apply(geocode)
+df['coordinates'] = df['NER'].apply(geocode)
 #df['geometry'] = df['NER_Places'].apply(geocode)
 df
 ```
 
 ```{python}
-gdf = gpd.tools.geocode(df.Location, provider='ArcGIS')
+gdf = gpd.tools.geocode(df.coordinates, provider='ArcGIS')
 gdf = gpd.GeoDataFrame(gdf, crs="EPSG:4326")
 gdf["lat"]=gdf['geometry'].y
 gdf ["lon"] = gdf['geometry'].x

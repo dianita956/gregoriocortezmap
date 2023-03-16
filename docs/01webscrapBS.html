@@ -175,7 +175,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02textfile_to_jsonfile.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Text file to json file</span></a>
+  <a href="./02textfile_to_jsonfile.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -193,6 +193,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="./05references.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./acknowledgement.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Acknowledgement and Resources</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -202,10 +207,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#prerequisite" id="toc-prerequisite" class="nav-link active" data-scroll-target="#prerequisite"><span class="toc-section-number">1.1</span>  PreRequisite</a>
-  <ul class="collapse">
-  <li><a href="#list-of-municipalities-in-texas" id="toc-list-of-municipalities-in-texas" class="nav-link" data-scroll-target="#list-of-municipalities-in-texas"><span class="toc-section-number">1.1.1</span>  List of Municipalities in Texas</a></li>
-  </ul></li>
+  <li><a href="#packages-needed" id="toc-packages-needed" class="nav-link active" data-scroll-target="#packages-needed"><span class="toc-section-number">1.0.1</span>  Packages needed</a></li>
+  <li><a href="#list-of-municipalities-in-texas" id="toc-list-of-municipalities-in-texas" class="nav-link" data-scroll-target="#list-of-municipalities-in-texas"><span class="toc-section-number">1.1</span>  List of Municipalities in Texas</a></li>
   <li><a href="#list-of-unincorporated-communities-in-texas" id="toc-list-of-unincorporated-communities-in-texas" class="nav-link" data-scroll-target="#list-of-unincorporated-communities-in-texas"><span class="toc-section-number">1.2</span>  List of Unincorporated Communities in Texas</a></li>
   <li><a href="#list-of-ghost-towns-in-texas" id="toc-list-of-ghost-towns-in-texas" class="nav-link" data-scroll-target="#list-of-ghost-towns-in-texas"><span class="toc-section-number">1.3</span>  List of Ghost towns in Texas</a></li>
   </ul>
@@ -238,19 +241,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </header>
 
 <p>Web Scrap and extracting list of municipalities, ghost towns, and unincorporated places in Texas.</p>
-<section id="prerequisite" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="prerequisite"><span class="header-section-number">1.1</span> PreRequisite</h2>
+<section id="packages-needed" class="level3" data-number="1.0.1">
+<h3 data-number="1.0.1" class="anchored" data-anchor-id="packages-needed"><span class="header-section-number">1.0.1</span> Packages needed</h3>
 <div class="cell" data-execution_count="1">
 <details>
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json <span class="co">#javascript object notation to store data outside python. watch videos from Matt Digital Humanities. </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json </span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<section id="list-of-municipalities-in-texas" class="level3" data-number="1.1.1">
-<h3 data-number="1.1.1" class="anchored" data-anchor-id="list-of-municipalities-in-texas"><span class="header-section-number">1.1.1</span> List of Municipalities in Texas</h3>
+</section>
+<section id="list-of-municipalities-in-texas" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="list-of-municipalities-in-texas"><span class="header-section-number">1.1</span> List of Municipalities in Texas</h2>
 <div class="cell" data-execution_count="2">
 <details>
 <summary>Code</summary>
@@ -280,7 +284,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_municipalities_in_Texas"</span>,<span class="st">"List of municipalities in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</section>
 </section>
 <section id="list-of-unincorporated-communities-in-texas" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="list-of-unincorporated-communities-in-texas"><span class="header-section-number">1.2</span> List of Unincorporated Communities in Texas</h2>
@@ -608,7 +611,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./02textfile_to_jsonfile.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Text file to json file</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
