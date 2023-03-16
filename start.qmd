@@ -1,9 +1,5 @@
 ---
-format: 
-    html: 
-        default-image-extension: svg
-    #pdf: 
-        #default-image-extension: text
+title: "Getting started"
 ---
 
 # Getting Started {.unnumbered}
