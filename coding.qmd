@@ -1,5 +1,6 @@
 ---
 title: "Text Analysis"
+format: html
 ---
 
 ## Sections
