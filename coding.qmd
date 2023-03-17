@@ -1,15 +1,12 @@
----
-title: Text Analysis
-format: html
----
+# Text Analysis {.unnumbered}
 
 ## Sections
 
 ### Web Scrapping data from Wikipedia sites
 
-### Creating Json file with list of dictionary of places in Texas
+### Creating master Json file with list of dictionary of places in Texas
 
-### SpaCy Custom pipeline model
+### Build a pipeline and model of places in Texas 
 
 ### Text Analysis and GIS: Map locations from text 
 
