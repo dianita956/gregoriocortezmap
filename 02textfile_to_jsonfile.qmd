@@ -1,7 +1,7 @@
 ---
 code-fold: true
 ---
-# Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas {.unnumbered}
+# Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas 
 
 ```{python}
 #Texas NER GPE Master json file

@@ -1,7 +1,7 @@
 ---
 code-fold: true
 ---
-# Mapping El Corrido de Gregorio {.unnumbered}
+# Mapping El Corrido de Gregorio 
 
 ### packages required {.unnumbered}
 ```{python}
