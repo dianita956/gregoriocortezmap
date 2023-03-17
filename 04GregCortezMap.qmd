@@ -1,8 +1,7 @@
 ---
 code-fold: true
+title: "Mapping El Corrido de Gregorio"
 ---
-
-# Mapping Gregorio Cortez's route {.unnumbered}
 
 ### packages required {.unnumbered}
 ```{python}

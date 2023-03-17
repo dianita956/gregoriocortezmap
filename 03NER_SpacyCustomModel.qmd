@@ -1,8 +1,7 @@
 ---
 code-fold: true
+title: "Creating a custom Name Entity Recognition Model with SpaCy"
 ---
-
-# NER_SpacyCustomModel {.unnumbered}
 
 ```{python}
 import spacy

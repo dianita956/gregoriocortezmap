@@ -2,5 +2,13 @@
 title: "Text Analysis"
 ---
 
+## Sections
 
+### Web Scrapping data from Wikipedia sites
+
+### Creating Json file with list of dictionary of places in Texas
+
+### SpaCy Custom pipeline model
+
+### Text Analysis and GIS: Map locations from text 
 

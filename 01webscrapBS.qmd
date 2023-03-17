@@ -1,8 +1,7 @@
 ---
 code-fold: true
+title: "Web Scraping Wiki tables with Beautiful Soup"
 ---
-
-# Web Scraping Wiki tables with Beautiful Soup 
 
 Web Scrap and extracting list of municipalities, ghost towns, and unincorporated places in Texas.
 
