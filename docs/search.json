@@ -65,21 +65,21 @@
   {
     "objectID": "01webscrapBS.html#list-of-municipalities-in-texas",
     "href": "01webscrapBS.html#list-of-municipalities-in-texas",
-    "title": "3  Web Scraping Wiki tables with Beautiful Soup",
+    "title": "2  Web Scraping Wiki tables with Beautiful Soup",
     "section": "List of Municipalities in Texas",
     "text": "List of Municipalities in Texas\n\n\nCode\ndef table_extraction(a,b):\n    url= a \n    file = f\"list of texas places/{b}.txt\" \n    s = requests.get(url)\n    soup= BeautifulSoup(s.text, \"html.parser\") #to tell the program to read the site as HTML (lxml)\n    table = soup.find(\"table\", class_=\"wikitable sortable\")\n    with open (file, \"w\", encoding=\"utf-8\")as f: \n        #rows=list()\n        #headerString  = \"\"\n        dataString = \"\"\n        for row in table.find_all(\"tr\"):   \n            #for th in row.find_all(\"th\"): \n                #headerString  = headerString+th.get_text(strip=True)+\"|\"\n                #print(headerString)\n                #ending a line break to organize the txt file\n            for td in row.find_all(\"td\"):\n                dataString = dataString+td.get_text(strip=True)+\"|\"\n            dataString=dataString + \"\\n\"\n        #f.write(headerString)       \n        f.write(dataString)\n\ndef do_all(a, b):\n    table_extraction(a,b)\ndo_all(\"https://en.wikipedia.org/wiki/List_of_municipalities_in_Texas\",\"List of municipalities in Texas\")"
   },
   {
     "objectID": "01webscrapBS.html#list-of-unincorporated-communities-in-texas",
     "href": "01webscrapBS.html#list-of-unincorporated-communities-in-texas",
-    "title": "3  Web Scraping Wiki tables with Beautiful Soup",
+    "title": "2  Web Scraping Wiki tables with Beautiful Soup",
     "section": "List of Unincorporated Communities in Texas",
     "text": "List of Unincorporated Communities in Texas\n\n\nCode\ndef table_extraction(a,b):\n    url= a \n    file = f\"list of texas places/{b}.txt\" \n    s = requests.get(url)\n    soup= BeautifulSoup(s.text, \"html.parser\") #to tell the program to read the site as HTML (lxml)\n    table = soup.find(\"table\", class_=\"wikitable sortable mw-collapsible\")\n    with open (file, \"w\", encoding=\"utf-8\")as f: \n        #rows=list()\n        #headerString  = \"\"\n        dataString = \"\"\n        for row in table.find_all(\"tr\"):   \n            #for th in row.find_all(\"th\"): \n                #headerString  = headerString+th.get_text(strip=True)+\"|\"\n                #print(headerString)\n                #ending a line break to organize the txt file\n            for td in row.find_all(\"td\"):\n                dataString = dataString+td.get_text(strip=True)+\"|\"\n            dataString=dataString + \"\\n\"\n        #f.write(headerString)       \n        f.write(dataString)\n\ndef do_all(a, b):\n    table_extraction(a,b)\n\ndo_all(\"https://en.wikipedia.org/wiki/List_of_unincorporated_communities_in_Texas\", \"List of unincorporated communities in Texas\")"
   },
   {
     "objectID": "01webscrapBS.html#list-of-ghost-towns-in-texas",
     "href": "01webscrapBS.html#list-of-ghost-towns-in-texas",
-    "title": "3  Web Scraping Wiki tables with Beautiful Soup",
+    "title": "2  Web Scraping Wiki tables with Beautiful Soup",
     "section": "List of Ghost towns in Texas",
     "text": "List of Ghost towns in Texas\n\n\nCode\ndef table_extraction(a,b):\n    url= a \n    file = f\"list of texas places/{b}.txt\" \n    s = requests.get(url)\n    soup= BeautifulSoup(s.text, \"html.parser\") #to tell the program to read the site as HTML (lxml)\n    table = soup.find(\"table\", class_=\"wikitable sortable\")\n    with open (file, \"w\", encoding=\"utf-8\")as f: \n        #rows=list()\n        #headerString  = \"\"\n        dataString = \"\"\n        for row in table.find_all(\"tr\"):   \n            #for th in row.find_all(\"th\"): \n                #headerString  = headerString+th.get_text(strip=True)+\"|\"\n                #print(headerString)\n                #ending a line break to organize the txt file\n            for td in row.find_all(\"td\"):\n                dataString = dataString+td.get_text(strip=True)+\"|\"\n            dataString=dataString + \"\\n\"\n        #f.write(headerString)       \n        f.write(dataString)\n\ndef do_all(a, b):\n    table_extraction(a,b)\n\ndo_all(\"https://en.wikipedia.org/wiki/List_of_ghost_towns_in_Texas\", \"List of ghost towns in Texas\")"
   },
