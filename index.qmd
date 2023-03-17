@@ -1,10 +1,8 @@
----
-title: Preface 
----
+# Preface {.unnumbered}
 
 This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.  
 
-# Who was Gregorio Cortez {.unnumbered}
+## Who was Gregorio Cortez {.unnumbered}
 According to Americo Paredes, author of _With his pistol in his hand_, Gregorio Cortez was a man who spoke to horses, a true vaquero, not boisterous, but knew how to shot a gun, and "who defened his rights with his pistol in his hand." [@paredes_1958]
 
 Gregorio Cortez shot and killed Sheriff of Karnes County. This where the El corrido de Gregorio Cortez beginnings after the death of his brother, Romaldo, who was shoot and killed by Sheriff Morris, the sheriff of Karnes County. 
