@@ -1,5 +1,3 @@
----
-title: "Acknowledgement and Resources"
-format: html
----
+# Acknowlegements {.unnumbered}
+
 

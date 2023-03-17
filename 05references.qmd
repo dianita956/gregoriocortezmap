@@ -1,8 +1,11 @@
 ---
-title: References 
 bibliography: references.bib
 ---
+# References and Resources {.unnumbered}
 
+# References {.unnumbered}
 :::{#refs} 
 
 :::
+
+# Resources {.unnumbered}
