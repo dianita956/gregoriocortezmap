@@ -1,6 +1,6 @@
 ---
 code-fold: true
-title: "Mapping El Corrido de Gregorio"
+title: Mapping El Corrido de Gregorio
 ---
 
 ### packages required {.unnumbered}

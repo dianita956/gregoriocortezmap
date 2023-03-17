@@ -1,6 +1,6 @@
 ---
 code-fold: true
-title: "Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas"
+title: Creating a master list of Municipalities, Unincorporated communities, and Ghost towns in Texas
 ---
 
 
