@@ -28,6 +28,7 @@ Performed by Juan Tejeda [@juantejeda_site]
     <audio
         controls
         controlsList="nodownload"
-        src="audio\Tejeda_Greg_Cortez.mp3">
+        src=".../audio/Tejeda_Greg_Cortez.mp3"
+        >
     </audio>
 </figure>
