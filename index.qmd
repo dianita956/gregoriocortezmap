@@ -3,6 +3,7 @@
 This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.  
 
 ## A Brief History of Gregorio Cortez
+
 Here in Karnes, Gonzales, the story begins with an unwarranted visit by Sheriff Morris, who was searching for Mexicans about a stolen horse. This interaction led to the death of Román and a shoot-out between Gregorio Cortez and Sheriff Morris, which left only Gregorio standing. 
 
 On June 22, 1901, law enforcement finally caught up to Gregorio. He surrendered himself to the Governor of the State and went to trial for the death of Sheriff Morris and Glover. However, no judge or jury could find Gregorio guilty of the death of Sheriff Morris since Gregorio acted in self-defense. Unfortunately, Gregorio made many enemies due to the deaths of both sheriffs—where many wanted to see Gregorio lynched. 
