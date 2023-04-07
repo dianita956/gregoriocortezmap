@@ -2,7 +2,7 @@
 
 This book is design to demonstrate how to extract Name Entity places and provide location context to El Corrido de Gregorio Cortez.  
 
-## A Brief History of Gregorio Cortez
+## A Brief History Introducation of Gregorio Cortez
 
 Here in Karnes County, Texas the story begins with an unwarranted visit by Sheriff Morris, who was searching for Mexicans about a stolen horse. This interaction led to the death of Román and a shoot-out between Gregorio Cortez and Sheriff Morris, which left only Gregorio standing. 
 
@@ -31,7 +31,7 @@ Performed by Juan Tejeda [@juantejeda_site]
     <audio
         controls
         controlsList="nodownload"
-        src=".../audio/Tejeda_Greg_Cortez.mp3"
+        src="audio\Tejeda_Greg_Cortez.mp3"
         >
     </audio>
 </figure>
