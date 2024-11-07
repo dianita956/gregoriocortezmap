@@ -3,10 +3,8 @@ code-fold: true
 ---
 # Web Scraping Wikipedia tables with Beautiful Soup
 
-Web Scrap and extracting list of municipalities, ghost towns, and unincorporated places in Texas.
-
-On this page the each code block is define a function roles of what we want the function to do. This process helps with automating web scraping, where we can replace the website URL and filename. 
-
+This section provides a guide on how to scrape data from Wikipedia. The purpose is to create a pipeline for identifying Texas' ghost towns, unincorporated areas (i.e. Colonias), and municipalities. The code blocks on this page define the function's purpose and expected outcomes. 
+This process is beneficial for web scraping. Following each code block, you will find instructions on how to execute the function and generate a JSON file to store the data.
 It is recommend to understand HTML layout
 
 ### packages need
