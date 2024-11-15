@@ -71,6 +71,7 @@ gdf["lat"]=gdf['geometry'].y
 gdf ["lon"] = gdf['geometry'].x
 
 gdf
+gdf.to_json()
 ```
 
 ### Creating Mapping Visualization from El Corrido de Gregorio Cortez {.unnumbered}
