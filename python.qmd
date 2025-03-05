@@ -1,3 +1,4 @@
 ---
 title: "python programming"
+jupyter: xpython
 ---
