@@ -1,1 +1,11 @@
 /.quarto/
+/env/
+/.venv/
+/.vscode/
+/.ipynb_checkpoints/
+/.pytest_cache/
+/.mypy_cache/
+/.pytest_cache/
+/.coverage
+/.pytest_cache/
+/.mypy_cache/
