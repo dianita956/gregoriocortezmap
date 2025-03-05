@@ -7,7 +7,7 @@ book:
   author: "Diane Lopez"
   date: "2/6/2023"
   #repo-url: https://github.com/dianita956/mapping-ner
-  repo-url: https://github.com/dianita956/Corridos
+  repo-url: https://github.com/dianita956/gregoriocortezmap 
   repo-branch: main 
   chapters:
     - index.qmd
