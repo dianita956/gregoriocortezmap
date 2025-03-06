@@ -22,7 +22,7 @@ Newspaper Article clip from Chicago Daily Tribune that provide a timeline of [@n
 
 ## Gregorio Cortez's escape route {.unnumbered}
 
-![Started in 1. Karnes County, 2. Gonzles County, 3. Belmont, Gonzales County, 4. Laredo, 5. El Encinal](images\gcroutemap.png)
+![Started in 1. Karnes County, 2. Gonzles County, 3. Belmont, Gonzales County, 4. Laredo, 5. El Encinal](images/gcroutemap.png)
 
 ## El Corrido de Gregorio Cortez {.unnumbered}
 Performed by Juan Tejeda [@juantejeda_site] 
@@ -31,7 +31,7 @@ Performed by Juan Tejeda [@juantejeda_site]
     <audio
         controls
         controlsList="nodownload"
-        src="audio\Tejeda_Greg_Cortez.mp3"
+        src='docs/audio/Tejeda_Greg_Cortez.mp3'
         >
     </audio>
 </figure>
