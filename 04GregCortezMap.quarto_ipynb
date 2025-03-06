@@ -1,0 +1,201 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "code-fold: true\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Mapping El Corrido de Gregorio \n",
+        "\n",
+        "### packages required {.unnumbered}\n"
+      ],
+      "id": "1e8863d7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import folium\n",
+        "import geopandas as gpd\n",
+        "import pandas as pd\n",
+        "\n",
+        "import re\n",
+        "\n",
+        "from geopy.geocoders import OpenCage\n",
+        "import plotly.express as px \n",
+        "\n",
+        "import spacy\n",
+        "from spacy import displacy"
+      ],
+      "id": "1afce238",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Extracting Name Enities (places) from text document {.unnumbered}\n"
+      ],
+      "id": "dcbe11c4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "text = \"elcorridodegregoriocortez.txt\"\n",
+        "with open(text, 'r', encoding='utf-8') as c:\n",
+        "    text = c.read()\n",
+        "    \n",
+        "def clean_text(text):\n",
+        "    cleaned= re.sub(r'[\":;,.“”]', \"\", text)\n",
+        "    return(cleaned)\n",
+        "text = clean_text(text)\n",
+        "#print(text)\n",
+        "\n",
+        "\n",
+        "TxGPE=[]\n",
+        "nlp = spacy.load(\"tx_trained_ner\")\n",
+        "doc =nlp(text) \n",
+        "#print(doc)\n",
+        "for ent in doc.ents:\n",
+        "    #print(ent.text, ent.label_)\n",
+        "    if ent.label_ == \"GPE\":\n",
+        "        TxGPE.append(ent.text)\n",
+        "#print(TxGPE)\n",
+        "\n",
+        "ents = [(e.text, e.start_char, e.end_char, e.label_)for e in doc.ents]\n",
+        "entsname=[(e.text) for e in doc.ents]\n",
+        "print(entsname)"
+      ],
+      "id": "29a52b6e",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Visulization: Highlighting Name Entities from text {.unnumbered}\n"
+      ],
+      "id": "7d3730df"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "displacy.render(doc, style ='ent', jupyter=False, page=True)"
+      ],
+      "id": "7c42e9b6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Creating Dataframe {.unnumbered}\n"
+      ],
+      "id": "6f7af47c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "df = pd.DataFrame({'NER': entsname})\n",
+        "geolocator = OpenCage(api_key='cee4174cec564ba5893e4a889de0b0b3')\n",
+        "geocode = lambda query: geolocator.geocode(\"%s, Texas\" % query)\n",
+        "location = geolocator.geocode(\"Belmont Site\", exactly_one=True)\n",
+        "df['Coordinates'] = df['NER'].apply(geocode)\n",
+        "df"
+      ],
+      "id": "ba6c2b2f",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Creating GeoDataframe {.unnumbered}\n"
+      ],
+      "id": "651fb134"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "gdf = gpd.tools.geocode(df.Coordinates, provider='ArcGIS')\n",
+        "gdf = gpd.GeoDataFrame(gdf, crs=\"EPSG:4326\")\n",
+        "gdf[\"lat\"]=gdf['geometry'].y\n",
+        "gdf [\"lon\"] = gdf['geometry'].x\n",
+        "\n",
+        "gdf\n",
+        "gdf.to_json()"
+      ],
+      "id": "1006ad65",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Creating Mapping Visualization from El Corrido de Gregorio Cortez {.unnumbered}\n"
+      ],
+      "id": "8fda5cd9"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Ensure lat/lon columns exist\n",
+        "gdf[\"lat\"] = gdf.geometry.y\n",
+        "gdf[\"lon\"] = gdf.geometry.x\n",
+        "\n",
+        "# Create a base map centered around the first coordinate or the mean location\n",
+        "m = folium.Map(location=[gdf[\"lat\"].mean(), gdf[\"lon\"].mean()], zoom_start=6, tiles=\"OpenStreetMap\")\n",
+        "\n",
+        "# Create a list of coordinate tuples (lat, lon)\n",
+        "coordinates = list(zip(gdf[\"lat\"], gdf[\"lon\"]))\n",
+        "\n",
+        "# Add the line to the map\n",
+        "folium.PolyLine(\n",
+        "    locations=coordinates,\n",
+        "    color=\"blue\",\n",
+        "    weight=3,\n",
+        "    opacity=0.7\n",
+        ").add_to(m)\n",
+        "\n",
+        "# Add markers with hover text (optional)\n",
+        "for _, row in gdf.iterrows():\n",
+        "    folium.Marker(\n",
+        "        location=[row[\"lat\"], row[\"lon\"]],\n",
+        "        popup=row[\"address\"],  # Shows address when clicked\n",
+        "        tooltip=row[\"address\"]  # Shows address on hover\n",
+        "    ).add_to(m)\n",
+        "\n",
+        "# Display the map (if running in a Jupyter Notebook)\n",
+        "m"
+      ],
+      "id": "d44b1a12",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/dianitalopez/Documents/GitHub/gregoriocortezmap/.venv/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

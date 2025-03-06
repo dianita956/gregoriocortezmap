@@ -268,19 +268,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="packages-required" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="packages-required">packages required</h3>
-<div id="30439625" class="cell" data-execution_count="1">
+<div id="fc35a469" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> geopy.geocoders <span class="im">import</span> ArcGIS</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> spacy</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy <span class="im">import</span> displacy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> folium</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> geopandas <span class="im">as</span> gpd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> geopy.geocoders <span class="im">import</span> ArcGIS</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> px </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> spacy</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy <span class="im">import</span> displacy</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
 <pre><code>/Users/dianitalopez/Documents/GitHub/gregoriocortezmap/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning:
@@ -292,7 +293,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="extracting-name-enities-places-from-text-document" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="extracting-name-enities-places-from-text-document">Extracting Name Enities (places) from text document</h3>
-<div id="709775cb" class="cell" data-execution_count="2">
+<div id="4a2646bc" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
@@ -327,7 +328,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="visulization-highlighting-name-entities-from-text" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="visulization-highlighting-name-entities-from-text">Visulization: Highlighting Name Entities from text</h3>
-<div id="4eefb5ff" class="cell" data-execution_count="3">
+<div id="af275f35" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>displacy.render(doc, style <span class="op">=</span><span class="st">'ent'</span>, jupyter<span class="op">=</span><span class="va">True</span>, page<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -375,7 +376,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-dataframe" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-dataframe">Creating Dataframe</h3>
-<div id="9e6ffc3f" class="cell" data-execution_count="4">
+<div id="b5a7c15a" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">'NER'</span>: entsname})</span>
@@ -432,7 +433,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-geodataframe" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-geodataframe">Creating GeoDataframe</h3>
-<div id="f788352f" class="cell" data-execution_count="5">
+<div id="cdf88910" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.tools.geocode(df.Coordinates, provider<span class="op">=</span><span class="st">'ArcGIS'</span>)</span>
@@ -450,57 +451,301 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez">Creating Mapping Visualization from El Corrido de Gregorio Cortez</h3>
-<div id="396a64b8" class="cell" data-execution_count="6">
+<div id="b7ffd80c" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>px.set_mapbox_access_token(<span class="bu">open</span>(<span class="st">"mapboxtoken"</span>).read())</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> px.line_map(gdf,</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>                        lat<span class="op">=</span>gdf.geometry.y,</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>                        lon<span class="op">=</span>gdf.geometry.x,</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>                        hover_name<span class="op">=</span><span class="st">"address"</span>,</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>                        )</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>fig.update_layout(mapbox_style<span class="op">=</span><span class="st">"open-street-map"</span>, mapbox_zoom<span class="op">=</span><span class="dv">6</span>, mapbox_center_lat <span class="op">=</span> <span class="dv">29</span>,</span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    margin<span class="op">=</span>{<span class="st">"r"</span>:<span class="dv">0</span>,<span class="st">"t"</span>:<span class="dv">0</span>,<span class="st">"l"</span>:<span class="dv">0</span>,<span class="st">"b"</span>:<span class="dv">0</span>})</span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>fig.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure lat/lon columns exist</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lat"</span>] <span class="op">=</span> gdf.geometry.y</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lon"</span>] <span class="op">=</span> gdf.geometry.x</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a base map centered around the first coordinate or the mean location</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> folium.Map(location<span class="op">=</span>[gdf[<span class="st">"lat"</span>].mean(), gdf[<span class="st">"lon"</span>].mean()], zoom_start<span class="op">=</span><span class="dv">6</span>, tiles<span class="op">=</span><span class="st">"OpenStreetMap"</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of coordinate tuples (lat, lon)</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>coordinates <span class="op">=</span> <span class="bu">list</span>(<span class="bu">zip</span>(gdf[<span class="st">"lat"</span>], gdf[<span class="st">"lon"</span>]))</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Add the line to the map</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>folium.PolyLine(</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    locations<span class="op">=</span>coordinates,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span><span class="st">"blue"</span>,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    weight<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    opacity<span class="op">=</span><span class="fl">0.7</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>).add_to(m)</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Add markers with hover text (optional)</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, row <span class="kw">in</span> gdf.iterrows():</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    folium.Marker(</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>        location<span class="op">=</span>[row[<span class="st">"lat"</span>], row[<span class="st">"lon"</span>]],</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>        popup<span class="op">=</span>row[<span class="st">"address"</span>],  <span class="co"># Shows address when clicked</span></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>        tooltip<span class="op">=</span>row[<span class="st">"address"</span>]  <span class="co"># Shows address on hover</span></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    ).add_to(m)</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the map (if running in a Jupyter Notebook)</span></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>m</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display">
-        <script type="text/javascript">
-        window.PlotlyConfig = {MathJaxConfig: 'local'};
-        if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
+<div class="cell-output cell-output-display" data-execution_count="6">
+<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
         </script>
-        <script type="module">import "https://cdn.plot.ly/plotly-3.0.0.min"</script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;></script>
+    <script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;></script>
+    <script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;></script>
+    <script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;></script>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/>
+    <link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/>
+    
+            <meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
+            <style>
+                #map_de3324af95997773a6e7520fead153ac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
         
-</div>
-<div class="cell-output cell-output-display">
-<div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script charset="utf-8" src="https://cdn.plot.ly/plotly-3.0.0.min.js"></script>                <div id="0d85d309-ece3-4774-beb9-5e06dd45e96c" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("0d85d309-ece3-4774-beb9-5e06dd45e96c")) {                    Plotly.newPlot(                        "0d85d309-ece3-4774-beb9-5e06dd45e96c",                        [{"hovertemplate":"\u003cb\u003e%{hovertext}\u003c\u002fb\u003e\u003cbr\u003e\u003cbr\u003elat=%{lat}\u003cbr\u003elon=%{lon}\u003cextra\u003e\u003c\u002fextra\u003e","hovertext":["Karnes County, Texas","Gonzales, Texas","Belmont, Dallas, Texas","Laredo, Texas","Encinal, Texas"],"lat":{"dtype":"f8","bdata":"0Bm6c97nPEAnkp7Y+YM9QLwi+N9KaEBA51fOOdOBO0C3XtODggo8QA=="},"legendgroup":"","line":{"color":"#636efa"},"lon":{"dtype":"f8","bdata":"9Z04lQB3WMAXre03pF1YwCgrhqsDMVjAFZc+z3rgWMDSAUnYt9ZYwA=="},"mode":"lines","name":"","showlegend":false,"subplot":"map","type":"scattermap"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermapbox":[{"type":"scattermapbox","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05},"mapbox":{"style":"light"},"margin":{"b":0,"l":0,"r":0,"t":30}}},"map":{"domain":{"x":[0.0,1.0],"y":[0.0,1.0]},"center":{"lat":29.356847499807202,"lon":-98.19017487541939},"zoom":8},"legend":{"tracegroupgap":0},"mapbox":{"center":{"lat":29,"lon":-98.19017487541939},"zoom":6,"style":"open-street-map"},"margin":{"r":0,"t":0,"l":0,"b":0}},                        {"responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('0d85d309-ece3-4774-beb9-5e06dd45e96c');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
+</head>
+<body>
+    
+    
+            <div class=&quot;folium-map&quot; id=&quot;map_de3324af95997773a6e7520fead153ac&quot; ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de3324af95997773a6e7520fead153ac = L.map(
+                &quot;map_de3324af95997773a6e7520fead153ac&quot;,
+                {
+                    center: [29.356847499807202, -98.19017487541939],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  &quot;zoom&quot;: 6,
+  &quot;zoomControl&quot;: true,
+  &quot;preferCanvas&quot;: false,
+}
 
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
+                }
+            );
 
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
+            
 
-                        })                };            </script>        </div>
+        
+    
+            var tile_layer_17202c2398583e81776af47afad6d4d1 = L.tileLayer(
+                &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
+                {
+  &quot;minZoom&quot;: 0,
+  &quot;maxZoom&quot;: 19,
+  &quot;maxNativeZoom&quot;: 19,
+  &quot;noWrap&quot;: false,
+  &quot;attribution&quot;: &quot;\u0026copy; \u003ca href=\&quot;https://www.openstreetmap.org/copyright\&quot;\u003eOpenStreetMap\u003c/a\u003e contributors&quot;,
+  &quot;subdomains&quot;: &quot;abc&quot;,
+  &quot;detectRetina&quot;: false,
+  &quot;tms&quot;: false,
+  &quot;opacity&quot;: 1,
+}
+
+            );
+        
+    
+            tile_layer_17202c2398583e81776af47afad6d4d1.addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+            var poly_line_3bb24a5cf8df0434f7f1d06199c6a4ac = L.polyline(
+                [[28.905738099036, -97.859410577097], [29.5155311, -97.4631481], [32.814785, -96.765849], [27.5071293, -99.5074957], [28.041054, -99.354971]],
+                {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;blue&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: false, &quot;fillColor&quot;: &quot;blue&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;noClip&quot;: false, &quot;opacity&quot;: 0.7, &quot;smoothFactor&quot;: 1.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
+            ).addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+            var marker_8f56ca62a861bd289e769d5335685586 = L.marker(
+                [28.905738099036, -97.859410577097],
+                {
+}
+            ).addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+        var popup_f867e301d682439d13bbfcd7b1d668f8 = L.popup({
+  &quot;maxWidth&quot;: &quot;100%&quot;,
+});
+
+        
+            
+                var html_b0d9a6a96def952be67e1ac2192db278 = $(`<div id=&quot;html_b0d9a6a96def952be67e1ac2192db278&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Karnes County, Texas</div>`)[0];
+                popup_f867e301d682439d13bbfcd7b1d668f8.setContent(html_b0d9a6a96def952be67e1ac2192db278);
+            
+        
+
+        marker_8f56ca62a861bd289e769d5335685586.bindPopup(popup_f867e301d682439d13bbfcd7b1d668f8)
+        ;
+
+        
+    
+    
+            marker_8f56ca62a861bd289e769d5335685586.bindTooltip(
+                `<div>
+                     Karnes County, Texas
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+            var marker_761f0d34a708e0f009120bf4c1730ce1 = L.marker(
+                [29.5155311, -97.4631481],
+                {
+}
+            ).addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+        var popup_2c05310e714c9a85554736c52669e67d = L.popup({
+  &quot;maxWidth&quot;: &quot;100%&quot;,
+});
+
+        
+            
+                var html_89db1c9aa909908a292b62f8f602eba6 = $(`<div id=&quot;html_89db1c9aa909908a292b62f8f602eba6&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Gonzales, Texas</div>`)[0];
+                popup_2c05310e714c9a85554736c52669e67d.setContent(html_89db1c9aa909908a292b62f8f602eba6);
+            
+        
+
+        marker_761f0d34a708e0f009120bf4c1730ce1.bindPopup(popup_2c05310e714c9a85554736c52669e67d)
+        ;
+
+        
+    
+    
+            marker_761f0d34a708e0f009120bf4c1730ce1.bindTooltip(
+                `<div>
+                     Gonzales, Texas
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+            var marker_dfbf9ffcfd53cfedafb7b4e3bdfd712a = L.marker(
+                [32.814785, -96.765849],
+                {
+}
+            ).addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+        var popup_6058e4b9554d6c49d0dfbdf10ee8ae29 = L.popup({
+  &quot;maxWidth&quot;: &quot;100%&quot;,
+});
+
+        
+            
+                var html_0a7dc6d3a605300be135d738be082806 = $(`<div id=&quot;html_0a7dc6d3a605300be135d738be082806&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Belmont, Dallas, Texas</div>`)[0];
+                popup_6058e4b9554d6c49d0dfbdf10ee8ae29.setContent(html_0a7dc6d3a605300be135d738be082806);
+            
+        
+
+        marker_dfbf9ffcfd53cfedafb7b4e3bdfd712a.bindPopup(popup_6058e4b9554d6c49d0dfbdf10ee8ae29)
+        ;
+
+        
+    
+    
+            marker_dfbf9ffcfd53cfedafb7b4e3bdfd712a.bindTooltip(
+                `<div>
+                     Belmont, Dallas, Texas
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+            var marker_ef2f3ccf7f9e815955bd05fffef6fde3 = L.marker(
+                [27.5071293, -99.5074957],
+                {
+}
+            ).addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+        var popup_09b15f887f326bc3c5d7595ecadbee95 = L.popup({
+  &quot;maxWidth&quot;: &quot;100%&quot;,
+});
+
+        
+            
+                var html_0724c759ba5a0976825b323b29d3a6eb = $(`<div id=&quot;html_0724c759ba5a0976825b323b29d3a6eb&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Laredo, Texas</div>`)[0];
+                popup_09b15f887f326bc3c5d7595ecadbee95.setContent(html_0724c759ba5a0976825b323b29d3a6eb);
+            
+        
+
+        marker_ef2f3ccf7f9e815955bd05fffef6fde3.bindPopup(popup_09b15f887f326bc3c5d7595ecadbee95)
+        ;
+
+        
+    
+    
+            marker_ef2f3ccf7f9e815955bd05fffef6fde3.bindTooltip(
+                `<div>
+                     Laredo, Texas
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+    
+            var marker_e3864d8ac69d169ce4c63b9a0f364ce9 = L.marker(
+                [28.041054, -99.354971],
+                {
+}
+            ).addTo(map_de3324af95997773a6e7520fead153ac);
+        
+    
+        var popup_1b7fa9c66a73df433cabce6404d59519 = L.popup({
+  &quot;maxWidth&quot;: &quot;100%&quot;,
+});
+
+        
+            
+                var html_eadc113c6df4e4563f3b9ab9dc17d565 = $(`<div id=&quot;html_eadc113c6df4e4563f3b9ab9dc17d565&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Encinal, Texas</div>`)[0];
+                popup_1b7fa9c66a73df433cabce6404d59519.setContent(html_eadc113c6df4e4563f3b9ab9dc17d565);
+            
+        
+
+        marker_e3864d8ac69d169ce4c63b9a0f364ce9.bindPopup(popup_1b7fa9c66a73df433cabce6404d59519)
+        ;
+
+        
+    
+    
+            marker_e3864d8ac69d169ce4c63b9a0f364ce9.bindTooltip(
+                `<div>
+                     Encinal, Texas
+                 </div>`,
+                {
+  &quot;sticky&quot;: true,
+}
+            );
+        
+</script>
+</html>" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""></iframe></div></div>
 </div>
 </div>
 

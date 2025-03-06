@@ -5,13 +5,13 @@ code-fold: true
 
 ### packages required {.unnumbered}
 ```{python}
-
+import folium
 import geopandas as gpd
 import pandas as pd
 
 import re
 
-from geopy.geocoders import ArcGIS
+from geopy.geocoders import OpenCage
 import plotly.express as px 
 
 import spacy
@@ -50,15 +50,15 @@ print(entsname)
 
 ### Visulization: Highlighting Name Entities from text {.unnumbered}
 ```{python}
-displacy.render(doc, style ='ent', jupyter=True, page=True)
+displacy.render(doc, style ='ent', jupyter=False, page=True)
 ```
 
 ### Creating Dataframe {.unnumbered}
 ```{python}
 df = pd.DataFrame({'NER': entsname})
-geolocator = ArcGIS(user_agent='CorridosMap')
+geolocator = OpenCage(api_key='cee4174cec564ba5893e4a889de0b0b3')
 geocode = lambda query: geolocator.geocode("%s, Texas" % query)
-#print(geocode(entsname))
+location = geolocator.geocode("Belmont Site", exactly_one=True)
 df['Coordinates'] = df['NER'].apply(geocode)
 df
 ```
@@ -76,17 +76,35 @@ gdf.to_json()
 
 ### Creating Mapping Visualization from El Corrido de Gregorio Cortez {.unnumbered}
 ```{python}
-px.set_mapbox_access_token(open("mapboxtoken").read())
-fig = px.line_map(gdf,
-                        lat=gdf.geometry.y,
-                        lon=gdf.geometry.x,
-                        hover_name="address",
-            
-                        )
 
-fig.update_layout(mapbox_style="open-street-map", mapbox_zoom=6, mapbox_center_lat = 29,
-    margin={"r":0,"t":0,"l":0,"b":0})
+# Ensure lat/lon columns exist
+gdf["lat"] = gdf.geometry.y
+gdf["lon"] = gdf.geometry.x
 
-fig.show()
+# Create a base map centered around the first coordinate or the mean location
+m = folium.Map(location=[gdf["lat"].mean(), gdf["lon"].mean()], zoom_start=6, tiles="OpenStreetMap")
+
+# Create a list of coordinate tuples (lat, lon)
+coordinates = list(zip(gdf["lat"], gdf["lon"]))
+
+# Add the line to the map
+folium.PolyLine(
+    locations=coordinates,
+    color="blue",
+    weight=3,
+    opacity=0.7
+).add_to(m)
+
+# Add markers with hover text (optional)
+for _, row in gdf.iterrows():
+    folium.Marker(
+        location=[row["lat"], row["lon"]],
+        popup=row["address"],  # Shows address when clicked
+        tooltip=row["address"]  # Shows address on hover
+    ).add_to(m)
+
+# Display the map (if running in a Jupyter Notebook)
+m
+
 ```
 

@@ -6,26 +6,28 @@ book:
   title: "El Corrido de Gregorio Cortez NER and Mapping book"
   author: "Diane Lopez"
   date: "2/6/2023"
-  repo-url: https://github.com/dianita956/gregoriocortezmap 
-  repo-branch: main 
+  repo-url: https://github.com/dianita956/gregoriocortezmap
+  repo-branch: main
   chapters:
     - index.qmd
     - start.qmd
     - part: coding.qmd
-      chapters: 
+      chapters:
         - 01webscrapBS.qmd
         - 02textfile_to_jsonfile.qmd
         - 03NER_SpacyCustomModel.qmd
         - 04GregCortezMap.qmd
   appendices:
-    - 05references.qmd 
+    - 05references.qmd
     - acknowledgement.qmd
 
-format:
+format: 
   html:
-    code-fold: true
-    toc: true
-    theme: 
-      light: flatly
-      dark: darkly
-    date-modified: now
+    jupyter:
+      kernel: "Python (.venv)"
+      code-fold: true
+      toc: true
+      theme: 
+        light: flatly
+        dark: darkly
+      date-modified: now
