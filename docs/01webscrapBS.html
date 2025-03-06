@@ -71,12 +71,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b7c2d8834e08b04a63bb76a724ffbcac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-c1966a8c70583a3816b1e3a216c1caf1.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5e2915e4d4df5928b2b0a61215b328b6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -135,7 +133,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <a href="./">El Corrido de Gregorio Cortez NER and Mapping book</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/dianita956/gregoriocortezmap" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
@@ -247,12 +244,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
     
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 6, 2025</p>
-    </div>
-  </div>
     
   </div>
   
@@ -264,7 +255,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>This section provides a guide on how to scrape data from Wikipedia. The purpose is to create a pipeline for identifying Texas’ ghost towns, unincorporated areas (i.e.&nbsp;Colonias), and municipalities. The code blocks on this page define the function’s purpose and expected outcomes. This process is beneficial for web scraping. Following each code block, you will find instructions on how to execute the function and generate a JSON file to store the data. It is recommend to understand HTML layout</p>
 <section id="packages-need" class="level3" data-number="1.0.1">
 <h3 data-number="1.0.1" class="anchored" data-anchor-id="packages-need"><span class="header-section-number">1.0.1</span> packages need</h3>
-<div id="25054173" class="cell" data-execution_count="1">
+<div id="a45fa266" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
@@ -272,17 +263,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json </span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-stderr">
-<pre><code>/Users/dianitalopez/Documents/GitHub/gregoriocortezmap/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning:
-
-urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
-</code></pre>
-</div>
 </div>
 </section>
 <section id="list-of-municipalities-in-texas" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="list-of-municipalities-in-texas">List of Municipalities in Texas</h2>
-<div id="68b0cada" class="cell" data-execution_count="2">
+<div id="6fd6f765" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> table_extraction(a,b):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    url<span class="op">=</span> a </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">file</span> <span class="op">=</span> <span class="ss">f"list of texas places/</span><span class="sc">{</span>b<span class="sc">}</span><span class="ss">.txt"</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> requests.get(url)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    soup<span class="op">=</span> BeautifulSoup(s.text, <span class="st">"html.parser"</span>) <span class="co">#to tell the program to read the site as HTML (lxml)</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    table <span class="op">=</span> soup.find(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"wikitable sortable"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span> (<span class="bu">file</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>)<span class="im">as</span> f: </span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">#rows=list()</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">#headerString  = ""</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>        dataString <span class="op">=</span> <span class="st">""</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> row <span class="kw">in</span> table.find_all(<span class="st">"tr"</span>):   </span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>            <span class="co">#for th in row.find_all("th"): </span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>                <span class="co">#headerString  = headerString+th.get_text(strip=True)+"|"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>                <span class="co">#print(headerString)</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>                <span class="co">#ending a line break to organize the txt file</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> td <span class="kw">in</span> row.find_all(<span class="st">"td"</span>):</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>                dataString <span class="op">=</span> dataString<span class="op">+</span>td.get_text(strip<span class="op">=</span><span class="va">True</span>)<span class="op">+</span><span class="st">"|"</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>            dataString<span class="op">=</span>dataString <span class="op">+</span> <span class="st">"</span><span class="ch">\n</span><span class="st">"</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">#f.write(headerString)       </span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>        f.write(dataString)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> do_all(a, b):</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    table_extraction(a,b)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_municipalities_in_Texas"</span>,<span class="st">"List of municipalities in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+</section>
+<section id="list-of-unincorporated-communities-in-texas" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="list-of-unincorporated-communities-in-texas">List of Unincorporated Communities in Texas</h2>
+<div id="0413cfc0" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> table_extraction(a,b):</span>
@@ -290,7 +307,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">file</span> <span class="op">=</span> <span class="ss">f"list of texas places/</span><span class="sc">{</span>b<span class="sc">}</span><span class="ss">.txt"</span> </span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> requests.get(url)</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    soup<span class="op">=</span> BeautifulSoup(s.text, <span class="st">"html.parser"</span>) <span class="co">#to tell the program to read the site as HTML (lxml)</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    table <span class="op">=</span> soup.find(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"wikitable sortable"</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    table <span class="op">=</span> soup.find(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"wikitable sortable mw-collapsible"</span>)</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span> (<span class="bu">file</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>)<span class="im">as</span> f: </span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">#rows=list()</span></span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">#headerString  = ""</span></span>
@@ -308,13 +325,14 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 <span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> do_all(a, b):</span>
 <span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    table_extraction(a,b)</span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_municipalities_in_Texas"</span>,<span class="st">"List of municipalities in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_unincorporated_communities_in_Texas"</span>, <span class="st">"List of unincorporated communities in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
-<section id="list-of-unincorporated-communities-in-texas" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="list-of-unincorporated-communities-in-texas">List of Unincorporated Communities in Texas</h2>
-<div id="1aa7ecd1" class="cell" data-execution_count="3">
+<section id="list-of-ghost-towns-in-texas" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="list-of-ghost-towns-in-texas">List of Ghost towns in Texas</h2>
+<div id="ef67d8f3" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> table_extraction(a,b):</span>
@@ -322,7 +340,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">file</span> <span class="op">=</span> <span class="ss">f"list of texas places/</span><span class="sc">{</span>b<span class="sc">}</span><span class="ss">.txt"</span> </span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> requests.get(url)</span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    soup<span class="op">=</span> BeautifulSoup(s.text, <span class="st">"html.parser"</span>) <span class="co">#to tell the program to read the site as HTML (lxml)</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    table <span class="op">=</span> soup.find(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"wikitable sortable mw-collapsible"</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    table <span class="op">=</span> soup.find(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"wikitable sortable"</span>)</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span> (<span class="bu">file</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>)<span class="im">as</span> f: </span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">#rows=list()</span></span>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">#headerString  = ""</span></span>
@@ -341,40 +359,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> do_all(a, b):</span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    table_extraction(a,b)</span>
 <span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_unincorporated_communities_in_Texas"</span>, <span class="st">"List of unincorporated communities in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
-</section>
-<section id="list-of-ghost-towns-in-texas" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="list-of-ghost-towns-in-texas">List of Ghost towns in Texas</h2>
-<div id="e0238935" class="cell" data-execution_count="4">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> table_extraction(a,b):</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    url<span class="op">=</span> a </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">file</span> <span class="op">=</span> <span class="ss">f"list of texas places/</span><span class="sc">{</span>b<span class="sc">}</span><span class="ss">.txt"</span> </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> requests.get(url)</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    soup<span class="op">=</span> BeautifulSoup(s.text, <span class="st">"html.parser"</span>) <span class="co">#to tell the program to read the site as HTML (lxml)</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    table <span class="op">=</span> soup.find(<span class="st">"table"</span>, class_<span class="op">=</span><span class="st">"wikitable sortable"</span>)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span> (<span class="bu">file</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>)<span class="im">as</span> f: </span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>        <span class="co">#rows=list()</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>        <span class="co">#headerString  = ""</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>        dataString <span class="op">=</span> <span class="st">""</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> row <span class="kw">in</span> table.find_all(<span class="st">"tr"</span>):   </span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>            <span class="co">#for th in row.find_all("th"): </span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>                <span class="co">#headerString  = headerString+th.get_text(strip=True)+"|"</span></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>                <span class="co">#print(headerString)</span></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>                <span class="co">#ending a line break to organize the txt file</span></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> td <span class="kw">in</span> row.find_all(<span class="st">"td"</span>):</span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>                dataString <span class="op">=</span> dataString<span class="op">+</span>td.get_text(strip<span class="op">=</span><span class="va">True</span>)<span class="op">+</span><span class="st">"|"</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>            dataString<span class="op">=</span>dataString <span class="op">+</span> <span class="st">"</span><span class="ch">\n</span><span class="st">"</span></span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">#f.write(headerString)       </span></span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>        f.write(dataString)</span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> do_all(a, b):</span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    table_extraction(a,b)</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_ghost_towns_in_Texas"</span>, <span class="st">"List of ghost towns in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>do_all(<span class="st">"https://en.wikipedia.org/wiki/List_of_ghost_towns_in_Texas"</span>, <span class="st">"List of ghost towns in Texas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 
@@ -402,150 +387,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
