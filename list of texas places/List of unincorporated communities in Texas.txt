@@ -1,12 +1,11 @@
 
 Alderbranch|Anderson|||
-Bethel|Anderson|||
+Zaferdeniz|Anderson|||
 Blackfoot|Anderson|||
 Bois d'Arc|Anderson|||
 Bradford|Anderson|||
 Broom City|Anderson|||
 Brushy Creek|Anderson|||
-Cedar Creek|Anderson|||
 Cayuga|Anderson|||
 Cedar Creek|Anderson|||
 Cronin|Anderson|||
@@ -107,7 +106,7 @@ Tulsita|Bee|||
 Tynan|Bee|||
 Cyclone|Bell|||
 Ding Dong|Bell|||
-Fort Hood|Bell|||
+Fort Cavazos|Bell||Formerly Fort Hood|
 Heidenheimer|Bell|||
 Pendleton|Bell|||
 Prairie Dell|Bell|||
@@ -344,7 +343,7 @@ Arnett|Coryell|||
 Bee House|Coryell|||
 Flat|Coryell|||
 Fort Gates|Coryell|||
-Fort Hood|Coryell|||
+Fort Cavazos|Coryell||Formerly Fort Hood|
 Jonesboro|Coryell|||
 King|Coryell|||
 Leon Junction|Coryell|||
@@ -435,9 +434,9 @@ Avalon|Ellis|||
 Bristol|Ellis|||
 Forreston|Ellis|||
 Ike|Ellis|||
+Ozro|Ellis|||
 Rockett|Ellis|||
 Telico|Ellis|||
-Venus|Ellis|||
 Bluff Dale|Erath|||
 Huckabay|Erath|||
 Lingleville|Erath|||
@@ -756,6 +755,7 @@ Antelope|Jack|||
 Jermyn|Jack|||
 Joplin|Jack|||
 Perrin|Jack|||
+Wizard Wells|Jack|||
 Francitas|Jackson|||
 La Salle|Jackson|||
 Lolita|Jackson|||
@@ -803,11 +803,14 @@ Casa Blanca|Jim Wells|||
 La Gloria|Jim Wells|||
 Loma Linda East|Jim Wells|||
 Bono|Johnson|||
+Cuba|Johnson|||
 Egan|Johnson|||
 Lillian|Johnson|||
 Marystown|Johnson|||
 Parker|Johnson|||
 Johnson|Johnson|||
+Stubblefield|Johnson|||
+Wooded Hills|Johnson|||
 Avoca|Jones|||
 Corinth|Jones|||
 Noodle|Jones|||
@@ -1050,6 +1053,7 @@ Biloxi|Newton|||
 Bon Wier|Newton|||
 Call|Newton|||
 Deweyville|Newton|||
+Mayflower|Newton|||
 Princeton|Newton|||
 South Toledo Bend|Newton|||
 Trotti|Newton|||
@@ -1079,7 +1083,9 @@ Magenta|Oldham|||
 Tascosa|Oldham|||
 Trujillo|Oldham|||
 Wildorado|Oldham|||
+Echo|Orange|||
 Forest Heights|Orange|||
+Lakeview|Orange|||
 Lemonville|Orange|||
 Little Cypress|Orange|||
 Mauriceville|Orange|||
@@ -1170,6 +1176,7 @@ Laird Hill|Rusk|||
 Lake Cherokee|Rusk|||
 Laneville|Rusk|||
 Leverett's Chapel|Rusk|||
+McKnight|Rusk|||
 Price|Rusk|||
 Selman City|Rusk|||
 Turnertown|Rusk|||
@@ -1229,6 +1236,7 @@ Swan|Smith|||
 Cottonwood|Somervell|||
 George’s Creek|Somervell|||
 Glass|Somervell|||
+Lanham Mill|Somervell|||
 Nemo|Somervell|||
 Rainbow|Somervell|||
 Rock Creek|Somervell|||
@@ -1362,10 +1370,11 @@ Rath City|Stonewall|||
 Swenson|Stonewall|||
 Happy|Swisher|||
 Vigo Park|Swisher|||
+Briar|Tarrant|||
 Eagle Mountain|Tarrant|||
 Pecan Acres|Tarrant|||
 Rendon|Tarrant|||
-Briar|Tarrant|||
+Oak Grove|Tarrant|||
 Caps|Taylor|||
 Hamby|Taylor|||
 Ovalo|Taylor|||
@@ -1579,7 +1588,9 @@ Pandora|Wilson|||
 Sandy Hills|Wilson|||
 Saspamco|Wilson|||
 Sutherland Springs|Wilson|||
+Allison|Wise|||
 Briar|Wise|||
+Cottondale|Wise|||
 Greenwood|Wise|||
 Paradise|Wise|||
 Pecan Acres|Wise|||
