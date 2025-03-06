@@ -14,7 +14,7 @@
         "\n",
         "### packages required {.unnumbered}\n"
       ],
-      "id": "1e8863d7"
+      "id": "5f827ac3"
     },
     {
       "cell_type": "code",
@@ -26,13 +26,13 @@
         "\n",
         "import re\n",
         "\n",
-        "from geopy.geocoders import OpenCage\n",
+        "from opencage.geocoder import OpenCageGeocode\n",
         "import plotly.express as px \n",
         "\n",
         "import spacy\n",
         "from spacy import displacy"
       ],
-      "id": "1afce238",
+      "id": "d7f0438c",
       "execution_count": null,
       "outputs": []
     },
@@ -42,7 +42,7 @@
       "source": [
         "### Extracting Name Enities (places) from text document {.unnumbered}\n"
       ],
-      "id": "dcbe11c4"
+      "id": "20c11796"
     },
     {
       "cell_type": "code",
@@ -73,7 +73,7 @@
         "entsname=[(e.text) for e in doc.ents]\n",
         "print(entsname)"
       ],
-      "id": "29a52b6e",
+      "id": "3425f2f5",
       "execution_count": null,
       "outputs": []
     },
@@ -83,7 +83,7 @@
       "source": [
         "### Visulization: Highlighting Name Entities from text {.unnumbered}\n"
       ],
-      "id": "7d3730df"
+      "id": "45a07b51"
     },
     {
       "cell_type": "code",
@@ -91,7 +91,7 @@
       "source": [
         "displacy.render(doc, style ='ent', jupyter=False, page=True)"
       ],
-      "id": "7c42e9b6",
+      "id": "9b043768",
       "execution_count": null,
       "outputs": []
     },
@@ -101,20 +101,21 @@
       "source": [
         "### Creating Dataframe {.unnumbered}\n"
       ],
-      "id": "6f7af47c"
+      "id": "0bd93366"
     },
     {
       "cell_type": "code",
       "metadata": {},
       "source": [
         "df = pd.DataFrame({'NER': entsname})\n",
-        "geolocator = OpenCage(api_key='cee4174cec564ba5893e4a889de0b0b3')\n",
+        "geolocator = OpenCageGeocode(api_key='cee4174cec564ba5893e4a889de0b0b3')\n",
+        "\n",
         "geocode = lambda query: geolocator.geocode(\"%s, Texas\" % query)\n",
         "location = geolocator.geocode(\"Belmont Site\", exactly_one=True)\n",
         "df['Coordinates'] = df['NER'].apply(geocode)\n",
         "df"
       ],
-      "id": "ba6c2b2f",
+      "id": "e63b5f19",
       "execution_count": null,
       "outputs": []
     },
@@ -124,7 +125,7 @@
       "source": [
         "### Creating GeoDataframe {.unnumbered}\n"
       ],
-      "id": "651fb134"
+      "id": "65ba6d77"
     },
     {
       "cell_type": "code",
@@ -138,7 +139,7 @@
         "gdf\n",
         "gdf.to_json()"
       ],
-      "id": "1006ad65",
+      "id": "39c0f98e",
       "execution_count": null,
       "outputs": []
     },
@@ -148,7 +149,7 @@
       "source": [
         "### Creating Mapping Visualization from El Corrido de Gregorio Cortez {.unnumbered}\n"
       ],
-      "id": "8fda5cd9"
+      "id": "04b83690"
     },
     {
       "cell_type": "code",
@@ -183,7 +184,7 @@
         "# Display the map (if running in a Jupyter Notebook)\n",
         "m"
       ],
-      "id": "d44b1a12",
+      "id": "ba541b58",
       "execution_count": null,
       "outputs": []
     }

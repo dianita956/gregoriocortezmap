@@ -11,7 +11,8 @@ import pandas as pd
 
 import re
 
-from geopy.geocoders import OpenCage
+#from opencage.geocoder import OpenCageGeocode
+from geopy.geocoders import ArcGIS
 import plotly.express as px 
 
 import spacy
@@ -56,7 +57,9 @@ displacy.render(doc, style ='ent', jupyter=False, page=True)
 ### Creating Dataframe {.unnumbered}
 ```{python}
 df = pd.DataFrame({'NER': entsname})
-geolocator = OpenCage(api_key='cee4174cec564ba5893e4a889de0b0b3')
+geolocator = OpenCageGeocode(api_key='cee4174cec564ba5893e4a889de0b0b3')
+geolocator = ArcGIS(user_agent = 'CorridosMap')
+
 geocode = lambda query: geolocator.geocode("%s, Texas" % query)
 location = geolocator.geocode("Belmont Site", exactly_one=True)
 df['Coordinates'] = df['NER'].apply(geocode)
