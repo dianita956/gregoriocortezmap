@@ -77,7 +77,7 @@ gdf.to_json()
 ### Creating Mapping Visualization from El Corrido de Gregorio Cortez {.unnumbered}
 ```{python}
 px.set_mapbox_access_token(open("mapboxtoken").read())
-fig = px.line_mapbox(gdf,
+fig = px.line_map(gdf,
                         lat=gdf.geometry.y,
                         lon=gdf.geometry.x,
                         hover_name="address",
