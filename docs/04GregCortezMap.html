@@ -109,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-sidebar floating">
+<body style="font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; padding: 4rem 2rem; direction: ltr" class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -259,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="packages-required" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="packages-required">packages required</h3>
-<div id="0e5d478e" class="cell" data-execution_count="1">
+<div id="0ba666b8" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> folium</span>
@@ -286,7 +286,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="extracting-name-enities-places-from-text-document" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="extracting-name-enities-places-from-text-document">Extracting Name Enities (places) from text document</h3>
-<div id="e39459a0" class="cell" data-execution_count="2">
+<div id="22cd712e" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
@@ -321,29 +321,65 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="visulization-highlighting-name-entities-from-text" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="visulization-highlighting-name-entities-from-text">Visulization: Highlighting Name Entities from text</h3>
-<div id="36445a61" class="cell" data-execution_count="3">
+<div id="e4760b25" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>displacy.render(doc, style <span class="op">=</span><span class="st">'ent'</span>, jupyter<span class="op">=</span><span class="va">False</span>, page<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>displacy.render(doc, style <span class="op">=</span><span class="st">'ent'</span>, jupyter<span class="op">=</span><span class="va">True</span>, page<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<pre><code>'&lt;!DOCTYPE html&gt;\n&lt;html lang="en"&gt;\n    &lt;head&gt;\n        &lt;title&gt;displaCy&lt;/title&gt;\n    &lt;/head&gt;\n\n    &lt;body style="font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif, \'Apple Color Emoji\', \'Segoe UI Emoji\', \'Segoe UI Symbol\'; padding: 4rem 2rem; direction: ltr"&gt;\n&lt;figure style="margin-bottom: 6rem"&gt;\n&lt;div class="entities" style="line-height: 2.5; direction: ltr"&gt;In the country of \n&lt;mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;"&gt;\n    Karnes\n    &lt;span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem"&gt;GPE&lt;/span&gt;\n&lt;/mark&gt;\n &lt;br&gt;Look what has happened &lt;br&gt;The Major Sheriff died&lt;br&gt;Leaving Román badly wounded&lt;br&gt;&lt;br&gt;It must have been two in the &lt;br&gt;afternoon&lt;br&gt;When people arrived&lt;br&gt;They said to one another&lt;br&gt;It is not known who killed him&lt;br&gt;&lt;br&gt;They went around asking questions&lt;br&gt;About half an hour afterward &lt;br&gt;They found that the wrongdoer&lt;br&gt;Had been Gregorio Cortez&lt;br&gt;&lt;br&gt;Now they have outlawed Cortez&lt;br&gt;Throughout the whole state&lt;br&gt;Let him be taken dead or alive &lt;br&gt;He has killed several men&lt;br&gt;&lt;br&gt;They said Gregorio Cortez &lt;br&gt;With his pistol in his hand&lt;br&gt;I don’t regret that I killed him &lt;br&gt;I regret my brother’s death&lt;br&gt;&lt;br&gt;Then said Gregorio Cortez &lt;br&gt;And his soul was all a flame &lt;br&gt;I don’t regret that I killed him&lt;br&gt;A man must defend himself&lt;br&gt;&lt;br&gt;The Americans were coming &lt;br&gt;They were whiter than a dove &lt;br&gt;From the fear that they had &lt;br&gt;Of Cortez and of his pistol &lt;br&gt;&lt;br&gt;Then the Americans said &lt;br&gt;Then they said fearfully&lt;br&gt;Come let us follow the trail&lt;br&gt;The wrongdoer is Cortez&lt;br&gt;&lt;br&gt;They set the bloodhounds on him &lt;br&gt;So they could follow his trail &lt;br&gt;But trying to overtake  Cortez&lt;br&gt;Was like following a star &lt;br&gt;&lt;br&gt;He struck out for \n&lt;mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;"&gt;\n    Gonzales\n    &lt;span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem"&gt;GPE&lt;/span&gt;\n&lt;/mark&gt;\n&lt;br&gt;Without showing any fear&lt;br&gt;Follow me cowardly rangers &lt;br&gt;I am Gregorio Cortez&lt;br&gt;&lt;br&gt;From \n&lt;mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;"&gt;\n    Belmont\n    &lt;span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem"&gt;GPE&lt;/span&gt;\n&lt;/mark&gt;\n he went to the &lt;br&gt;ranch  &lt;br&gt;They succeeded in surrounding &lt;br&gt;him &lt;br&gt;Quite a few more than three hundred &lt;br&gt;But there he jumped their corral &lt;br&gt;&lt;br&gt;When he jumped their corral &lt;br&gt;According to what we hear&lt;br&gt;They got into a gunfight&lt;br&gt;And he killed them another sheriff &lt;br&gt;&lt;br&gt;Then said Gregorio Cortez &lt;br&gt;With his pistol in his hand &lt;br&gt;Don’t run you cowardly rangers &lt;br&gt;From just one Mexican&lt;br&gt;&lt;br&gt;Gregorio Cortez went out &lt;br&gt;He went towards \n&lt;mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;"&gt;\n    Laredo\n    &lt;span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem"&gt;GPE&lt;/span&gt;\n&lt;/mark&gt;\n&lt;br&gt;They decided not to follow &lt;br&gt;Because they were afraid of him&lt;br&gt;&lt;br&gt;Then said Gregorio Cortez &lt;br&gt;What is the use of your scheming?&lt;br&gt;You cannot catch me&lt;br&gt;Even with those bloodhounds&lt;br&gt;&lt;br&gt;Then the Americans said &lt;br&gt;If we catch you with him what &lt;br&gt;shall we do?&lt;br&gt;If we fight him man to man &lt;br&gt;Very few of us will return&lt;br&gt;&lt;br&gt;Over by El \n&lt;mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;"&gt;\n    Encinal\n    &lt;span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem"&gt;GPE&lt;/span&gt;\n&lt;/mark&gt;\n &lt;br&gt;According to what we hear &lt;br&gt;They made him a corral &lt;br&gt;And he killed them another sheriff &lt;br&gt;&lt;br&gt;Then said Gregorio Cortez &lt;br&gt;Shooting out a lot of bullets&lt;br&gt;I have weathered thunderstorms&lt;br&gt;This little mist doesn’t bother me&lt;br&gt;&lt;br&gt;Now he has met a Mexican&lt;br&gt;He says to him haughtily&lt;br&gt;tell me the news&lt;br&gt;I am Gregorio Cortez&lt;br&gt;&lt;br&gt;It is said that because of me &lt;br&gt;Many people have been killed&lt;br&gt;I will surrender now&lt;br&gt;Because such things are not right&lt;br&gt;&lt;br&gt;Cortez says to Jesús&lt;br&gt;At last you are going to see it&lt;br&gt;Go tell the rangers&lt;br&gt;To come and arrest me&lt;br&gt;&lt;br&gt;All the rangers were coming &lt;br&gt;Coming so fast they even flew &lt;br&gt;For they wanted to get &lt;br&gt;The thousand dollars they were &lt;br&gt;offered &lt;br&gt;&lt;br&gt;When they surrounded the house &lt;br&gt;Cortez suddenly appeared before&lt;br&gt;\tthem &lt;br&gt;You will take me if I’m willing &lt;br&gt;But not any other way&lt;br&gt;&lt;br&gt;Then the Major Sheriff said &lt;br&gt;As if he was going to cry &lt;br&gt;Cortez hand over your weapons&lt;br&gt;We are not going to kill&lt;br&gt;&lt;br&gt;Then said Gregorio Cortez&lt;br&gt;Shouting to them in a loud voice&lt;br&gt;I won’t surrender my arms&lt;br&gt;Until I am in a cell&lt;br&gt;&lt;br&gt;Then said Gregorio Cortez&lt;br&gt;He said in his godly voice &lt;br&gt;I won’t surrender my arms&lt;br&gt;Until I’m inside a jail&lt;br&gt;&lt;br&gt;Now they have taken Cortez&lt;br&gt;Now matters are at an end &lt;br&gt;His poor family&lt;br&gt;Are suffering in their hearts&lt;br&gt;&lt;br&gt;Now with this I say farewell &lt;br&gt;In the shade of a cypress tree&lt;br&gt;This is the end of the singing &lt;br&gt;of the ballad of Cortez&lt;/div&gt;\n&lt;/figure&gt;\n&lt;/body&gt;\n&lt;/html&gt;'</code></pre>
+<div class="cell-output cell-output-display">
+<span class="tex2jax_ignore">
+
+    
+        <title>displaCy</title>
+    
+
+    
+<figure style="margin-bottom: 6rem" class="figure">
+<div class="entities" style="line-height: 2.5; direction: ltr">In the country of 
+<mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
+    Karnes
+    <span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem">GPE</span>
+</mark>
+ <br>Look what has happened <br>The Major Sheriff died<br>Leaving Román badly wounded<br><br>It must have been two in the <br>afternoon<br>When people arrived<br>They said to one another<br>It is not known who killed him<br><br>They went around asking questions<br>About half an hour afterward <br>They found that the wrongdoer<br>Had been Gregorio Cortez<br><br>Now they have outlawed Cortez<br>Throughout the whole state<br>Let him be taken dead or alive <br>He has killed several men<br><br>They said Gregorio Cortez <br>With his pistol in his hand<br>I don’t regret that I killed him <br>I regret my brother’s death<br><br>Then said Gregorio Cortez <br>And his soul was all a flame <br>I don’t regret that I killed him<br>A man must defend himself<br><br>The Americans were coming <br>They were whiter than a dove <br>From the fear that they had <br>Of Cortez and of his pistol <br><br>Then the Americans said <br>Then they said fearfully<br>Come let us follow the trail<br>The wrongdoer is Cortez<br><br>They set the bloodhounds on him <br>So they could follow his trail <br>But trying to overtake  Cortez<br>Was like following a star <br><br>He struck out for 
+<mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
+    Gonzales
+    <span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem">GPE</span>
+</mark>
+<br>Without showing any fear<br>Follow me cowardly rangers <br>I am Gregorio Cortez<br><br>From 
+<mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
+    Belmont
+    <span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem">GPE</span>
+</mark>
+ he went to the <br>ranch  <br>They succeeded in surrounding <br>him <br>Quite a few more than three hundred <br>But there he jumped their corral <br><br>When he jumped their corral <br>According to what we hear<br>They got into a gunfight<br>And he killed them another sheriff <br><br>Then said Gregorio Cortez <br>With his pistol in his hand <br>Don’t run you cowardly rangers <br>From just one Mexican<br><br>Gregorio Cortez went out <br>He went towards 
+<mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
+    Laredo
+    <span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem">GPE</span>
+</mark>
+<br>They decided not to follow <br>Because they were afraid of him<br><br>Then said Gregorio Cortez <br>What is the use of your scheming?<br>You cannot catch me<br>Even with those bloodhounds<br><br>Then the Americans said <br>If we catch you with him what <br>shall we do?<br>If we fight him man to man <br>Very few of us will return<br><br>Over by El 
+<mark class="entity" style="background: #feca74; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">
+    Encinal
+    <span style="font-size: 0.8em; font-weight: bold; line-height: 1; border-radius: 0.35em; vertical-align: middle; margin-left: 0.5rem">GPE</span>
+</mark>
+ <br>According to what we hear <br>They made him a corral <br>And he killed them another sheriff <br><br>Then said Gregorio Cortez <br>Shooting out a lot of bullets<br>I have weathered thunderstorms<br>This little mist doesn’t bother me<br><br>Now he has met a Mexican<br>He says to him haughtily<br>tell me the news<br>I am Gregorio Cortez<br><br>It is said that because of me <br>Many people have been killed<br>I will surrender now<br>Because such things are not right<br><br>Cortez says to Jesús<br>At last you are going to see it<br>Go tell the rangers<br>To come and arrest me<br><br>All the rangers were coming <br>Coming so fast they even flew <br>For they wanted to get <br>The thousand dollars they were <br>offered <br><br>When they surrounded the house <br>Cortez suddenly appeared before<br>    them <br>You will take me if I’m willing <br>But not any other way<br><br>Then the Major Sheriff said <br>As if he was going to cry <br>Cortez hand over your weapons<br>We are not going to kill<br><br>Then said Gregorio Cortez<br>Shouting to them in a loud voice<br>I won’t surrender my arms<br>Until I am in a cell<br><br>Then said Gregorio Cortez<br>He said in his godly voice <br>I won’t surrender my arms<br>Until I’m inside a jail<br><br>Now they have taken Cortez<br>Now matters are at an end <br>His poor family<br>Are suffering in their hearts<br><br>Now with this I say farewell <br>In the shade of a cypress tree<br>This is the end of the singing <br>of the ballad of Cortez</div>
+</figure>
+
+</span>
 </div>
 </div>
 </section>
 <section id="creating-dataframe" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-dataframe">Creating Dataframe</h3>
-<div id="69287457" class="cell" data-execution_count="4">
+<div id="08713a8f" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">'NER'</span>: entsname})</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>geolocator <span class="op">=</span> OpenCage(api_key<span class="op">=</span><span class="st">'cee4174cec564ba5893e4a889de0b0b3'</span>)</span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">#geolocator = ArcGIS(user_agent = 'CorridosMap')</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>geocode <span class="op">=</span> <span class="kw">lambda</span> query: geolocator.geocode(<span class="st">"</span><span class="sc">%s</span><span class="st">, Texas"</span> <span class="op">%</span> query)</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>location <span class="op">=</span> geolocator.geocode(<span class="st">"Belmont Site"</span>, exactly_one<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Coordinates'</span>] <span class="op">=</span> df[<span class="st">'NER'</span>].<span class="bu">apply</span>(geocode)</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">'NER'</span>: entsname})</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>geolocator <span class="op">=</span> OpenCage(api_key<span class="op">=</span><span class="st">'cee4174cec564ba5893e4a889de0b0b3'</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#geolocator = ArcGIS(user_agent = 'CorridosMap')</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>geocode <span class="op">=</span> <span class="kw">lambda</span> query: geolocator.geocode(<span class="st">"</span><span class="sc">%s</span><span class="st">, Texas"</span> <span class="op">%</span> query)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>location <span class="op">=</span> geolocator.geocode(<span class="st">"Belmont Site"</span>, exactly_one<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>df[<span class="st">'Coordinates'</span>] <span class="op">=</span> df[<span class="st">'NER'</span>].<span class="bu">apply</span>(geocode)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="4">
 <div>
@@ -392,16 +428,16 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-geodataframe" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-geodataframe">Creating GeoDataframe</h3>
-<div id="eb278c10" class="cell" data-execution_count="5">
+<div id="ad372025" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.tools.geocode(df.Coordinates, provider<span class="op">=</span><span class="st">'ArcGIS'</span>)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.GeoDataFrame(gdf, crs<span class="op">=</span><span class="st">"EPSG:4326"</span>)</span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lat"</span>]<span class="op">=</span>gdf[<span class="st">'geometry'</span>].y</span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>gdf [<span class="st">"lon"</span>] <span class="op">=</span> gdf[<span class="st">'geometry'</span>].x</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>gdf</span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>gdf.to_json()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.tools.geocode(df.Coordinates, provider<span class="op">=</span><span class="st">'ArcGIS'</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.GeoDataFrame(gdf, crs<span class="op">=</span><span class="st">"EPSG:4326"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lat"</span>]<span class="op">=</span>gdf[<span class="st">'geometry'</span>].y</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>gdf [<span class="st">"lon"</span>] <span class="op">=</span> gdf[<span class="st">'geometry'</span>].x</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>gdf</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>gdf.to_json()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="5">
 <pre><code>'{"type": "FeatureCollection", "features": [{"id": "0", "type": "Feature", "properties": {"address": "Karnes County, Texas", "lat": 28.905738099036, "lon": -97.859410577097}, "geometry": {"type": "Point", "coordinates": [-97.859410577097, 28.905738099036]}}, {"id": "1", "type": "Feature", "properties": {"address": "Gonzales County, Texas", "lat": 29.456737288541, "lon": -97.492522801948}, "geometry": {"type": "Point", "coordinates": [-97.492522801948, 29.456737288541]}}, {"id": "2", "type": "Feature", "properties": {"address": "78122, Leesville, Texas", "lat": 29.4684674, "lon": -97.7242744}, "geometry": {"type": "Point", "coordinates": [-97.7242744, 29.4684674]}}, {"id": "3", "type": "Feature", "properties": {"address": "Laredo, Texas", "lat": 27.5071293, "lon": -99.5074957}, "geometry": {"type": "Point", "coordinates": [-99.5074957, 27.5071293]}}, {"id": "4", "type": "Feature", "properties": {"address": "Encinal, Texas", "lat": 28.041054, "lon": -99.354971}, "geometry": {"type": "Point", "coordinates": [-99.354971, 28.041054]}}]}'</code></pre>
@@ -410,37 +446,37 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez">Creating Mapping Visualization from El Corrido de Gregorio Cortez</h3>
-<div id="94b329a9" class="cell" data-execution_count="6">
+<div id="9f59f4df" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure lat/lon columns exist</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lat"</span>] <span class="op">=</span> gdf.geometry.y</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lon"</span>] <span class="op">=</span> gdf.geometry.x</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a base map centered around the first coordinate or the mean location</span></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> folium.Map(location<span class="op">=</span>[gdf[<span class="st">"lat"</span>].mean(), gdf[<span class="st">"lon"</span>].mean()], zoom_start<span class="op">=</span><span class="dv">6</span>, tiles<span class="op">=</span><span class="st">"OpenStreetMap"</span>)</span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of coordinate tuples (lat, lon)</span></span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>coordinates <span class="op">=</span> <span class="bu">list</span>(<span class="bu">zip</span>(gdf[<span class="st">"lat"</span>], gdf[<span class="st">"lon"</span>]))</span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Add the line to the map</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>folium.PolyLine(</span>
-<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    locations<span class="op">=</span>coordinates,</span>
-<span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span><span class="st">"blue"</span>,</span>
-<span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>    weight<span class="op">=</span><span class="dv">3</span>,</span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>    opacity<span class="op">=</span><span class="fl">0.7</span></span>
-<span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a>).add_to(m)</span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Add markers with hover text (optional)</span></span>
-<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, row <span class="kw">in</span> gdf.iterrows():</span>
-<span id="cb10-21"><a href="#cb10-21" aria-hidden="true" tabindex="-1"></a>    folium.Marker(</span>
-<span id="cb10-22"><a href="#cb10-22" aria-hidden="true" tabindex="-1"></a>        location<span class="op">=</span>[row[<span class="st">"lat"</span>], row[<span class="st">"lon"</span>]],</span>
-<span id="cb10-23"><a href="#cb10-23" aria-hidden="true" tabindex="-1"></a>        popup<span class="op">=</span>row[<span class="st">"address"</span>],  <span class="co"># Shows address when clicked</span></span>
-<span id="cb10-24"><a href="#cb10-24" aria-hidden="true" tabindex="-1"></a>        tooltip<span class="op">=</span>row[<span class="st">"address"</span>]  <span class="co"># Shows address on hover</span></span>
-<span id="cb10-25"><a href="#cb10-25" aria-hidden="true" tabindex="-1"></a>    ).add_to(m)</span>
-<span id="cb10-26"><a href="#cb10-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-27"><a href="#cb10-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the map (if running in a Jupyter Notebook)</span></span>
-<span id="cb10-28"><a href="#cb10-28" aria-hidden="true" tabindex="-1"></a>m</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure lat/lon columns exist</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lat"</span>] <span class="op">=</span> gdf.geometry.y</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>gdf[<span class="st">"lon"</span>] <span class="op">=</span> gdf.geometry.x</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a base map centered around the first coordinate or the mean location</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> folium.Map(location<span class="op">=</span>[gdf[<span class="st">"lat"</span>].mean(), gdf[<span class="st">"lon"</span>].mean()], zoom_start<span class="op">=</span><span class="dv">6</span>, tiles<span class="op">=</span><span class="st">"OpenStreetMap"</span>)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a list of coordinate tuples (lat, lon)</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>coordinates <span class="op">=</span> <span class="bu">list</span>(<span class="bu">zip</span>(gdf[<span class="st">"lat"</span>], gdf[<span class="st">"lon"</span>]))</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Add the line to the map</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>folium.PolyLine(</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    locations<span class="op">=</span>coordinates,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span><span class="st">"blue"</span>,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    weight<span class="op">=</span><span class="dv">3</span>,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    opacity<span class="op">=</span><span class="fl">0.7</span></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>).add_to(m)</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Add markers with hover text (optional)</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> _, row <span class="kw">in</span> gdf.iterrows():</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    folium.Marker(</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>        location<span class="op">=</span>[row[<span class="st">"lat"</span>], row[<span class="st">"lon"</span>]],</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>        popup<span class="op">=</span>row[<span class="st">"address"</span>],  <span class="co"># Shows address when clicked</span></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>        tooltip<span class="op">=</span>row[<span class="st">"address"</span>]  <span class="co"># Shows address on hover</span></span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    ).add_to(m)</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the map (if running in a Jupyter Notebook)</span></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a>m</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="6">
 <div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -&gt; Trust Notebook</span><iframe srcdoc="<!DOCTYPE html>
@@ -470,7 +506,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_7496ed3ff3aa5565b1c329a316e36e6d {
+                #map_feeac3bd0a6b93acae0fc29c0de1e393 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -484,14 +520,14 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_7496ed3ff3aa5565b1c329a316e36e6d&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_feeac3bd0a6b93acae0fc29c0de1e393&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_7496ed3ff3aa5565b1c329a316e36e6d = L.map(
-                &quot;map_7496ed3ff3aa5565b1c329a316e36e6d&quot;,
+            var map_feeac3bd0a6b93acae0fc29c0de1e393 = L.map(
+                &quot;map_feeac3bd0a6b93acae0fc29c0de1e393&quot;,
                 {
                     center: [28.6758252175154, -98.38773489580899],
                     crs: L.CRS.EPSG3857,
@@ -508,7 +544,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 
         
     
-            var tile_layer_99800247d13300fbc72397ad85b5057c = L.tileLayer(
+            var tile_layer_b5c25a6a029140e78b8fe4f773e7961d = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -525,40 +561,40 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            tile_layer_99800247d13300fbc72397ad85b5057c.addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            tile_layer_b5c25a6a029140e78b8fe4f773e7961d.addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-            var poly_line_e686a7c62cbb2728c0fba5efb0a0ef27 = L.polyline(
+            var poly_line_ef5f201d48cf5ac9dbde78c2e4060ce0 = L.polyline(
                 [[28.905738099036, -97.859410577097], [29.456737288541, -97.492522801948], [29.4684674, -97.7242744], [27.5071293, -99.5074957], [28.041054, -99.354971]],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;blue&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: false, &quot;fillColor&quot;: &quot;blue&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;noClip&quot;: false, &quot;opacity&quot;: 0.7, &quot;smoothFactor&quot;: 1.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-            var marker_eac55dfadb4d653c8efc807d936f142a = L.marker(
+            var marker_594348b0a9696bcb95c94ba07158b9f1 = L.marker(
                 [28.905738099036, -97.859410577097],
                 {
 }
-            ).addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-        var popup_a5ae5443baf8a97fdc67c4559fe49938 = L.popup({
+        var popup_1991ec5515a1e9a78ce0508683f0e878 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_aa3291b82c0467db692e1834aba14f4a = $(`<div id=&quot;html_aa3291b82c0467db692e1834aba14f4a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Karnes County, Texas</div>`)[0];
-                popup_a5ae5443baf8a97fdc67c4559fe49938.setContent(html_aa3291b82c0467db692e1834aba14f4a);
+                var html_259da94758845ddfa2e050a8f6d607f8 = $(`<div id=&quot;html_259da94758845ddfa2e050a8f6d607f8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Karnes County, Texas</div>`)[0];
+                popup_1991ec5515a1e9a78ce0508683f0e878.setContent(html_259da94758845ddfa2e050a8f6d607f8);
             
         
 
-        marker_eac55dfadb4d653c8efc807d936f142a.bindPopup(popup_a5ae5443baf8a97fdc67c4559fe49938)
+        marker_594348b0a9696bcb95c94ba07158b9f1.bindPopup(popup_1991ec5515a1e9a78ce0508683f0e878)
         ;
 
         
     
     
-            marker_eac55dfadb4d653c8efc807d936f142a.bindTooltip(
+            marker_594348b0a9696bcb95c94ba07158b9f1.bindTooltip(
                 `<div>
                      Karnes County, Texas
                  </div>`,
@@ -568,31 +604,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_95e198089f76c2d6d66122248e2f2d60 = L.marker(
+            var marker_4ea6a5960fbf6407e90a5a38b87fc465 = L.marker(
                 [29.456737288541, -97.492522801948],
                 {
 }
-            ).addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-        var popup_ab4c43ff8b81c223a61fbbfba88e8db9 = L.popup({
+        var popup_02f79c3a31a2bc0c6313a3af5ad509a1 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_285e6a2be4a05d0d7628116c5389bd6c = $(`<div id=&quot;html_285e6a2be4a05d0d7628116c5389bd6c&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Gonzales County, Texas</div>`)[0];
-                popup_ab4c43ff8b81c223a61fbbfba88e8db9.setContent(html_285e6a2be4a05d0d7628116c5389bd6c);
+                var html_f4cf3fb25d825dddfffb7095ef9e3c8f = $(`<div id=&quot;html_f4cf3fb25d825dddfffb7095ef9e3c8f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Gonzales County, Texas</div>`)[0];
+                popup_02f79c3a31a2bc0c6313a3af5ad509a1.setContent(html_f4cf3fb25d825dddfffb7095ef9e3c8f);
             
         
 
-        marker_95e198089f76c2d6d66122248e2f2d60.bindPopup(popup_ab4c43ff8b81c223a61fbbfba88e8db9)
+        marker_4ea6a5960fbf6407e90a5a38b87fc465.bindPopup(popup_02f79c3a31a2bc0c6313a3af5ad509a1)
         ;
 
         
     
     
-            marker_95e198089f76c2d6d66122248e2f2d60.bindTooltip(
+            marker_4ea6a5960fbf6407e90a5a38b87fc465.bindTooltip(
                 `<div>
                      Gonzales County, Texas
                  </div>`,
@@ -602,31 +638,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_5a972bbb38d0e7f6706aac0ef54080a8 = L.marker(
+            var marker_5e270074a083a9648b563a693215ed52 = L.marker(
                 [29.4684674, -97.7242744],
                 {
 }
-            ).addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-        var popup_6caaedd08b1017e5bfd92dfa1538210d = L.popup({
+        var popup_2d662e742beaf3eca1529fca1d2b4631 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_08cfd2b9d893e40edebee98b88756230 = $(`<div id=&quot;html_08cfd2b9d893e40edebee98b88756230&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>78122, Leesville, Texas</div>`)[0];
-                popup_6caaedd08b1017e5bfd92dfa1538210d.setContent(html_08cfd2b9d893e40edebee98b88756230);
+                var html_984dae02cb9eb2d452f82ca848c4724e = $(`<div id=&quot;html_984dae02cb9eb2d452f82ca848c4724e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>78122, Leesville, Texas</div>`)[0];
+                popup_2d662e742beaf3eca1529fca1d2b4631.setContent(html_984dae02cb9eb2d452f82ca848c4724e);
             
         
 
-        marker_5a972bbb38d0e7f6706aac0ef54080a8.bindPopup(popup_6caaedd08b1017e5bfd92dfa1538210d)
+        marker_5e270074a083a9648b563a693215ed52.bindPopup(popup_2d662e742beaf3eca1529fca1d2b4631)
         ;
 
         
     
     
-            marker_5a972bbb38d0e7f6706aac0ef54080a8.bindTooltip(
+            marker_5e270074a083a9648b563a693215ed52.bindTooltip(
                 `<div>
                      78122, Leesville, Texas
                  </div>`,
@@ -636,31 +672,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_9b547170b058135e39249b29a2f53e3c = L.marker(
+            var marker_16792480efa769300f4466e53f62eb0f = L.marker(
                 [27.5071293, -99.5074957],
                 {
 }
-            ).addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-        var popup_a6e934a36ff566a31bb836f16ca15377 = L.popup({
+        var popup_0fed78a65612c3ea2f5dafc6e5e7781f = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_b5552920e2d5207213290c4a39825c07 = $(`<div id=&quot;html_b5552920e2d5207213290c4a39825c07&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Laredo, Texas</div>`)[0];
-                popup_a6e934a36ff566a31bb836f16ca15377.setContent(html_b5552920e2d5207213290c4a39825c07);
+                var html_568794783bd2e9d9a7b9a678635e1f0e = $(`<div id=&quot;html_568794783bd2e9d9a7b9a678635e1f0e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Laredo, Texas</div>`)[0];
+                popup_0fed78a65612c3ea2f5dafc6e5e7781f.setContent(html_568794783bd2e9d9a7b9a678635e1f0e);
             
         
 
-        marker_9b547170b058135e39249b29a2f53e3c.bindPopup(popup_a6e934a36ff566a31bb836f16ca15377)
+        marker_16792480efa769300f4466e53f62eb0f.bindPopup(popup_0fed78a65612c3ea2f5dafc6e5e7781f)
         ;
 
         
     
     
-            marker_9b547170b058135e39249b29a2f53e3c.bindTooltip(
+            marker_16792480efa769300f4466e53f62eb0f.bindTooltip(
                 `<div>
                      Laredo, Texas
                  </div>`,
@@ -670,31 +706,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_2df309db7e08ff379138019008e1a0e7 = L.marker(
+            var marker_3b4d6fdc57ba804fc0c3b9bf435de5e4 = L.marker(
                 [28.041054, -99.354971],
                 {
 }
-            ).addTo(map_7496ed3ff3aa5565b1c329a316e36e6d);
+            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
         
     
-        var popup_be5ec374bd27dc9f6b39c10a046cb744 = L.popup({
+        var popup_07dc378f4a855324efd9515c89f593ef = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_caecde2a790f91fa16c3494a981e731d = $(`<div id=&quot;html_caecde2a790f91fa16c3494a981e731d&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Encinal, Texas</div>`)[0];
-                popup_be5ec374bd27dc9f6b39c10a046cb744.setContent(html_caecde2a790f91fa16c3494a981e731d);
+                var html_29ac4808fef83a81fb34c0b8e41303ff = $(`<div id=&quot;html_29ac4808fef83a81fb34c0b8e41303ff&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Encinal, Texas</div>`)[0];
+                popup_07dc378f4a855324efd9515c89f593ef.setContent(html_29ac4808fef83a81fb34c0b8e41303ff);
             
         
 
-        marker_2df309db7e08ff379138019008e1a0e7.bindPopup(popup_be5ec374bd27dc9f6b39c10a046cb744)
+        marker_3b4d6fdc57ba804fc0c3b9bf435de5e4.bindPopup(popup_07dc378f4a855324efd9515c89f593ef)
         ;
 
         
     
     
-            marker_2df309db7e08ff379138019008e1a0e7.bindTooltip(
+            marker_3b4d6fdc57ba804fc0c3b9bf435de5e4.bindTooltip(
                 `<div>
                      Encinal, Texas
                  </div>`,

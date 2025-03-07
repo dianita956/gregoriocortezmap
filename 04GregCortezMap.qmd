@@ -52,7 +52,7 @@ print(entsname)
 
 ### Visulization: Highlighting Name Entities from text {.unnumbered}
 ```{python}
-displacy.render(doc, style ='ent', jupyter=False, page=True)
+displacy.render(doc, style ='ent', jupyter=True, page=True)
 ```
 
 ### Creating Dataframe {.unnumbered}
