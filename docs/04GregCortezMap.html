@@ -259,7 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="packages-required" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="packages-required">packages required</h3>
-<div id="0ba666b8" class="cell" data-execution_count="1">
+<div id="38dded41" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> folium</span>
@@ -286,7 +286,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="extracting-name-enities-places-from-text-document" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="extracting-name-enities-places-from-text-document">Extracting Name Enities (places) from text document</h3>
-<div id="22cd712e" class="cell" data-execution_count="2">
+<div id="818b9b34" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> <span class="st">"elcorridodegregoriocortez.txt"</span></span>
@@ -321,7 +321,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="visulization-highlighting-name-entities-from-text" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="visulization-highlighting-name-entities-from-text">Visulization: Highlighting Name Entities from text</h3>
-<div id="e4760b25" class="cell" data-execution_count="3">
+<div id="53219dd4" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>displacy.render(doc, style <span class="op">=</span><span class="st">'ent'</span>, jupyter<span class="op">=</span><span class="va">True</span>, page<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -369,7 +369,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-dataframe" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-dataframe">Creating Dataframe</h3>
-<div id="08713a8f" class="cell" data-execution_count="4">
+<div id="e97ea4ff" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame({<span class="st">'NER'</span>: entsname})</span>
@@ -428,7 +428,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-geodataframe" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-geodataframe">Creating GeoDataframe</h3>
-<div id="ad372025" class="cell" data-execution_count="5">
+<div id="543ffac4" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>gdf <span class="op">=</span> gpd.tools.geocode(df.Coordinates, provider<span class="op">=</span><span class="st">'ArcGIS'</span>)</span>
@@ -446,7 +446,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 </section>
 <section id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="creating-mapping-visualization-from-el-corrido-de-gregorio-cortez">Creating Mapping Visualization from El Corrido de Gregorio Cortez</h3>
-<div id="9f59f4df" class="cell" data-execution_count="6">
+<div id="10e264b3" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure lat/lon columns exist</span></span>
@@ -506,7 +506,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             <meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; />
             <style>
-                #map_feeac3bd0a6b93acae0fc29c0de1e393 {
+                #map_3af8fa121931b156f282f80c735839ce {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -520,14 +520,14 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 <body>
     
     
-            <div class=&quot;folium-map&quot; id=&quot;map_feeac3bd0a6b93acae0fc29c0de1e393&quot; ></div>
+            <div class=&quot;folium-map&quot; id=&quot;map_3af8fa121931b156f282f80c735839ce&quot; ></div>
         
 </body>
 <script>
     
     
-            var map_feeac3bd0a6b93acae0fc29c0de1e393 = L.map(
-                &quot;map_feeac3bd0a6b93acae0fc29c0de1e393&quot;,
+            var map_3af8fa121931b156f282f80c735839ce = L.map(
+                &quot;map_3af8fa121931b156f282f80c735839ce&quot;,
                 {
                     center: [28.6758252175154, -98.38773489580899],
                     crs: L.CRS.EPSG3857,
@@ -544,7 +544,7 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
 
         
     
-            var tile_layer_b5c25a6a029140e78b8fe4f773e7961d = L.tileLayer(
+            var tile_layer_649677250cdf67522b527f15e8a0c60c = L.tileLayer(
                 &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -561,40 +561,40 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            tile_layer_b5c25a6a029140e78b8fe4f773e7961d.addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            tile_layer_649677250cdf67522b527f15e8a0c60c.addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-            var poly_line_ef5f201d48cf5ac9dbde78c2e4060ce0 = L.polyline(
+            var poly_line_823ad40edcf1aefec75eecce6955902f = L.polyline(
                 [[28.905738099036, -97.859410577097], [29.456737288541, -97.492522801948], [29.4684674, -97.7242744], [27.5071293, -99.5074957], [28.041054, -99.354971]],
                 {&quot;bubblingMouseEvents&quot;: true, &quot;color&quot;: &quot;blue&quot;, &quot;dashArray&quot;: null, &quot;dashOffset&quot;: null, &quot;fill&quot;: false, &quot;fillColor&quot;: &quot;blue&quot;, &quot;fillOpacity&quot;: 0.2, &quot;fillRule&quot;: &quot;evenodd&quot;, &quot;lineCap&quot;: &quot;round&quot;, &quot;lineJoin&quot;: &quot;round&quot;, &quot;noClip&quot;: false, &quot;opacity&quot;: 0.7, &quot;smoothFactor&quot;: 1.0, &quot;stroke&quot;: true, &quot;weight&quot;: 3}
-            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            ).addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-            var marker_594348b0a9696bcb95c94ba07158b9f1 = L.marker(
+            var marker_3234e90fba28aa06e55b1958604d9d03 = L.marker(
                 [28.905738099036, -97.859410577097],
                 {
 }
-            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            ).addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-        var popup_1991ec5515a1e9a78ce0508683f0e878 = L.popup({
+        var popup_fc815a5d375036cc6853f491d24aa691 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_259da94758845ddfa2e050a8f6d607f8 = $(`<div id=&quot;html_259da94758845ddfa2e050a8f6d607f8&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Karnes County, Texas</div>`)[0];
-                popup_1991ec5515a1e9a78ce0508683f0e878.setContent(html_259da94758845ddfa2e050a8f6d607f8);
+                var html_0df762cd50cb04dbe97a3f31312bc0b2 = $(`<div id=&quot;html_0df762cd50cb04dbe97a3f31312bc0b2&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Karnes County, Texas</div>`)[0];
+                popup_fc815a5d375036cc6853f491d24aa691.setContent(html_0df762cd50cb04dbe97a3f31312bc0b2);
             
         
 
-        marker_594348b0a9696bcb95c94ba07158b9f1.bindPopup(popup_1991ec5515a1e9a78ce0508683f0e878)
+        marker_3234e90fba28aa06e55b1958604d9d03.bindPopup(popup_fc815a5d375036cc6853f491d24aa691)
         ;
 
         
     
     
-            marker_594348b0a9696bcb95c94ba07158b9f1.bindTooltip(
+            marker_3234e90fba28aa06e55b1958604d9d03.bindTooltip(
                 `<div>
                      Karnes County, Texas
                  </div>`,
@@ -604,31 +604,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_4ea6a5960fbf6407e90a5a38b87fc465 = L.marker(
+            var marker_22743644f128b620d65ff8e338314185 = L.marker(
                 [29.456737288541, -97.492522801948],
                 {
 }
-            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            ).addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-        var popup_02f79c3a31a2bc0c6313a3af5ad509a1 = L.popup({
+        var popup_91d9597d29ea1d842eda721039352ca9 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_f4cf3fb25d825dddfffb7095ef9e3c8f = $(`<div id=&quot;html_f4cf3fb25d825dddfffb7095ef9e3c8f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Gonzales County, Texas</div>`)[0];
-                popup_02f79c3a31a2bc0c6313a3af5ad509a1.setContent(html_f4cf3fb25d825dddfffb7095ef9e3c8f);
+                var html_44d0adad40ae8f064626f2c8a38765ab = $(`<div id=&quot;html_44d0adad40ae8f064626f2c8a38765ab&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Gonzales County, Texas</div>`)[0];
+                popup_91d9597d29ea1d842eda721039352ca9.setContent(html_44d0adad40ae8f064626f2c8a38765ab);
             
         
 
-        marker_4ea6a5960fbf6407e90a5a38b87fc465.bindPopup(popup_02f79c3a31a2bc0c6313a3af5ad509a1)
+        marker_22743644f128b620d65ff8e338314185.bindPopup(popup_91d9597d29ea1d842eda721039352ca9)
         ;
 
         
     
     
-            marker_4ea6a5960fbf6407e90a5a38b87fc465.bindTooltip(
+            marker_22743644f128b620d65ff8e338314185.bindTooltip(
                 `<div>
                      Gonzales County, Texas
                  </div>`,
@@ -638,31 +638,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_5e270074a083a9648b563a693215ed52 = L.marker(
+            var marker_9c5b489c34d73ecdf6e9163699f9322d = L.marker(
                 [29.4684674, -97.7242744],
                 {
 }
-            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            ).addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-        var popup_2d662e742beaf3eca1529fca1d2b4631 = L.popup({
+        var popup_5f9b30681be0767144600a94e0cc238b = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_984dae02cb9eb2d452f82ca848c4724e = $(`<div id=&quot;html_984dae02cb9eb2d452f82ca848c4724e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>78122, Leesville, Texas</div>`)[0];
-                popup_2d662e742beaf3eca1529fca1d2b4631.setContent(html_984dae02cb9eb2d452f82ca848c4724e);
+                var html_d376ba6e8d8e21d8e2ab80f17f3b1d85 = $(`<div id=&quot;html_d376ba6e8d8e21d8e2ab80f17f3b1d85&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>78122, Leesville, Texas</div>`)[0];
+                popup_5f9b30681be0767144600a94e0cc238b.setContent(html_d376ba6e8d8e21d8e2ab80f17f3b1d85);
             
         
 
-        marker_5e270074a083a9648b563a693215ed52.bindPopup(popup_2d662e742beaf3eca1529fca1d2b4631)
+        marker_9c5b489c34d73ecdf6e9163699f9322d.bindPopup(popup_5f9b30681be0767144600a94e0cc238b)
         ;
 
         
     
     
-            marker_5e270074a083a9648b563a693215ed52.bindTooltip(
+            marker_9c5b489c34d73ecdf6e9163699f9322d.bindTooltip(
                 `<div>
                      78122, Leesville, Texas
                  </div>`,
@@ -672,31 +672,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_16792480efa769300f4466e53f62eb0f = L.marker(
+            var marker_b54faab7be35da20527d04723f38e93f = L.marker(
                 [27.5071293, -99.5074957],
                 {
 }
-            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            ).addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-        var popup_0fed78a65612c3ea2f5dafc6e5e7781f = L.popup({
+        var popup_279ed301978c9d35f4014413db5e051a = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_568794783bd2e9d9a7b9a678635e1f0e = $(`<div id=&quot;html_568794783bd2e9d9a7b9a678635e1f0e&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Laredo, Texas</div>`)[0];
-                popup_0fed78a65612c3ea2f5dafc6e5e7781f.setContent(html_568794783bd2e9d9a7b9a678635e1f0e);
+                var html_60395014ec752a22766d8b1ec922413f = $(`<div id=&quot;html_60395014ec752a22766d8b1ec922413f&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Laredo, Texas</div>`)[0];
+                popup_279ed301978c9d35f4014413db5e051a.setContent(html_60395014ec752a22766d8b1ec922413f);
             
         
 
-        marker_16792480efa769300f4466e53f62eb0f.bindPopup(popup_0fed78a65612c3ea2f5dafc6e5e7781f)
+        marker_b54faab7be35da20527d04723f38e93f.bindPopup(popup_279ed301978c9d35f4014413db5e051a)
         ;
 
         
     
     
-            marker_16792480efa769300f4466e53f62eb0f.bindTooltip(
+            marker_b54faab7be35da20527d04723f38e93f.bindTooltip(
                 `<div>
                      Laredo, Texas
                  </div>`,
@@ -706,31 +706,31 @@ urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled 
             );
         
     
-            var marker_3b4d6fdc57ba804fc0c3b9bf435de5e4 = L.marker(
+            var marker_bfc024cb380ad06b1c8f4265cbcec8f5 = L.marker(
                 [28.041054, -99.354971],
                 {
 }
-            ).addTo(map_feeac3bd0a6b93acae0fc29c0de1e393);
+            ).addTo(map_3af8fa121931b156f282f80c735839ce);
         
     
-        var popup_07dc378f4a855324efd9515c89f593ef = L.popup({
+        var popup_e60c23d2d72053997150aa94c3270889 = L.popup({
   &quot;maxWidth&quot;: &quot;100%&quot;,
 });
 
         
             
-                var html_29ac4808fef83a81fb34c0b8e41303ff = $(`<div id=&quot;html_29ac4808fef83a81fb34c0b8e41303ff&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Encinal, Texas</div>`)[0];
-                popup_07dc378f4a855324efd9515c89f593ef.setContent(html_29ac4808fef83a81fb34c0b8e41303ff);
+                var html_fc58eabd416d8a570b249a7737e39dc7 = $(`<div id=&quot;html_fc58eabd416d8a570b249a7737e39dc7&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;>Encinal, Texas</div>`)[0];
+                popup_e60c23d2d72053997150aa94c3270889.setContent(html_fc58eabd416d8a570b249a7737e39dc7);
             
         
 
-        marker_3b4d6fdc57ba804fc0c3b9bf435de5e4.bindPopup(popup_07dc378f4a855324efd9515c89f593ef)
+        marker_bfc024cb380ad06b1c8f4265cbcec8f5.bindPopup(popup_e60c23d2d72053997150aa94c3270889)
         ;
 
         
     
     
-            marker_3b4d6fdc57ba804fc0c3b9bf435de5e4.bindTooltip(
+            marker_bfc024cb380ad06b1c8f4265cbcec8f5.bindTooltip(
                 `<div>
                      Encinal, Texas
                  </div>`,
